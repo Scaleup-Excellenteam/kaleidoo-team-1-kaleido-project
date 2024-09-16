@@ -1,0 +1,119 @@
+[
+    {
+        "source_type": "audio",
+        "source_name": "A1.wav",
+        "data": [
+            {
+                "start_time": "0:00:00",
+                "end_time": "0:00:15",
+                "text_content": " So tell me, what do you think is going to happen anyway? A monster is going to come out of the cupboard? I don't think so. No. That's just your mind playing tricks on you."
+            },
+            {
+                "start_time": "0:00:15",
+                "end_time": "0:00:18.929000",
+                "text_content": " enhirsty ye ha. ?"
+            }
+        ]
+    },
+    {
+        "source_type": "audio",
+        "source_name": "A2.wav",
+        "data": [
+            {
+                "start_time": "0:00:00",
+                "end_time": "0:00:15",
+                "text_content": " The birch canoes lid on the smooth planks. Glue the sheet to the dark blue background. It is easy to tell the depth of a well. These days the chicken leg is a rare dish. Rice is often served."
+            },
+            {
+                "start_time": "0:00:15",
+                "end_time": "0:00:30",
+                "text_content": " served in round bowls. The juice of lemons makes fine punch. The box was thrown beside the park truck. The hogs were fed chopped corn and garbage. Four hours of steady work faced us."
+            },
+            {
+                "start_time": "0:00:30",
+                "end_time": "0:00:33.623000",
+                "text_content": " A large size of stockings is hard to sell."
+            }
+        ]
+    },
+    {
+        "source_type": "audio",
+        "source_name": "A3.wav",
+        "data": [
+            {
+                "start_time": "0:00:00",
+                "end_time": "0:00:02.595000",
+                "text_content": " I want to dance. Can you help me?"
+            }
+        ]
+    },
+    {
+        "source_type": "audio",
+        "source_name": "A1.wav",
+        "data": [
+            {
+                "start_time": "0:00:00",
+                "end_time": "0:00:15",
+                "text_content": " So tell me, what do you think is going to happen anyway? A monster is going to come out of the cupboard? I don't think so. No. That's just your mind playing tricks on you."
+            },
+            {
+                "start_time": "0:00:15",
+                "end_time": "0:00:18.929000",
+                "text_content": " Yeah. Good dinner. Mm-hhm."
+            }
+        ]
+    },
+    {
+        "source_type": "audio",
+        "source_name": "A1.wav",
+        "data": [
+            {
+                "start_time": "0:00:00",
+                "end_time": "0:00:10",
+                "text_content": " So tell me, what do you think is going to happen anyway? A monster is going to come out of the cupboard? I don't think so."
+            },
+            {
+                "start_time": "0:00:10",
+                "end_time": "0:00:18.929000",
+                "text_content": " No! That's just your mind playing tricks on you! Yes! Did you know?"
+            }
+        ]
+    },
+    {
+        "source_type": "audio",
+        "source_name": "A2.wav",
+        "data": [
+            {
+                "start_time": "0:00:00",
+                "end_time": "0:00:10",
+                "text_content": " The birch canoes lid on the smooth planks. Glue the sheet to the dark blue background. It is easy to tell the depth of a well."
+            },
+            {
+                "start_time": "0:00:10",
+                "end_time": "0:00:20",
+                "text_content": " These days the chicken leg is a rare dish. Rice is often served in round bowls. The juice of lemons makes fine punch."
+            },
+            {
+                "start_time": "0:00:20",
+                "end_time": "0:00:30",
+                "text_content": " The box was thrown beside the park truck. The hogs were fed chopped corn and garbage. Four hours of study work faced us."
+            },
+            {
+                "start_time": "0:00:30",
+                "end_time": "0:00:33.623000",
+                "text_content": " A large size of stockings is hard to sell."
+            }
+        ]
+    },
+    {
+        "source_type": "audio",
+        "source_name": "A3.wav",
+        "data": [
+            {
+                "start_time": "0:00:00",
+                "end_time": "0:00:02.595000",
+                "text_content": " I want to dance. Can you help me?"
+            }
+        ]
+    }
+]

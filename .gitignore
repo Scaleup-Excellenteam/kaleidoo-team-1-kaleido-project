@@ -1,6 +1,7 @@
-myenv/*
-'Kaleidoo - Research Phase.pdf'
+.venv/*
+'Kaleidoo-Research-Phase.pdf'
 research.txt
 myenv
 .vscode/
 Audio_Data/
+Parsing-Data/

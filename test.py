@@ -1,52 +1,43 @@
-from transformers import Wav2Vec2Processor, Wav2Vec2ForCTC
-import pyaudio
-import numpy as np
+from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 import torch
+nf4_config = BitsAndBytesConfig(
+   load_in_4bit=True,
+   bnb_4bit_quant_type='nf4',
+   bnb_4bit_compute_dtype=torch.bfloat16,
+)
 
-# Load pre-trained Wav2Vec2 model and processor
-processor = Wav2Vec2Processor.from_pretrained("facebook/wav2vec2-base-960h")
-model = Wav2Vec2ForCTC.from_pretrained("facebook/wav2vec2-base-960h")
+model_id = 'google/datagemma-rag-27b-it'
+tokenizer = AutoTokenizer.from_pretrained(model_id)
+model = AutoModelForCausalLM.from_pretrained(
+    model_id,
+    device_map='auto',
+    quantization_config=nf4_config,
+    torch_dtype=torch.bfloat16,
+)
+input_text = """Your role is that of a Question Generator.  Given Query below, come up with a
+maximum of 25 Statistical Questions that help in answering Query.
+These are the only forms of Statistical Questions you can generate:
+1. What is $METRIC in $PLACE?
+2. What is $METRIC in $PLACE $PLACE_TYPE?
+3. How has $METRIC changed over time in $PLACE $PLACE_TYPE?
+where,
+- $METRIC should be a metric on societal topics like demographics, economy, health,
+  education, environment, etc.  Examples are unemployment rate and
+  life expectancy.
+- $PLACE is the name of a place like California, World, Chennai, etc.
+- $PLACE_TYPE is an immediate child type within $PLACE, like counties, states,
+  districts, etc.
 
-# PyAudio setup for audio capture
-CHUNK = 4096  # Number of audio frames per buffer
-RATE = 16000  # Sampling rate (Wav2Vec2 expects 16kHz audio)
-RECORD_SECONDS = 5  # Record 5 seconds of audio
+Your response should only have questions, one per line, without any numbering
+or bullet.
 
-p = pyaudio.PyAudio()
+If you cannot come up with Statistical Questions to ask for a Query, return an
+empty response.
 
-# Open a stream for microphone input
-stream = p.open(format=pyaudio.paInt16, channels=1, rate=RATE, input=True, frames_per_buffer=CHUNK)
+Query: What are some interesting trends in Sunnyvale spanning gender, age, race, immigration, health conditions, economic conditions, crime and education?
+Statistical Questions:"""
+inputs = tokenizer(input_text, return_tensors='pt').to('cuda')
 
-print(f'Recording for {RECORD_SECONDS} seconds...')
-
-frames = []
-
-# Record for a fixed duration
-for _ in range(0, int(RATE / CHUNK * RECORD_SECONDS)):
-    data = stream.read(CHUNK)
-    frames.append(np.frombuffer(data, dtype=np.int16))
-
-# Stop the stream
-stream.stop_stream()
-stream.close()
-p.terminate()
-
-# Combine all frames into a single numpy array
-audio_data = np.concatenate(frames)
-
-# Normalize the audio data to the range [-1, 1]
-audio_data = audio_data.astype(np.float32) / np.iinfo(np.int16).max
-
-# Process the audio data through the processor
-input_values = processor(audio_data, return_tensors="pt", sampling_rate=RATE).input_values
-
-# Perform inference on the model
-with torch.no_grad():
-    logits = model(input_values).logits
-
-# Decode the predicted token IDs to text
-predicted_ids = torch.argmax(logits, dim=-1)
-transcription = processor.batch_decode(predicted_ids)
-
-# Print the transcription
-print(f"Transcription: {transcription[0]}")
+outputs = model.generate(**inputs, max_new_tokens=4096)
+answer = tokenizer.batch_decode(outputs[:, inputs['input_ids'].shape[1]:], skip_special_tokens=True)[0].strip()
+print(answer)
