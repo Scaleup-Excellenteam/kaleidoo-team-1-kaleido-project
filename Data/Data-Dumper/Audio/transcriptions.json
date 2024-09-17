@@ -1,0 +1,164 @@
+[
+    {
+        "type": "audio",
+        "ref": "/home/ameer/Kaleidoo/Data/Audio_Data/English/A1.wav",
+        "met_data": [
+            {
+                "offset": "0:00:00, 0:00:18.929000",
+                "text": " So tell me, what do you think is going to happen anyway? A monster is going to come out of the cupboard? I don't think so. No. No. That's just your mind playing tricks on you. Yes. Did you know?",
+                "lang": "en"
+            }
+        ]
+    },
+    {
+        "type": "audio",
+        "ref": "/home/ameer/Kaleidoo/Data/Audio_Data/English/A2.wav",
+        "met_data": [
+            {
+                "offset": "0:00:00, 0:00:33.623000",
+                "text": " The birch canoes lid on the smooth planks. Glue the sheet to the dark blue background. It is easy to tell the depths of a well. These days the chicken leg is a rare dish. Rice is often served in round bowls. The juice of lemons makes fine punch. The box was thrown beside the pork truck. The hogs are fed chopped corn and garbage. Four hours of study work faced us.",
+                "lang": "en"
+            }
+        ]
+    },
+    {
+        "type": "audio",
+        "ref": "/home/ameer/Kaleidoo/Data/Audio_Data/English/A3.wav",
+        "met_data": [
+            {
+                "offset": "0:00:00, 0:00:02.595000",
+                "text": " I want to dance. Can you help me?",
+                "lang": "en"
+            }
+        ]
+    },
+    {
+        "type": "audio",
+        "ref": "/home/ameer/Kaleidoo/Data/Audio_Data/English/img-processing.mp3",
+        "met_data": [
+            {
+                "offset": "0:00:00, 0:01:20",
+                "text": " Now we're going to devote two lectures to the topic of image processing. This is the first of the two lectures. In image processing, we're given an image and we want to transform this image into a clearer image or an image that's easier to analyze. So let's talk about a clearer image. Let's say you take an image of a scene at night time and it happens to be grainy or noisy for lack of light. We want to be able to remove the noise from the image.",
+                "lang": "en"
+            },
+            {
+                "offset": "0:01:20, 0:02:40",
+                "text": " scene and you may want to enhance the edges in the scene or you may want to enhance the corners or other interesting points in the scene. This can also be done using image processing. So image processing tools lie under the hood in any computer vision system and are extremely important. So here are the topics we are going to cover in this first lecture on image processing. We're going to start with pixel processing, which is the simplest type of image processing you can apply. The simplest type of image processing. So we're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing.",
+                "lang": "en"
+            },
+            {
+                "offset": "0:02:40, 0:03:39.614000",
+                "text": " a suite of linear image filters, very simple to apply as they can be applied using convolutions. We'll see what kind of modifications we can apply to an image using linear image filters. And then we'll argue that there are certain things you want to do to an image that simply cannot be done using convolution. And that takes us to the class of non-linear image filters. You can view these as more algorithmic in nature. You have a pixel in its neighborhood, you want to look",
+                "lang": "en"
+            }
+        ]
+    },
+    {
+        "type": "audio",
+        "ref": "/home/ameer/Kaleidoo/Data/Audio_Data/English/A1.wav",
+        "met_data": [
+            {
+                "offset": "0:00:00, 0:00:18.929000",
+                "text": " So tell me, what do you think is going to happen anyway? A monster is going to come out of the cupboard? I don't think so. No. No. That's just your mind playing tricks on you. Yes. Did you know?",
+                "lang": "en"
+            }
+        ]
+    },
+    {
+        "type": "audio",
+        "ref": "/home/ameer/Kaleidoo/Data/Audio_Data/English/A2.wav",
+        "met_data": [
+            {
+                "offset": "0:00:00, 0:00:33.623000",
+                "text": " The birch canoes lid on the smooth planks. Glue the sheet to the dark blue background. It is easy to tell the depths of a well. These days the chicken leg is a rare dish. Rice is often served in round bowls. The juice of lemons makes fine punch. The box was thrown beside the pork truck. The hogs are fed chopped corn and garbage. Four hours of study work faced us.",
+                "lang": "en"
+            }
+        ]
+    },
+    {
+        "type": "audio",
+        "ref": "/home/ameer/Kaleidoo/Data/Audio_Data/English/A3.wav",
+        "met_data": [
+            {
+                "offset": "0:00:00, 0:00:02.595000",
+                "text": " I want to dance. Can you help me?",
+                "lang": "en"
+            }
+        ]
+    },
+    {
+        "type": "audio",
+        "ref": "/home/ameer/Kaleidoo/Data/Audio_Data/English/img-processing.mp3",
+        "met_data": [
+            {
+                "offset": "0:00:00, 0:01:20",
+                "text": " Now we're going to devote two lectures to the topic of image processing. This is the first of the two lectures. In image processing, we're given an image and we want to transform this image into a clearer image or an image that's easier to analyze. So let's talk about a clearer image. Let's say you take an image of a scene at night time and it happens to be grainy or noisy for lack of light. We want to be able to remove the noise from the image.",
+                "lang": "en"
+            },
+            {
+                "offset": "0:01:20, 0:02:40",
+                "text": " scene and you may want to enhance the edges in the scene or you may want to enhance the corners or other interesting points in the scene. This can also be done using image processing. So image processing tools lie under the hood in any computer vision system and are extremely important. So here are the topics we are going to cover in this first lecture on image processing. We're going to start with pixel processing, which is the simplest type of image processing you can apply. The simplest type of image processing. So we're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing.",
+                "lang": "en"
+            },
+            {
+                "offset": "0:02:40, 0:03:39.614000",
+                "text": " a suite of linear image filters, very simple to apply as they can be applied using convolutions. We'll see what kind of modifications we can apply to an image using linear image filters. And then we'll argue that there are certain things you want to do to an image that simply cannot be done using convolution. And that takes us to the class of non-linear image filters. You can view these as more algorithmic in nature. You have a pixel in its neighborhood, you want to look",
+                "lang": "en"
+            }
+        ]
+    },
+    {
+        "type": "audio",
+        "ref": "/home/ameer/Kaleidoo/Data/Audio_Data/English/A1.wav",
+        "met_data": [
+            {
+                "offset": "0:00:00, 0:00:18.929000",
+                "text": " So tell me, what do you think is going to happen anyway? A monster is going to come out of the cupboard? I don't think so. No. No. That's just your mind playing tricks on you. Yes. Did you know?",
+                "lang": "en"
+            }
+        ]
+    },
+    {
+        "type": "audio",
+        "ref": "/home/ameer/Kaleidoo/Data/Audio_Data/English/A2.wav",
+        "met_data": [
+            {
+                "offset": "0:00:00, 0:00:33.623000",
+                "text": " The birch canoes lid on the smooth planks. Glue the sheet to the dark blue background. It is easy to tell the depths of a well. These days the chicken leg is a rare dish. Rice is often served in round bowls. The juice of lemons makes fine punch. The box was thrown beside the pork truck. The hogs are fed chopped corn and garbage. Four hours of study work faced us.",
+                "lang": "en"
+            }
+        ]
+    },
+    {
+        "type": "audio",
+        "ref": "/home/ameer/Kaleidoo/Data/Audio_Data/English/A3.wav",
+        "met_data": [
+            {
+                "offset": "0:00:00, 0:00:02.595000",
+                "text": " I want to dance. Can you help me?",
+                "lang": "en"
+            }
+        ]
+    },
+    {
+        "type": "audio",
+        "ref": "/home/ameer/Kaleidoo/Data/Audio_Data/English/img-processing.mp3",
+        "met_data": [
+            {
+                "offset": "0:00:00, 0:01:20",
+                "text": " Now we're going to devote two lectures to the topic of image processing. This is the first of the two lectures. In image processing, we're given an image and we want to transform this image into a clearer image or an image that's easier to analyze. So let's talk about a clearer image. Let's say you take an image of a scene at night time and it happens to be grainy or noisy for lack of light. We want to be able to remove the noise from the image.",
+                "lang": "en"
+            },
+            {
+                "offset": "0:01:20, 0:02:40",
+                "text": " scene and you may want to enhance the edges in the scene or you may want to enhance the corners or other interesting points in the scene. This can also be done using image processing. So image processing tools lie under the hood in any computer vision system and are extremely important. So here are the topics we are going to cover in this first lecture on image processing. We're going to start with pixel processing, which is the simplest type of image processing you can apply. The simplest type of image processing. So we're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing. We're going to start with pixel processing.",
+                "lang": "en"
+            },
+            {
+                "offset": "0:02:40, 0:03:39.614000",
+                "text": " a suite of linear image filters, very simple to apply as they can be applied using convolutions. We'll see what kind of modifications we can apply to an image using linear image filters. And then we'll argue that there are certain things you want to do to an image that simply cannot be done using convolution. And that takes us to the class of non-linear image filters. You can view these as more algorithmic in nature. You have a pixel in its neighborhood, you want to look",
+                "lang": "en"
+            }
+        ]
+    }
+]
