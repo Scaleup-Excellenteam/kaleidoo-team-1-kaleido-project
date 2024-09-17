@@ -1,0 +1,120 @@
+import whisper
+from pydub import AudioSegment
+import json
+import datetime
+import numpy as np
+import time
+import psutil
+import os
+import soundfile as sf
+from langdetect import detect
+from paths import *
+
+class AudioTranscriptor:
+    def __init__(self, model_name="base"):
+        self.model = whisper.load_model(model_name)
+
+    def transcribe_audio_segment(self, segment_path):
+        audio = whisper.load_audio(segment_path)
+        audio = whisper.pad_or_trim(audio)
+        result = self.model.transcribe(audio)
+        return result["text"]
+
+    def format_time(self, ms):
+        return str(datetime.timedelta(milliseconds=ms))
+
+    def transcribe_segment(self, file_path, start_time, end_time):
+        audio = AudioSegment.from_wav(file_path)
+        segment = audio[start_time:end_time]
+        segment.export("segment.wav", format="wav")
+        speech, sample_rate = sf.read("segment.wav")
+
+        transcript = self.transcribe_audio_segment("segment.wav")
+        return transcript
+
+    def segment_and_transcribe(self, file_path, interval_ms, output_json_path=None):
+        audio = AudioSegment.from_file(file_path)
+        duration_ms = len(audio)
+        num_segments = int(np.ceil(duration_ms / interval_ms))
+
+        transcript_data = []
+
+        for i in range(num_segments):
+            start_time_ms = i * interval_ms
+            end_time_ms = min((i + 1) * interval_ms, duration_ms)
+
+            segment_file_path = f"{GARBAGE}segment_{i + 1}.wav"
+            segment = audio[start_time_ms:end_time_ms]
+            segment.export(segment_file_path, format="wav")
+
+            transcript = self.transcribe_audio_segment(segment_file_path)
+
+            transcript_data.append({
+                "offset": f'{self.format_time(start_time_ms)}, {self.format_time(end_time_ms)}',
+                "text": transcript,
+                'lang': detect(transcript)
+            })
+            os.remove(segment_file_path)
+
+        if output_json_path:
+            with open(output_json_path, 'a+') as f:
+                f.seek(0)
+                try:
+                    existing_data = json.load(f)
+                except json.JSONDecodeError:
+                    existing_data = []
+
+                existing_data.append({
+                    "type": "audio",
+                    "ref": file_path,
+                    "meta_data": transcript_data,
+                })
+                f.seek(0)
+                f.truncate()
+
+                json.dump(existing_data, f, indent=4)
+
+                print(f'Data successfully written to {output_json_path}')
+        else:
+            return json.dumps(transcript_data, indent=4)
+
+    def monitor_resources(self, file_path, time_interval, output_json=None):
+        # Record the start time and resource usage
+        start_time = time.time()
+        start_cpu_percent = psutil.cpu_percent(interval=None)
+        start_memory_info = psutil.virtual_memory().used / (1024 * 1024)  # Convert to MB
+
+        # Transcription process
+        transcript_output = self.segment_and_transcribe(file_path, time_interval, output_json)
+
+        # Record the end time and resource usage
+        end_time = time.time()
+        end_cpu_percent = psutil.cpu_percent(interval=None)
+        end_memory_info = psutil.virtual_memory().used / (1024 * 1024)  # Convert to MB
+
+        # Calculate elapsed time
+        elapsed_time = end_time - start_time
+
+        # Print the results
+        print(f"Elapsed time: {elapsed_time:.2f} seconds")
+        print(f"CPU usage at end: {end_cpu_percent}%")
+        print(f"Memory used at start: {start_memory_info:.2f} MB")
+        print(f"Memory used at end: {end_memory_info:.2f} MB")
+
+        return transcript_output
+
+
+# Example usage
+if __name__ == "__main__":
+    time_interval_ms = 80000  # Segment length in milliseconds (e.g., 80000 ms = 80 seconds)
+    output_json = f'{DUMPAUDIO}transcriptions.json'  # Output JSON file path
+
+    transcriptor = AudioTranscriptor()
+
+    print('--------------------------audio1_converted.wav---------------------------------------')
+    print(transcriptor.monitor_resources(ENGPATH1, time_interval_ms, output_json))
+    
+    print('--------------------------audio2_converted.wav---------------------------------------')
+    print(transcriptor.monitor_resources(ENGPATH2, time_interval_ms, output_json))
+
+    # You can add more files as required
