@@ -1,6 +1,7 @@
 ENGPATH1 = '/home/ameer/Kaleidoo/Audio_Data/English/A1.wav'
 ENGPATH2 = '/home/ameer/Kaleidoo/Audio_Data/English/A2.wav'
 ENGPATH3 = '/home/ameer/Kaleidoo/Audio_Data/English/A3.wav'
+ENGPATH4 = '/home/ameer/Kaleidoo/Audio_Data/English/img-processing.mp3'
 RUSSPATH1 = '/home/ameer/Kaleidoo/Audio_Data/Russian/A1.wav'
 VOSKENGMOD = '/home/ameer/Kaleidoo/Audio_Data/vosk-model-small-en-us-0.15'
 VOSKRUSSMOD = '/home/ameer/Kaleidoo/Audio_Data/vosk-model-small-ru-0.22'
