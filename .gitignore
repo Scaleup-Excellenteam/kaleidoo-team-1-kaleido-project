@@ -5,3 +5,4 @@ myenv
 .vscode/
 Audio_Data/
 Text-Data/
+whisper-models/
