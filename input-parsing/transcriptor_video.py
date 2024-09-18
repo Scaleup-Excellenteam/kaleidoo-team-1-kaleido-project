@@ -12,7 +12,7 @@ from moviepy.editor import VideoFileClip  # For video processing
 from paths import *
 
 class VideoTranscriptor:
-    def __init__(self,  video_path: str, model_name="base"):
+    def __init__(self, video_path: str, model_name="base"):
         self.model = whisper.load_model(model_name)
         self.video_path = video_path
     
@@ -108,7 +108,8 @@ class VideoTranscriptor:
     def convert_video_to_audio(self, output_audio_path):
         """Convert video to audio (wav format)."""
         video_clip = VideoFileClip(self.video_path)
-        video_clip.audio.write_audiofile(output_audio_path, codec='pcm_s16le')
+        audio_clip = video_clip.audio
+        audio_clip.write_audiofile(output_audio_path, codec='pcm_s16le')
         return output_audio_path
 
 # Example usage for videos
@@ -117,7 +118,6 @@ if __name__ == "__main__":
     output_json = f'{DUMPVIDEO}video_transcriptions.json'  # Output JSON file path
 
     transcriptor = VideoTranscriptor(f'{HEBROWVIDEO}elazar.mp4')
-
 
     wav_file = transcriptor.convert_video_to_audio(f'{ENGLISHAUDIO}temp.wav')
     transcriptor.monitor_resources(wav_file, time_interval_ms, output_json)

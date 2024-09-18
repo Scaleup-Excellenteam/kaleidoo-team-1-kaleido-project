@@ -9,6 +9,7 @@ INTERVAL = 80000
 VIDEO = 'video'
 AUDIO = 'audio'
 JSON = '.json'
+WAV  = '.wav'
 # Set up logging configuration
 logging.basicConfig(level=logging.INFO,  # Set level to INFO to capture all INFO messages
                     format='%(asctime)s - %(levelname)s - %(message)s')
@@ -18,8 +19,8 @@ def generate_unique_filename(extension):
     unique_id = uuid.uuid4().hex
     return f"{unique_id}{extension}"
 
-def create_file(path):
-    return f'{path}{generate_unique_filename(JSON)}'
+def create_file(path, format):
+    return f'{path}{generate_unique_filename(format)}'
 
 class UnsupportedFileType(Exception):
     """Custom exception for unsupported file types."""
@@ -60,17 +61,18 @@ class Factory:
         if self.format_type == 0:
             logging.info(f"Processing text file: {self.file}")
             # Instantiate a text parser or handle text file
-            Pipeline(self.file, create_file(DUMPTEXT)).run()
+            Pipeline(self.file, create_file(DUMPTEXT, JSON)).run()
 
         elif self.format_type == 1:
             logging.info(f"Processing audio file: {self.file}")
             at = AudioTranscriptor()
-            at.segment_and_transcribe(self.file, INTERVAL, create_file(DUMPAUDIO))
+            at.segment_and_transcribe(self.file, INTERVAL, create_file(DUMPAUDIO, JSON))
         elif self.format_type == 2:
             logging.info(f"Processing video file: {self.file}")
             transcriptor = VideoTranscriptor(self.file)
-            wav_file = transcriptor.convert_video_to_audio(self.file)
-            transcriptor.monitor_resources(wav_file, INTERVAL, create_file(DUMPVIDEO), VIDEO)
+            temp = create_file(GARBAGE,WAV)
+            wav_file = transcriptor.convert_video_to_audio(temp)
+            transcriptor.monitor_resources(wav_file, INTERVAL, create_file(DUMPVIDEO,JSON), VIDEO)
         else:
             logging.error(f"Unsupported processing type for file: {self.file}")
             raise UnsupportedFileType(f"Unsupported processing type for file: {self.file}")
