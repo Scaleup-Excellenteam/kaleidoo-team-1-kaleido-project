@@ -1,11 +1,25 @@
 import logging
 from transcriptor_audio import AudioTranscriptor
-from transcriptor_text import 
+from transcriptor_video import VideoTranscriptor
+from transcriptor_text import Pipeline
+import uuid
+from paths import * 
 
+INTERVAL = 80000
+VIDEO = 'video'
+AUDIO = 'audio'
+JSON = '.json'
 # Set up logging configuration
 logging.basicConfig(level=logging.INFO,  # Set level to INFO to capture all INFO messages
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
+
+def generate_unique_filename(extension):
+    unique_id = uuid.uuid4().hex
+    return f"{unique_id}{extension}"
+
+def create_file(path):
+    return f'{path}{generate_unique_filename(JSON)}'
 
 class UnsupportedFileType(Exception):
     """Custom exception for unsupported file types."""
@@ -16,10 +30,11 @@ class FileMapper:
     """Maps the file format to the corresponding handler type."""
     
     MAPPED = {
-        0: {'pdf', 'txt'},  # Text-based files
-        1: {'jpg', 'jpeg'},  # Image files
-        2: {'wav', 'mp3'}    # Audio files
+    0: {'pdf', 'txt', 'doc', 'csv', 'docx', 'html', 'json', 'xml', 'xlsx', 'epub', 'msg', 'rst', 'odt', 'rtf', 'md', 'tex'},  # Text-based files
+    1: {'mp3', 'aac', 'flac', 'ogg', 'wav', 'wma', 'm4a'},  # Audio files
+    2: {'jpg', 'jpeg', 'png', 'gif', 'bmp', 'tiff', 'webp', 'svg'}  # Image files
     }
+
 
     def __init__(self, format: str):
         self.file_type = self.__eval__(format)
@@ -45,14 +60,17 @@ class Factory:
         if self.format_type == 0:
             logging.info(f"Processing text file: {self.file}")
             # Instantiate a text parser or handle text file
-            TestParser().parse(self.file)
+            Pipeline(self.file, create_file(DUMPTEXT)).run()
+
         elif self.format_type == 1:
-            logging.info(f"Processing image file: {self.file}")
-            # Handle image file processing here
-        elif self.format_type == 2:
             logging.info(f"Processing audio file: {self.file}")
-            # Instantiate an audio transcriptor
-            AudioTranscriptor().monitor_resources(self.file, 80000)
+            at = AudioTranscriptor()
+            at.segment_and_transcribe(self.file, INTERVAL, create_file(DUMPAUDIO))
+        elif self.format_type == 2:
+            logging.info(f"Processing video file: {self.file}")
+            transcriptor = VideoTranscriptor(self.file)
+            wav_file = transcriptor.convert_video_to_audio(self.file)
+            transcriptor.monitor_resources(wav_file, INTERVAL, create_file(DUMPVIDEO), VIDEO)
         else:
             logging.error(f"Unsupported processing type for file: {self.file}")
             raise UnsupportedFileType(f"Unsupported processing type for file: {self.file}")
@@ -61,7 +79,7 @@ class Factory:
 class FileValidator:
     """Validates if a file has a supported format."""
     
-    SUPPORTED_FORMATS = ['pdf', 'txt', 'jpg', 'jpeg', 'wav', 'mp3']
+    SUPPORTED_FORMATS = ['mp4','aac', 'bmp', 'csv', 'doc', 'docx', 'epub', 'flac', 'gif', 'html', 'jpeg', 'jpg', 'json', 'm4a', 'md', 'msg', 'mp3', 'odt', 'ogg', 'pdf', 'png', 'rst', 'rtf', 'svg', 'tex', 'tiff', 'txt', 'wav', 'wma', 'xlsx', 'xml', 'webp']
 
     def __init__(self, file):
         self.file = file
@@ -112,5 +130,5 @@ class Transcriptor:
 
 if __name__ == "__main__":
     # Example usage
-    files = ['/home/ameer/Kaleidoo/Data/Audio_Data/English/img-processing.mp3', 'audio.wav', 'image.jpg', 'video.mp4']
-    transcriptor = Transcriptor(*files)
+    
+    transcriptor = Transcriptor()

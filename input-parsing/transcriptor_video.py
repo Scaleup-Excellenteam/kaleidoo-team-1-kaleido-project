@@ -11,7 +11,7 @@ from langdetect import detect
 from moviepy.editor import VideoFileClip  # For video processing
 from paths import *
 
-class AudioTranscriptor:
+class VideoTranscriptor:
     def __init__(self,  video_path: str, model_name="base"):
         self.model = whisper.load_model(model_name)
         self.video_path = video_path

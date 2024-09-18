@@ -2,6 +2,12 @@ import json
 from partition import partition_file  # Updated import
 from langdetect import detect_langs, LangDetectException
 from paths import * 
+import uuid
+
+def generate_unique_filename(extension):
+    unique_id = uuid.uuid4().hex
+    return f"{unique_id}.{extension}"
+
 class FileProcessor:
     def __init__(self, filename):
         """Initialize with the path to the file."""

@@ -7,3 +7,4 @@ myenv
 Audio_Data/
 Text-Data/
 whisper-models/
+__pycache__/
