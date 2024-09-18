@@ -9,7 +9,7 @@ import os
 import soundfile as sf
 from langdetect import detect
 from paths import *
-
+import torch
 class AudioTranscriptor:
     def __init__(self, model_name="base"):
         self.model = whisper.load_model(model_name)

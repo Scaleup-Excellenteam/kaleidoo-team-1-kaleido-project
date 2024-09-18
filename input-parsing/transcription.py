@@ -32,7 +32,7 @@ class FileMapper:
     MAPPED = {
     0: {'pdf', 'txt', 'doc', 'csv', 'docx', 'html', 'json', 'xml', 'xlsx', 'epub', 'msg', 'rst', 'odt', 'rtf', 'md', 'tex'},  # Text-based files
     1: {'mp3', 'aac', 'flac', 'ogg', 'wav', 'wma', 'm4a'},  # Audio files
-    2: {'jpg', 'jpeg', 'png', 'gif', 'bmp', 'tiff', 'webp', 'svg'}  # Image files
+    2: {'mp4'} 
     }
 
 

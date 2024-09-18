@@ -34,7 +34,7 @@ class VideoTranscriptor:
         transcript = self.transcribe_audio_segment("segment.wav")
         return transcript
 
-    def segment_and_transcribe(self, file_path, interval_ms, output_json_path=None, file_type="audio"):
+    def segment_and_transcribe(self, file_path, interval_ms, output_json_path=None, file_type="video"):
         audio = AudioSegment.from_file(file_path)
         duration_ms = len(audio)
         num_segments = int(np.ceil(duration_ms / interval_ms))
@@ -116,7 +116,7 @@ if __name__ == "__main__":
     time_interval_ms = 80000  # Segment length in milliseconds (e.g., 80000 ms = 80 seconds)
     output_json = f'{DUMPVIDEO}video_transcriptions.json'  # Output JSON file path
 
-    transcriptor = AudioTranscriptor(f'{HEBROWVIDEO}elazar.mp4')
+    transcriptor = VideoTranscriptor(f'{HEBROWVIDEO}elazar.mp4')
 
 
     wav_file = transcriptor.convert_video_to_audio(f'{ENGLISHAUDIO}temp.wav')
