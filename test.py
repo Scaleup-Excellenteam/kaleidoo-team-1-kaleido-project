@@ -1,43 +1,24 @@
-from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 import torch
-nf4_config = BitsAndBytesConfig(
-   load_in_4bit=True,
-   bnb_4bit_quant_type='nf4',
-   bnb_4bit_compute_dtype=torch.bfloat16,
-)
+from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
-model_id = 'google/datagemma-rag-27b-it'
-tokenizer = AutoTokenizer.from_pretrained(model_id)
-model = AutoModelForCausalLM.from_pretrained(
-    model_id,
-    device_map='auto',
-    quantization_config=nf4_config,
-    torch_dtype=torch.bfloat16,
-)
-input_text = """Your role is that of a Question Generator.  Given Query below, come up with a
-maximum of 25 Statistical Questions that help in answering Query.
-These are the only forms of Statistical Questions you can generate:
-1. What is $METRIC in $PLACE?
-2. What is $METRIC in $PLACE $PLACE_TYPE?
-3. How has $METRIC changed over time in $PLACE $PLACE_TYPE?
-where,
-- $METRIC should be a metric on societal topics like demographics, economy, health,
-  education, environment, etc.  Examples are unemployment rate and
-  life expectancy.
-- $PLACE is the name of a place like California, World, Chennai, etc.
-- $PLACE_TYPE is an immediate child type within $PLACE, like counties, states,
-  districts, etc.
+text = [
+    "Brevity is the soul of wit.",
+    "Amor, ch'a nullo amato amar perdona.",
+    "עמיר עמאר בן 20 ממגאר"
+]
 
-Your response should only have questions, one per line, without any numbering
-or bullet.
+model_ckpt = "papluca/xlm-roberta-base-language-detection"
+tokenizer = AutoTokenizer.from_pretrained(model_ckpt)
+model = AutoModelForSequenceClassification.from_pretrained(model_ckpt)
 
-If you cannot come up with Statistical Questions to ask for a Query, return an
-empty response.
+inputs = tokenizer(text, padding=True, truncation=True, return_tensors="pt")
 
-Query: What are some interesting trends in Sunnyvale spanning gender, age, race, immigration, health conditions, economic conditions, crime and education?
-Statistical Questions:"""
-inputs = tokenizer(input_text, return_tensors='pt').to('cuda')
+with torch.no_grad():
+    logits = model(**inputs).logits
 
-outputs = model.generate(**inputs, max_new_tokens=4096)
-answer = tokenizer.batch_decode(outputs[:, inputs['input_ids'].shape[1]:], skip_special_tokens=True)[0].strip()
-print(answer)
+preds = torch.softmax(logits, dim=-1)
+
+# Map raw predictions to languages
+id2lang = model.config.id2label
+vals, idxs = torch.max(preds, dim=1)
+{id2lang[k.item()]: v.item() for k, v in zip(idxs, vals)}

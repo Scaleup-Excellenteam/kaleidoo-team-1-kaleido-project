@@ -52,7 +52,9 @@ class AudioTranscriptor:
             transcript_data.append({
                 "offset": f'{self.format_time(start_time_ms)}, {self.format_time(end_time_ms)}',
                 "text": transcript,
-                'lang': detect(transcript)
+                'lang': detect(transcript),
+                "type": "audio",
+                "ref": file_path,
             })
             os.remove(segment_file_path)
 
@@ -64,15 +66,13 @@ class AudioTranscriptor:
                 except json.JSONDecodeError:
                     existing_data = []
 
-                existing_data.append({
-                    "type": "audio",
-                    "ref": file_path,
-                    "meta_data": transcript_data,
-                })
+                existing_data.append(
+                     transcript_data
+                )
                 f.seek(0)
                 f.truncate()
 
-                json.dump(existing_data, f, indent=4)
+                json.dump(existing_data, f,ensure_ascii=False, indent=4)
 
                 print(f'Data successfully written to {output_json_path}')
         else:
@@ -111,10 +111,5 @@ if __name__ == "__main__":
 
     transcriptor = AudioTranscriptor()
 
-    print('--------------------------audio1_converted.wav---------------------------------------')
-    print(transcriptor.monitor_resources(ENGPATH1, time_interval_ms, output_json))
-    
-    print('--------------------------audio2_converted.wav---------------------------------------')
-    print(transcriptor.monitor_resources(ENGPATH2, time_interval_ms, output_json))
 
     # You can add more files as required
