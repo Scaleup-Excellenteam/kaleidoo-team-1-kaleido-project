@@ -1,0 +1,284 @@
+{"data":
+  [
+      {
+        "type": "application/pdf",
+        "text": "Tel Hai Study Buddy\nIn this project, you are going to research, design and implement a chatbot that bases its answers on multiple types of media sources. Your client is Tel Hai college, and this product is intended to be used by all of the students, regardless of the degree they are studying. During the given time period, your goal is not to build an entire product (not enough time), but to prove that building this kind of product is possible by implementing a quick and dirty MVP of it, and deploy it for the students to interact with.\nProduct description Core features\nMultimodal Search:\nAllows users to search for lecture materials across multiple formats: documents, video\nrecordings, and audio files.\nProvides results that are timestamped for video and audio, guiding users directly to the\nrelevant parts of the original input.\nNatural Language Query Support:\nEnables students to ask questions or search for content using conversational language,\nsuch as requesting specific topics, dates, or lecture details.",
+        "offset": "page1",
+        "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/Kaleidoo-Research-Phase.pdf",
+        "lang": "en",
+        "filetype": "application/pdf"
+      },
+      {
+        "type": "application/pdf",
+        "text": "Recognizes and responds to both specific and broad queries about lecture material.\nFor the core product, GUI is not required.\nOptional features\nAfter you're done with the core features, choose any subset of features you’d like from this list and implement them. Start with the features that you think are the most cost effective (low cost, high value for the user), the features are not numbered by priority. In any one of these features, before implementing the actual product, create a basic POC (proof of concept) and call the staff for review.\n1. GUI\nCreate a basic user interface (web\\app) for your product. Pay attention - in this feature in particular, make sure to search for existing tools and use them. When done with the research, call the existing staff.\n2. Personalized Recommendations:\nSuggests lecture materials, readings, or supplementary resources based on\nprevious searches and user preferences.",
+        "offset": "page1",
+        "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/Kaleidoo-Research-Phase.pdf",
+        "lang": "en",
+        "filetype": "application/pdf"
+      },
+      {
+        "type": "application/pdf",
+        "text": "3. Real-Time Assistance:\nInteracts with users in real-time to answer follow-up questions, clarify concepts,\nand provide additional related material (Requires some kind of GUI/CLI).\n4. Advances filtering features:\nAllow the users the option to choose, during chat setup, which types of content\n(Video, Audio, Documents) they want the answers to be based on, allowing them to choose only a specific content type.\n5. Support multiple users:\nSupport multiple users in your product. ○ Research authentication ways, show the staff the results of your research before starting to implement.\n6. Manual Content Bookmarking:\nEnables users to bookmark or save specific Audio\\Video\\Documents, with a\nspecific timestamp for future reference and quick access.\n7. Automatic Content Categorization:\nAutomatically tag your materials based on its content, when first extracting the\ndata from them.\nAllow users to search for specific tags.\n8. Voice Interaction Support:\nAllows users to perform searches and interact with the chatbot via voice",
+        "offset": "page2",
+        "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/Kaleidoo-Research-Phase.pdf",
+        "lang": "en",
+        "filetype": "application/pdf"
+      },
+      {
+        "type": "application/pdf",
+        "text": "commands for a hands-free experience.\n9. Recognize the lector:\nThink of a way to distinguish between students and lectors, and include that in\nthe extracted text.\n10. Auto-Completion & Query Suggestions:\nSuggests potential queries and auto-completes as users type, helping them refine their searches and find content more efficiently. Think about a way to integrate your Google project with this one.\n11. Multi-Language Support:\nSupports multiple languages to cater to diverse academic needs and to ensure\naccessibility for all students. Which languages are important to support? Document your reasoning\n12. Multiple input formats:\nSupport additional input formats (file types\\extensions) of video, audio or text.\nWhich formats are important to support? Find out, and document your reasoning",
+        "offset": "page2",
+        "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/Kaleidoo-Research-Phase.pdf",
+        "lang": "en",
+        "filetype": "application/pdf"
+      },
+      {
+        "type": "application/pdf",
+        "text": "Research In this exercise, you should use external tools and libraries as much as you can, in order to reduce the amount of code you have to develop and maintain yourself. Hugging face is a good place to start your search. A research phase is a crucial part of a development cycle, when your product contains new concepts to the team. Its length varies according to the project, and the amount of concepts you have to develop from scratch.\nInput parsing\nYour goal for the input parsing phase is to convert all the different media types to text. There are a lot of technologies available that could do that, most of them are AI based.\nStep 1: Audio Transcription\nGoal: Research technologies that convert audio into text and create a PoC in a Jupyter notebook.\nResearch Focus: Identify multiple tools or algorithms for converting spoken language into text,\nconsidering factors like noise, language support, and performance.\nTesting Requirement: Each team must test at least two different transcription technologies on a",
+        "offset": "page3",
+        "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/Kaleidoo-Research-Phase.pdf",
+        "lang": "en",
+        "filetype": "application/pdf"
+      },
+      {
+        "type": "application/pdf",
+        "text": "variety of audio samples (e.g., different accents, background noise, varying audio quality). Analyze accuracy, speed, and handling of edge cases.\nPoC Task: Demonstrate the transcription of multiple audio files using the technologies\nresearched. Compare the results (text accuracy, processing time) in your notebook and discuss strengths and weaknesses.In addition, you can choose to implement any subset of features you’d like from this list. Choose to start with the features that you think are the most cost effective (low cost, high value for the user)\nStep 2: Image Recognition in Video & Audio Transcription\nGoal: Research technologies for recognizing objects or scenes in video, and create a PoC that transcribes video audio.\nResearch Focus: Explore at least two technologies for object detection in video frames and\naudio transcription from video.\nTesting Requirement: Run multiple tests on different video samples, including videos with\nvarying resolutions, lighting conditions, and object complexities. Transcribe audio from these videos using the selected tools.",
+        "offset": "page3",
+        "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/Kaleidoo-Research-Phase.pdf",
+        "lang": "en",
+        "filetype": "application/pdf"
+      },
+      {
+        "type": "application/pdf",
+        "text": "PoC Task: In the Jupyter notebook, showcase the processing of several video clips, highlighting\nobject detection and audio transcription accuracy. Include performance metrics such as processing speed, object detection accuracy, and quality of audio transcription. Compare how different tools perform on each task.",
+        "offset": "page3",
+        "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/Kaleidoo-Research-Phase.pdf",
+        "lang": "en",
+        "filetype": "application/pdf"
+      },
+      {
+        "type": "application/pdf",
+        "text": "Step 3: Document Parsing\nGoal: Research document parsing technologies and implement a PoC in Jupyter to extract structured data from documents (e.g., PDFs or scanned images).\nResearch Focus: Investigate multiple methods for parsing documents, focusing on the ability to\nhandle structured and unstructured formats, as well as noisy or low-quality scans.\nTesting Requirement: Test at least two parsing technologies across various document types,\nincluding clean PDFs, scanned documents with noise, and complex forms with tables. Evaluate extraction accuracy and speech\nWhen done with any of the steps, call the course staff for review\nRetrieval-Augmented Generation (RAG)\nYour goal in the RAG phase is to implement a system to retrieve relevant data for a given query.\nStep 1: Text Embeddings\nGoal: Explore technologies that transform text into embeddings, creating a PoC to evaluate their performance on a diverse range of textual inputs.\nResearch Focus: Identify several models that convert text into vector embeddings,",
+        "offset": "page4",
+        "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/Kaleidoo-Research-Phase.pdf",
+        "lang": "en",
+        "filetype": "application/pdf"
+      },
+      {
+        "type": "application/pdf",
+        "text": "considering factors such as language coverage, embedding dimensionality, and how well the embeddings capture contextual information.\nTesting Requirement: Experiment with at least two different embedding models on various text types (short vs long text, technical vs conversational language). Assess each model’s ability to generate meaningful embeddings in terms of semantic similarity and computational efficiency.\nStep 2: Vector Database\nGoal: Research and evaluate tools for storing and querying embeddings, producing a PoC that enables scalable and efficient embedding searches.\nResearch Focus: Analyze different vector databases for their performance, scalability, and ease of integration. Consider key factors such as real-time search capability, handling large datasets, and indexing speed.\nTesting Requirement: Test at least two vector databases, benchmarking them for query performance on both small and large datasets. Evaluate search precision, time to index new embeddings, and scalability under high query volumes.",
+        "offset": "page4",
+        "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/Kaleidoo-Research-Phase.pdf",
+        "lang": "en",
+        "filetype": "application/pdf"
+      },
+      {
+        "type": "application/pdf",
+        "text": "Step 3: Generation\nGoal: Explore how large language models can generate content based on embeddings retrieved from a vector database, producing a PoC to evaluate their generation quality.\nResearch Focus: Investigate different models that leverage content from vector\ndatabases to produce context-rich, relevant responses. Assess the models based on their fluency, coherence, and ability to integrate retrieved content meaningfully into the generated output.\nTesting Requirement: Test two or more generation models by using them to answer questions based on retrieved text or documents. Measure their output for relevance, completeness, and contextual accuracy, particularly in challenging or ambiguous scenarios.\nDeployment\nYour goal in the Deployment Phase is to implement a containerized system and deploy it on a scalable cloud infrastructure, enabling robust and flexible handling of user queries with the RAG architecture.\nStep 1: Containerization\nGoal: Package your RAG system and file parsing system into Docker containers for consistent and efficient deployment across different environments.",
+        "offset": "page5",
+        "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/Kaleidoo-Research-Phase.pdf",
+        "lang": "en",
+        "filetype": "application/pdf"
+      },
+      {
+        "type": "application/pdf",
+        "text": "Research Focus: Investigate containerization technologies, focusing on Docker for packaging the system, including all dependencies and services (embedding models, vector database, and generation models). Consider factors such as container size, build times, and resource efficiency during runtime.\nTesting Requirement:\n1. Create a Dockerfile that installs all necessary components: the text embedding models,\nvector database tools, and generation models.\n2. Experiment with multi-stage builds to optimize container size. 3. Test container functionality locally to ensure that all services (embedding generation, vector database querying, and content generation) work correctly in the containerized environment\nStep 2: Cloud Deployment on Google Cloud Platform (GCP)\nGoal: Deploy the containerized RAG system to the Google Cloud Platform, making it available as a scalable service.\nResearch Focus: Explore GCP's infrastructure services for deploying containerized applications, focusing on Kubernetes Engine (GKE) or Cloud Run for scalable deployment.",
+        "offset": "page5",
+        "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/Kaleidoo-Research-Phase.pdf",
+        "lang": "en",
+        "filetype": "application/pdf"
+      },
+      {
+        "type": "application/pdf",
+        "text": "Consider aspects such as auto-scaling, load balancing, resource allocation, and continuous deployment capabilities.\nTesting Requirement:\n1. Deploy your Docker container on GCP using either Cloud Run or Kubernetes (GKE) to\nhandle incoming queries at scale.\n2. Test the deployment with different workloads, ensuring the system remains responsive\nunder high query volumes.\n3. Benchmark the system for latency, throughput, and fault tolerance in a cloud\nenvironment, ensuring that queries are processed efficiently even under heavy loads.\nResearch product - a detailed, ipynb file for each of the mentioned categories, containing POC for each technology you select. Each notebook should compare different tools, performing the same tasks. You should pick tasks that your future product should perform, so you will see the advantages and disadvantages of each technology performing the actual tasks that you need from it.\nThe factors you should measure are -\nResults quality\nRead about methodologies for comparison between different models, and pick an",
+        "offset": "page6",
+        "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/Kaleidoo-Research-Phase.pdf",
+        "lang": "en",
+        "filetype": "application/pdf"
+      },
+      {
+        "type": "application/pdf",
+        "text": "cost effective method\nEfficiency (performance profiling) ● Memory usage (memory profiling)\nWhen done with any of the steps, call the course staff for review",
+        "offset": "page6",
+        "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/Kaleidoo-Research-Phase.pdf",
+        "lang": "en",
+        "filetype": "application/pdf"
+      },
+      {
+          "type": "application/pdf",
+          "text": "1\nFeature descriptors\nLihi Zelnik-Manor, Computer Vision\nLihi Zelnik-Manor, Computer Vision",
+          "offset": "page1",
+          "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/11-descriptors-SIFT-SURF-GLOH.pdf",
+          "lang": "de",
+          "filetype": "application/pdf"
+        },
+        {
+          "type": "application/pdf",
+          "text": "Today\n Local descriptors\n Selecting invariant regions  Feature descriptors:  SIFT and others\n2\nLihi Zelnik-Manor, Computer Vision",
+          "offset": "page2",
+          "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/11-descriptors-SIFT-SURF-GLOH.pdf",
+          "lang": "en",
+          "filetype": "application/pdf"
+        },
+        {
+          "type": "application/pdf",
+          "text": "Today\n Local descriptors\n Selecting invariant regions  Feature descriptors:  SIFT and others\n3\nLihi Zelnik-Manor, Computer Vision",
+          "offset": "page3",
+          "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/11-descriptors-SIFT-SURF-GLOH.pdf",
+          "lang": "en",
+          "filetype": "application/pdf"
+        },
+        {
+          "type": "application/pdf",
+          "text": "The naïve descriptor – intensities vector\n The Simplest descriptor is a vector of the intensities\nwithin the patch.\nreshape\nWhat is this going to be invariant to?\n4\nLihi Zelnik-Manor, Computer Vision",
+          "offset": "page4",
+          "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/11-descriptors-SIFT-SURF-GLOH.pdf",
+          "lang": "en",
+          "filetype": "application/pdf"
+        },
+        {
+          "type": "application/pdf",
+          "text": "The naïve descriptor – intensities vector\n Disadvantage of the intensities vector 1. Changes significantly with illumination 2. Changes significantly with small shifts in position\n5\nLihi Zelnik-Manor, Computer Vision",
+          "offset": "page5",
+          "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/11-descriptors-SIFT-SURF-GLOH.pdf",
+          "lang": "en",
+          "filetype": "application/pdf"
+        },
+        {
+          "type": "application/pdf",
+          "text": "Another naïve descriptor\n Disadvantage of the intensities vector 1. Changes significantly with illumination 2. Changes significantly with small shifts in position\n Solutions\n1. Use gradients instead of intensities 2. Histograms\n0\n6\nLihi Zelnik-Manor, Computer Vision\n2p",
+          "offset": "page6",
+          "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/11-descriptors-SIFT-SURF-GLOH.pdf",
+          "lang": "en",
+          "filetype": "application/pdf"
+        },
+        {
+          "type": "application/pdf",
+          "text": "A good feature descriptor: SIFT\n Scale Invariant Feature Transform  Descriptor computation:\n Divide patch into 4x4 sub-patches: 16 cells  Compute histogram of gradient orientations (8 reference\nangles) for all pixels inside each sub-patch  Resulting descriptor: 4x4x8 = 128 dimensions\nDavid G. Lowe. \"Distinctive image features from scale-invariant keypoints.” IJCV’2004. 7\nLihi Zelnik-Manor, Computer Vision",
+          "offset": "page7",
+          "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/11-descriptors-SIFT-SURF-GLOH.pdf",
+          "lang": "en",
+          "filetype": "application/pdf"
+        },
+        {
+          "type": "application/pdf",
+          "text": "SIFT overview\n Extraordinarily robust matching technique\n Can handle changes in viewpoint up to about 60 degree out of plane rotation  Can handle significant changes in illumination\n Sometimes even day vs. night (below)  Fast and efficient—can run in real time  Lots of code available\n\nhttp://people.csail.mit.edu/albert/ladypack/wiki/index.php/Known_implementations_of_SIFT\n8\nLihi Zelnik-Manor, Computer Vision",
+          "offset": "page8",
+          "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/11-descriptors-SIFT-SURF-GLOH.pdf",
+          "lang": "en",
+          "filetype": "application/pdf"
+        },
+        { 
+          "type": "application/pdf",
+          "text": "Working with SIFT descriptors\n One image yields:\n n 128-dimensional descriptors: each one is a histogram of the gradient orientations within a patch  [n x 128 matrix]\n n scale parameters specifying the size of\neach patch  [n x 1 vector]\n n orientation parameters specifying the\nangle of the patch  [n x 1 vector]\n n 2d points giving positions of the patches\n [n x 2 matrix]\n9\nLihi Zelnik-Manor, Computer Vision",
+          "offset": "page9",
+          "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/11-descriptors-SIFT-SURF-GLOH.pdf",
+          "lang": "en",
+          "filetype": "application/pdf"
+        },
+        {
+          "type": "application/pdf",
+          "text": "SURF descriptor\n Fast approximation of SIFT  Efficient computation by 2D box filters & integral images  6 times faster than SIFT  Equivalent quality for object\nidentification\nGPU implementation available Feature extraction @ 200Hz (detector + descriptor, 640×480 img) http://www.vision.ee.ethz.ch/~surf\n[Bay, ECCV’06], [Cornelis, CVGPU’08]\n10\nLihi Zelnik-Manor, Computer Vision",
+          "offset": "page10",
+          "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/11-descriptors-SIFT-SURF-GLOH.pdf",
+          "lang": "en",
+          "filetype": "application/pdf"
+        },
+        {
+          "type": "application/pdf",
+          "text": "Local Descriptors: Shape Context\nCount the number of points inside each bin, e.g.:\nCount = 4\n. . .\nCount = 10\nLog-polar binning: more precision for nearby points, more flexibility for farther points.\nBelongie & Malik, ICCV 2001\nK. Grauman, B. Leibe",
+          "offset": "page11",
+          "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/11-descriptors-SIFT-SURF-GLOH.pdf",
+          "lang": "en",
+          "filetype": "application/pdf"
+        },
+        {
+          "type": "application/pdf",
+          "text": "Local Descriptors: Geometric Blur\n~\nExample descriptor\n(Idealized signal)\nBerg & Malik, CVPR 2001\nK. Grauman, B. Leibe\nCompute edges at four orientations\nExtract a patch in each channel\nApply spatially varying blur and sub-sample",
+          "offset": "page12",
+          "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/11-descriptors-SIFT-SURF-GLOH.pdf",
+          "lang": "en",
+          "filetype": "application/pdf"
+        },
+        {
+          "type": "application/pdf",
+          "text": "GLOH\n Gradient Location and Orientation Histogram\n Very similar to SIFT  Log-polar location grid  3 bins in radial direction  8 bins in angular direction  Gradient orientation quantized to 16 bins\n Total dimension\n (2x8+1)*16=272 bins  PCA for dimension reduction\n13\nLihi Zelnik-Manor, Computer Vision",
+          "offset": "page13",
+          "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/11-descriptors-SIFT-SURF-GLOH.pdf",
+          "lang": "en",
+          "filetype": "application/pdf"
+        },
+        {
+          "type": "application/pdf",
+          "text": "More on feature detection/description\nhttp://www.robots.ox.ac.uk/~vgg/research/affine/detectors.html#binaries\n14\nLihi Zelnik-Manor, Computer Vision",
+          "offset": "page14",
+          "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/11-descriptors-SIFT-SURF-GLOH.pdf",
+          "lang": "en",
+          "filetype": "application/pdf"
+        },
+        {
+          "type": "application/pdf",
+          "text": "Self-similarity descriptor\n All the descriptors so far captured same appearance  What can we do if the objects have the same shape but\ndifferent appearance?\n15\nLihi Zelnik-Manor, Computer Vision",
+          "offset": "page15",
+          "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/11-descriptors-SIFT-SURF-GLOH.pdf",
+          "lang": "en",
+          "filetype": "application/pdf"
+        },
+        {
+          "type": "application/pdf",
+          "text": "Self-similarity descriptor\n16\nLihi Zelnik-Manor, Computer Vision",
+          "offset": "page16",
+          "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/11-descriptors-SIFT-SURF-GLOH.pdf",
+          "lang": "en",
+          "filetype": "application/pdf"
+        },
+        {
+          "type": "application/pdf",
+          "text": "Self-similarity descriptor\n17\nLihi Zelnik-Manor, Computer Vision",
+          "offset": "page17",
+          "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/11-descriptors-SIFT-SURF-GLOH.pdf",
+          "lang": "en",
+          "filetype": "application/pdf"
+        },
+        {
+          "type": "application/pdf",
+          "text": "Self-similarity descriptor\ntemplate\nresults\n18\nLihi Zelnik-Manor, Computer Vision",
+          "offset": "page18",
+          "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/11-descriptors-SIFT-SURF-GLOH.pdf",
+          "lang": "en",
+          "filetype": "application/pdf"
+        },
+        {
+          "type": "application/pdf",
+          "text": "Self-similarity descriptor\ntemplate\nresults\n19\nLihi Zelnik-Manor, Computer Vision",
+          "offset": "page19",
+          "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/11-descriptors-SIFT-SURF-GLOH.pdf",
+          "lang": "en",
+          "filetype": "application/pdf"
+        },
+        {
+          "type": "application/pdf",
+          "text": "Self-similarity descriptor\n20\nLihi Zelnik-Manor, Computer Vision",
+          "offset": "page20",
+          "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/11-descriptors-SIFT-SURF-GLOH.pdf",
+          "lang": "en",
+          "filetype": "application/pdf"
+        },
+        {
+          "type": "application/pdf",
+          "text": "Advantages of local features  Useful\n It is critical to find distinctive and repeatable local regions for\nmulti‐view matching  Complexity reduction\n Selection of distinctive points reduces number of regions to\nprocess\n Compact description\n Describe images, objects, parts without requiring segmentation;\n Robustness\n To clutter & occlusion  Similar descriptors in spite of moderate view changes, noise,\nblur, etc.\n21\nLihi Zelnik-Manor, Computer Vision",
+          "offset": "page21",
+          "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/11-descriptors-SIFT-SURF-GLOH.pdf",
+          "lang": "en",
+          "filetype": "application/pdf"
+        },
+        {
+          "type": "application/pdf",
+          "text": "22\nEnd – Feature descriptors\nNow you know how it works\nLihi Zelnik-Manor, Computer Vision",
+          "offset": "page22",
+          "ref": "/home/ameer/Kaleidoo/Data/Text_Data/pdf/11-descriptors-SIFT-SURF-GLOH.pdf",
+          "lang": "en",
+          "filetype": "application/pdf"
+        }
+  ]
+}
