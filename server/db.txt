@@ -1,0 +1,21 @@
+/home/ameer/Kaleidoo/server/uploads/17-TemplateDetection.pdf
+/home/ameer/Kaleidoo/server/uploads/21-optical-flow.pdf
+/home/ameer/Kaleidoo/server/uploads/22-PartsBasedModels.pdf
+/home/ameer/Kaleidoo/server/uploads/18-InstanceRecognition.pdf
+/home/ameer/Kaleidoo/server/uploads/03-Sampling.pdf
+/home/ameer/Kaleidoo/server/uploads/07-Segmentation part1-KMeans-Mean shift-Watershed-Graph-Based-SLIC.pdf
+/home/ameer/Kaleidoo/server/uploads/08-Segmentation part2-Normalized-cuts-Markov-random fields.pdf
+/home/ameer/Kaleidoo/server/uploads/05-Edge Detection.pdf
+/home/ameer/Kaleidoo/server/uploads/10-points-to-regions.pdf
+/home/ameer/Kaleidoo/server/uploads/09-feature-detectors-Harris&Hassian.pdf
+/home/ameer/Kaleidoo/server/uploads/04-Color.pdf
+/home/ameer/Kaleidoo/server/uploads/15-SingleViewMetrology.pdf
+/home/ameer/Kaleidoo/server/uploads/02-Filtering.pdf
+/home/ameer/Kaleidoo/server/uploads/23-Action Recognition.pdf
+/home/ameer/Kaleidoo/server/uploads/06-Line Fitting - RANSAC - HOUGH.pdf
+/home/ameer/Kaleidoo/server/uploads/13-PinholeCamera.pdf
+/home/ameer/Kaleidoo/server/uploads/12-alignment-panorama.pdf
+/home/ameer/Kaleidoo/server/uploads/11-descriptors-SIFT-SURF-GLOH.pdf
+/home/ameer/Kaleidoo/server/uploads/20-ImageCategorization.pdf
+/home/ameer/Kaleidoo/server/uploads/14-CameraCalibration.pdf
+/home/ameer/Kaleidoo/server/uploads/19-FaceRecognition.pdf
