@@ -61,7 +61,7 @@ Question: {question}
 {question}
 
 """)
-        print(template)
+        
         return PromptTemplate(template=template, input_variables=["context", "question"])
 
     def format_prompt(self, context: str, question: str) -> str:
