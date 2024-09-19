@@ -8,3 +8,4 @@ Audio_Data/
 Text-Data/
 whisper-models/
 __pycache__/
+server/uploads/
