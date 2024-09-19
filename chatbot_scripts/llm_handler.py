@@ -40,7 +40,7 @@ class PromptManager:
             template = config.get('prompt_template', """
 You are a lecturer. The user will ask you questions. Use the following context to answer the question.
 If you don't know the answer, just say you don't know.
-Provide a short and concise answer, no longer than 2 sentences.
+No longer than 2 sentences.
 
 Context: {context}
 

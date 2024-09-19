@@ -13,14 +13,14 @@
         },
         {
             "name": "תצורה 2: מודל ByT5 עבור עברית",
-            "data_file_path": "data/raw_data_english.json",
+            "data_file_path": "../data/raw_data_english.json",
             "language": "english",
             "embedding_type": "huggingface",
             "embedding_model_name": "sentence-transformers/distiluse-base-multilingual-cased-v1",
             "vector_store_type": "faiss",
             "llm_type": "huggingface",
-            "llm_model_name": "google/flan-t5-base",
-            "huggingface_model_kwargs": {"max_new_tokens": 150, "temperature": 0.7}
+            "llm_model_name": "google/flan-t5-large",
+            "huggingface_model_kwargs": {"max_new_tokens": 250, "temperature": 0.7}
         }
     ]
 }

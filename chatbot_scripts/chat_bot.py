@@ -16,10 +16,10 @@ from langchain import PromptTemplate
 
 from bidi.algorithm import get_display
 
-from scripts.data_loader import DataLoader
-from scripts.embedding_handler import EmbeddingHandler
-from scripts.vector_store_handler import VectorStoreHandler
-from scripts.llm_handler import LLMHandler, PromptManager
+from data_loader import DataLoader
+from embedding_handler import EmbeddingHandler
+from vector_store_handler import VectorStoreHandler
+from llm_handler import LLMHandler, PromptManager
 
 warnings.filterwarnings("ignore")
 load_dotenv()
@@ -30,11 +30,10 @@ load_dotenv()
 
 # **ChatBot** class
 
-
 class ChatBot:
     def __init__(self, config: Dict[str, Any] = None):
         if config == None:
-            with open("scripts/config.json", "r") as file:
+            with open("config.json", "r") as file:
                configs = json.loads(file.read())
             self.config = configs["configs"][1]
         else:
@@ -67,7 +66,7 @@ class ChatBot:
         i=0
         for doc, score in docs_and_scores:
             i += 1
-            metadata_info[f"{i}"] = [doc.metadata, f"accuracy: {(score):.2f}", get_display(doc.page_content)]
+            metadata_info[f"{i}"] = [doc.metadata, f"accuracy: {(self.normalize_cosine_similarity(score)):.2f}", get_display(doc.page_content)]
             context += f"{i}.\n{doc.page_content}\n\n"
 
         prompt_text = self.prompt_manager.format_prompt(context=context, question=question)
@@ -81,6 +80,9 @@ class ChatBot:
         full_response = f"{answer}\n\n{performance_info}"
 
         return answer , metadata_info, elapsed_time
+
+    def normalize_cosine_similarity(self, cosine_similarity: float) -> float:
+        return (cosine_similarity + 1) / 2
 
     #TODO: the chatbot should be able to keep running while new data is being added to the vector store
     #TODO: the chatbot should warn the user if the answer is not accurate enough
@@ -146,3 +148,51 @@ class ChatBot:
         user_input = user_input[::-1] if self.language == 'hebrew' else user_input
         answer , metadata_info, elapsed_time = self.answer_question(user_input)
         return answer , metadata_info, elapsed_time
+
+
+
+from flask import Flask, request, jsonify
+
+app = Flask(__name__)
+
+# Initialize the ChatBot instance
+chatbot = ChatBot()
+
+@app.route('/api/answer', methods=['POST'])
+def answer_question():
+    """
+    Flask API endpoint to get an answer from the chatbot.
+
+    The request should contain a JSON body with a "question" field:
+    {
+        "question": "What is your question?"
+    }
+
+    The response will return the chatbot's answer, metadata, and elapsed time in JSON format:
+    {
+        "answer": "Chatbot's answer",
+        "metadata": { ... },  # Metadata information of the top documents
+        "elapsed_time": 1.23   # Time taken to process the request
+    }
+    """
+    # Extract the user question from the request
+    data = request.get_json()
+    question = data.get('question')
+
+    if not question:
+        return jsonify({"error": "Please provide a question."}), 400
+
+    # Get the answer, metadata info, and elapsed time from the chatbot
+    answer, metadata_info, elapsed_time = chatbot.api_answer_question(question)
+
+    # Return the result as a JSON response
+    return jsonify({
+        "answer": answer,
+        "metadata": metadata_info,
+        "elapsed_time": elapsed_time
+    })
+
+
+if __name__ == '__main__':
+    # Run the Flask app
+    app.run(debug=True)
