@@ -1,3 +1,17 @@
-torch
-openai==0.28
+openai-whisper
 transformers
+faster-whisper
+datasets
+pydub
+soundfile
+langdetect
+moviepy
+fsspec==2024.6.1
+"unstructured[all-docs]" unstructured-client watermark
+pdfminer.six
+pi_heif
+unstructured_inference
+python-docx
+python-pptx
+pytesseract
+flask

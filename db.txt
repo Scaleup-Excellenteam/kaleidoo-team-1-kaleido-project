@@ -1,11 +1,14 @@
 /home/ameer/Kaleidoo/Data/Text_Data/docs/GNS-letter.docx
 /home/ameer/Kaleidoo/Data/Text_Data/docs/interview-getting-ready.docx
-/home/ameer/Kaleidoo/Data/Text_Data/pdf/הנחיות לעבודה על הפרוייקט.pdf
+/home/ameer/Kaleidoo/Data/Text_Data/pdf/lll.pdf
+/home/ameer/Kaleidoo/Data/Text_Data/pdf/hhh.pdf
 /home/ameer/Kaleidoo/Data/Text_Data/pdf/11-descriptors-SIFT-SURF-GLOH.pdf
 /home/ameer/Kaleidoo/Data/Text_Data/pdf/Lecture9_2022 K Nearset Neigbours.pdf
+/home/ameer/Kaleidoo/Data/Text_Data/pdf/courses.pdf
 /home/ameer/Kaleidoo/Data/Text_Data/pdf/14-CameraCalibration.pdf
 /home/ameer/Kaleidoo/Data/Text_Data/pdf/Kaleidoo-Research-Phase.pdf
 /home/ameer/Kaleidoo/Data/Video_Data/English/j.mp4
+/home/ameer/Kaleidoo/Data/Audio_Data/Hebrow/test.mp3
 /home/ameer/Kaleidoo/Data/Audio_Data/Russian/A1.wav
 /home/ameer/Kaleidoo/Data/Audio_Data/English/A1.wav
 /home/ameer/Kaleidoo/Data/Audio_Data/English/img-processing.mp3
