@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the root directory for data
-ROOT_DIR="../Data/Data_Dumper"
+ROOT_DIR="./Data/Data_Dumper"
 
 # Output file
 OUTPUT_FILE="combined_data.json"

@@ -1,6 +1,6 @@
-BASE = '/home/ameer/Kaleidoo/Data/'
+BASE = './Data/'
 
-DATA = '/home/ameer/Kaleidoo/Data'
+DATA = './Data'
 
 AUDIODATA = DATA + '/Audio_Data/'
 VIDEODATA = DATA + '/Video_Data/'

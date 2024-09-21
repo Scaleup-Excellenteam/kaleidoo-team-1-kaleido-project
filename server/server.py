@@ -57,10 +57,9 @@ def transcribe_files():
 
             cleanup_files(file_paths)
             subprocess.run('./combine_json.sh', check=True)
-
             # Emit completion event with download URL
             socketio.emit('transcription complete', f"/download/{COMBINED_FILE}")
-            subprocess.run('./del.sh', check=True)
+    
             return jsonify({'message': 'Transcription completed and files deleted.'}), 200
 
         except Exception as e:
