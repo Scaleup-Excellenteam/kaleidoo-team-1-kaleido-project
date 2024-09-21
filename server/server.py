@@ -12,10 +12,28 @@ socketio = SocketIO(app)
 
 UPLOAD_FOLDER = 'uploads'
 COMBINED_FILE = 'combined_data.json'
+CLEAN = './Data/Data_Dumper'
+
 if not os.path.exists(UPLOAD_FOLDER):
     os.makedirs(UPLOAD_FOLDER)
 
 semaphore = Semaphore(1)
+
+
+
+def clean_files_in_directory(directory):
+    if os.path.exists(directory):
+        for root, dirs, files in os.walk(directory):
+            for file in files:
+                file_path = os.path.join(root, file)
+                try:
+                    os.remove(file_path)
+                    print(f"Deleted file: {file_path}")
+                except Exception as e:
+                    print(f"Error deleting {file_path}: {e}")
+    else:
+        print(f"Directory {directory} does not exist.")
+        
 
 @app.route('/')
 def index():
@@ -33,6 +51,17 @@ def upload_file():
             file.save(os.path.join(UPLOAD_FOLDER, filename))
 
     return jsonify({'message': 'Files successfully uploaded'}), 200
+
+
+
+@app.route('/delete_combined_file', methods=['DELETE'])
+def delete_combined_file():
+    try:
+        os.remove(COMBINED_FILE)
+        return jsonify({'message': 'File deleted successfully.'}), 200
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
 
 @app.route('/transcribe', methods=['POST'])
 def transcribe_files():
@@ -53,18 +82,16 @@ def transcribe_files():
                 percentage = int((processed_files / total_files) * 100)
                 socketio.emit('update progress', percentage)
 
-                time.sleep(0.3)  
-
             cleanup_files(file_paths)
-            subprocess.run('./combine_json.sh', check=True)
-            # Emit completion event with download URL
+            subprocess.run(['python', 'combine_json.py'], check=True)
             socketio.emit('transcription complete', f"/download/{COMBINED_FILE}")
-    
+            clean_files_in_directory(CLEAN)
             return jsonify({'message': 'Transcription completed and files deleted.'}), 200
 
         except Exception as e:
             cleanup_files(file_paths)
             return jsonify({'error': 'Transcription failed'}), 500
+
 
 @app.route('/download/<filename>', methods=['GET'])
 def download_file(filename):
