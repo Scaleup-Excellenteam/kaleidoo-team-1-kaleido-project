@@ -1,4 +1,5 @@
 /home/ameer/Kaleidoo/server/uploads/03-Sampling.pdf
+/home/ameer/Kaleidoo/server/uploads/06-Line_Fitting_-_RANSAC_-_HOUGH.pdf
 /home/ameer/Kaleidoo/server/uploads/04-Color.pdf
 /home/ameer/Kaleidoo/server/uploads/02-Filtering.pdf
 /home/ameer/Kaleidoo/server/uploads/05-Edge_Detection.pdf

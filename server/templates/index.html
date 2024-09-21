@@ -11,6 +11,7 @@
             const socket = io();
             const progressBar = document.getElementById("progressBar");
             const uploadMessage = document.getElementById("uploadMessage");
+            const downloadButton = document.getElementById("downloadButton");
 
             socket.on("update progress", function(percent) {
                 progressBar.style.width = percent + "%";
@@ -18,8 +19,14 @@
                 progressBar.textContent = percent + "%";
             });
 
-            socket.on("transcription complete", function() {
-                location.reload();
+            socket.on("transcription complete", function(downloadUrl) {
+                downloadButton.href = downloadUrl; // Set the download URL
+                downloadButton.style.display = 'block'; // Show the download button
+                downloadButton.onclick = function() {
+                    setTimeout(() => {
+                        location.reload(); // Reload the page after download starts
+                    }, 100); // Delay reload to ensure download starts
+                };
             });
 
             document.getElementById("uploadForm").onsubmit = async function(event) {
@@ -91,6 +98,7 @@
         <div class="progress mt-4">
             <div id="progressBar" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
         </div>
+        <a id="downloadButton" href="#" class="btn btn-success mt-4" style="display: none;">Download combined_data.json</a>
     </div>
 </body>
 </html>
