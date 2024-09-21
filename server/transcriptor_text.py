@@ -52,12 +52,11 @@ class DataRefiner:
 
             # Prepare the refined sentence structure
             refined_data = {
-                "type": self.data['metadata'].get('filetype', 'unknown'),
+                "filetype": self.data['metadata'].get('filetype', 'unknown'),
                 "text": sentence,
                 "offset": f"page{page_number}",
                 "ref": f"{self.data['metadata'].get('file_directory', '')}/{self.data['metadata'].get('filename', '')}",
-                "lang": lang,
-                "filetype": self.data['metadata'].get('filetype', 'unknown')
+                "lang": lang
             }
             
             refined_sentences.append(refined_data)
