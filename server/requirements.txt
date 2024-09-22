@@ -7,7 +7,9 @@ soundfile
 langdetect
 moviepy
 fsspec==2024.6.1
-"unstructured[all-docs]" unstructured-client watermark
+unstructured[all-docs]
+unstructured-client
+watermark
 pdfminer.six
 pi_heif
 unstructured_inference
