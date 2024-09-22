@@ -1,0 +1,786 @@
+[
+    {
+        "filetype": "application/pdf",
+        "text": "Book\tDescription\nDo\t you\t wonder\t what\t the\t fascination\t is\t around\t data\t these\t days?\t How\t do\t we obtain\tinsights\tfrom\tthis\tdata?\tDo\tyou\tknow\twhat\ta\tdata\tscientist\tdoes?\tWhat\tis artificial\tintelligence\tand\tmachine\tlearning?\tAre\tthese\tthe\tsame\tas\tdata\tscience? What\tdoes\tit\ttake\tto\tbecome\ta\tdata\tscientist?\tIf\tyou\thave\tever\twondered\tabout these\tquestions,\tyou\thave\tcome\tto\tthe\tright\tplace!\nThere\t are\t many\t resources\t and\t courses\t online\t that\t you\t can\t use\t to\t learn\t more about\t data\t science,\t but\t with\t so\t much\t information\t available,\t it\t can\t become overwhelming.\tOne\tof\tthe\tbest\tways\tto\tlearn\tabout\tdata\tscience\tis\tto\tunderstand different\tmachine\tlearning\tconcepts,\tstatistics,\tand\tartificial\tintelligence\tto\thelp you\tdesign\tmodels\tto\tperform\tan\tanalysis.\nThis\t book\t has\t all\t the\t information\t you\t need\t to\t learn\t what\t data\t science\t is,\t and what\tthe\tprerequisites\tare\tto\tbecome\ta\tdata\tscientist.\tIf\tyou\u2019re\ta\tbeginner\tor\tif you\talready\thave\texperience\tin\tdata\tscience,\tthis\tbook\twill\thave\tsomething\tfor you.",
+        "offset": "page3",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "In\tthis\tbook,\tyou\twill:\nLearn\twhat\tdata\tscience\tis\tabout.\nDiscover\t intelligence.\nthe\t difference\t between\t data\t science\t and\t business\nExplore\tthe\ttools\trequired\tfor\tdata\tscience.\nFind\t out\t the\t technical\t and\t non-technical\t skills\t every\t data\t scientist must\thave.\nFigure\tout\thow\tto\tcreate\ta\tvisualization\tof\tthe\tdata\tset\twith\tclear\tand easy\texamples.\nGet\tadvice\ton\tdeveloping\ta\tPredictive\tModel\tUsing\tR.\nUncover\tdetailed\tapplications\tof\tdata\tscience.\nAnd\tmuch\tmore!\nThe\tbook\thas\tbeen\tstructured\twith\teasy-to-understand\tsections\tto\thelp\tyou\tlearn",
+        "offset": "page3",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "everything\t you\t need\t to\t know\t about\t data\t science.\t In\t this\t book\t you\t will\t learn about\tthe\tprerequisites\tof\tdata\tscience\tand\tthe\tskills\tyou\tneed\tto\tbecome\ta\tdata scientist.\t So,\t what\t are\t you\t waiting\t for?\t Grab\t your\t copy\t of\t this\t comprehensive guide\tnow!",
+        "offset": "page4",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Data\tScience\tfor\tBeginners\nComprehensive\tGuide\tto\tMost Important\tBasics\tin\tData\tScience",
+        "offset": "page5",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "\u00a9\tCopyright\t2021\t-\tAll\trights\treserved.\tAlex\tCampbell.\nThe\t contents\t of\t this\t book\t may\t not\t be\t reproduced,\t duplicated\t or\t transmitted\t without\t direct\t written permission\tfrom\tthe\tauthor.\nUnder\t no\t circumstances\t will\t any\t legal\t responsibility\t or\t blame\t be\t held\t against\t the\t publisher\t for\t any reparation,\tdamages,\tor\tmonetary\tloss\tdue\tto\tthe\tinformation\therein,\teither\tdirectly\tor\tindirectly.\nLegal\tNotice:\nThis\t book\t is\t copyright\t protected.\t This\t is\t only\t for\t personal\t use.\t You\t cannot\t amend,\t distribute,\t sell,\t use, quote\tor\tparaphrase\tany\tpart\tor\tthe\tcontent\twithin\tthis\tbook\twithout\tthe\tconsent\tof\tthe\tauthor.\nDisclaimer\tNotice:\nPlease\tnote\tthe\tinformation\tcontained\twithin\tthis\tdocument\tis\tfor\teducational\tand\tentertainment\tpurposes only.\tEvery\tattempt\thas\tbeen\tmade\tto\tprovide\taccurate,\tup\tto\tdate\tand\treliable\tcomplete\tinformation.\tNo warranties\tof\tany\tkind\tare\texpressed\tor\timplied.\tReaders\tacknowledge\tthat\tthe\tauthor\tis\tnot\tengaging\tin\tthe rendering\tof\tlegal,\tfinancial,\tmedical\tor\tprofessional\tadvice.\tThe\tcontent\tof\tthis\tbook\thas\tbeen\tderived\tfrom various\t sources.\t Please\t consult\t a\t licensed\t professional\t before\t attempting\t any\t techniques\t outlined\t in\t this book.",
+        "offset": "page6",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "By\treading\tthis\tdocument,\tthe\treader\tagrees\tthat\tunder\tno\tcircumstances\tis\tthe\tauthor\tresponsible\tfor\tany losses,\t direct\t or\t indirect,\t which\t are\t incurred\t as\t a\t result\t of\t the\t use\t of\t information\t contained\t within\t this document,\tincluding,\tbut\tnot\tlimited\tto,\t\u2014errors,\tomissions,\tor\tinaccuracies.",
+        "offset": "page6",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Table\tof\tContents\nIntroduction\nChapter\tOne:\tIntroduction\tto\tData\tScience\nIntroduction\tto\tData\tScience\nWhy\tUse\tData\tScience?\nWho\tis\ta\tData\tScientist?\nDifferences\tBetween\tData\tScience\tand\tBusiness\tIntelligence\nLifecycle\nChapter\tTwo:\tPros\tand\tCons\tof\tData\tScience\nPros Cons\nChapter\tThree:\tStatistics\tfor\tData\tScience\nDescriptive\tStatistics\nInferential\tStatistics\nChapter\tFour:\tSkills\tRequired\tfor\tData\tScience\nTechnical\tSkills\nNon-Technical\tSkills\nChapter\tFive:\tTools\tRequired\tfor\tData\tScience\nR\tProgramming\tLanguage Python\tProgramming\tLanguage\nHadoop\nStructured\tQuery\tLanguage\t(SQL)\nSAS\nApache\tSpark\nD3.js\nChapter\tSix:\tApplication\tof\tData\tScience\nRisk\tand\tFraud\tDetection",
+        "offset": "page7",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Healthcare\nGenetics\tand\tGenomics\nDrug\tDevelopment\nInternet\tSearch\nWebsite\tRecommendations\nAdvanced\tImage\tRecognition\nVirtual\tAssistance\nSpeech\tRecognition\nPlanning\tRoutes\tfor\tAirplanes\nGaming\nAugmented\tReality\nChapter\tSeven:\t\tAlgorithms\tand\tStatistics\nNa\u00efve\tBayes\nLinear\tRegression\nLogistic\tRegression Neural\tNetworks\nApplying\tMath\tto\tData\tScience\tModels\nChapter\tEight:\tData\tScience\tin\ta\tSector\nCommunicate\tthe\tInsights\tCaptured\tThrough\tData\nLeverage\tCloud-Based\tSolutions\nChapter\tNine:\tData\tCleaning\tUsing\tR\nStep\tOne:\tExploratory\tAnalysis\tof\tData\nStep\tTwo:\tVisual\tExploratory\tAnalysis\nStep\tThree:\tCorrect\tErrors\nChapter\tTen:\tDevelop\ta\tPredictive\tModel\tUsing\tR\nChapter\tEleven:\tCreate\tData\tVisualization\tto\tCommunicate\tthe\tInsight\nChapter\tTwelve:\tDocument\tYour\tInsights\tfrom\tthe\tData\nConclusion",
+        "offset": "page8",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "References",
+        "offset": "page9",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Introduction\nIn\ttoday's\tworld,\torganizations\tand\tpeople\tfocus\tmore\ton\tbig\tdata\tand\tartificial intelligence.\t It\t may\t seem\t surprising\t that\t over\t 2.5\t exabytes\t are\t created\t and collected\tby\tpeople\tand\torganizations\teach\tday.\tThis\tmeans\tthe\tvolume\tof\tdata has\t risen\t significantly\t over\t the\t years.\t Most\t companies\t have\t changed\t their business\t model\t and\t centered\t it\t more\t on\t data.\t Some\t organizations\t have\t also added\tnew\tdepartments\tin\tthe\tfirm\tto\tperform\tdata\tanalysis.\tStatisticians\twould need\tto\tanalyze\tthe\tdata\tquantitatively\tin\tthe\tpast,\tbut\tthis\tis\tnot\tenough\tsince the\t results\t of\t the\t analysis\t could\t only\t talk\t about\t the\t present.\t When\t strong computing\tprocesses,\tcloud\ttechnology\tand\tanalytical\ttools\tcame\tinto\texistence; people\tbegan\tto\tuse\tthem\tto\tperform\tanalysis.\tThey\tbegan\tto\tdevelop\tmodels\tto analyze\tdata.\nLet\tus\tfirst\tunderstand\twhat\tdata\tscience\tis\tbefore\twe\tdelve\tinto\tvarious\taspects of\t data\t science.\t In\t simple\t terms,\t data\t science\t is\t a\t branch\t of\t mathematics\t and statistics\tto\tobtain\tuseful\tand\tmeaningful\tinsights\tabout\tthe\tdata\tset\tand\ttrends from\tthe\traw\tdata\tor\tinformation.\tYou\tcan\tprocess\tand\tmanage\tthe\tdata\tset\tusing programming,\t business\t and\t analytical\t skills.\t This\t sounds\t tough,\t does\t it\t not? Most\tpeople\tdo\tnot\tknow\thow\tto\twork\twith\tdata\tscience\tor\tunderstand\thow\tto develop\tskills\teffectively.",
+        "offset": "page10",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "This\t book\t deals\t with\t all\t the\t information\t needed\t to\t learn\t and\t work\t with\t data science\ttechniques\tand\ttools.\tSince\tthe\tworld\tis\tturning\tto\tmake\tdecisions\tevery day,\t it\t is\t important\t to\t learn\t more\t about\t what\t data\t science\t is\t and\t how\t it\t helps make\tpredictions.\tThis\tbook\taims\tto\tgive\tyou\ta\tbrief\tof\twhat\tdata\tscience\tis\tand how\tyou\tapproach\ta\tproblem.\nThe\tfield\tof\tdata\tscience\tgoes\tback\tto\tits\troots\tin\tstatistics.\tHaving\tsaid\tthat,\tthis field\t is\t a\t combination\t of\t programming,\t business\t acumen\t and\t statistics.\t It\t is important\t to\t learn\t more\t about\t each\t topic,\t so\t you\t have\t an\t idea\t of\t how\t you approach\tthe\tlearning\tprocess.\tThe\tart\tof\tfinding\tany\thidden\tinsights\tand\ttrends from\tthe\tdata\tset\tgoes\tway\tback.\tAncient\tEgyptians\tanalyzed\tcensus\tdata\tto\thelp them\tcollect\ttax\tefficiently.\tThey\talso\tused\tdata\tanalysis\tto\tforecast\twhen\tthere could\tbe\tfloods\tin\tthe\tNile.\tIt\tis\timportant\tto\tlearn\tfrom\tpast\tdata\tto\tidentify\ta trend\tor\tinsight\tin\tthe\tdata\tset.\tThis\thelps\tthe\tbusiness\tmake\tinformed\tdecisions.",
+        "offset": "page10",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "It\t is\t no\t longer\t a\t secret\t that\t data\t scientists\t are\t in\t demand,\t and\t if\t you\t enjoy working\twith\tdata,\tyou\tshould\tpick\tthis\tfield.\tIf\tyou\tlearn\tdata\tscience,\tyou\tneed",
+        "offset": "page10",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "to\t grab\t an\t opportunity\t to\t work\t in\t this\t field.\t Employees\t skilled\t in\t data\t science make\tit\teasier\tfor\tthe\tcompany\tto\tmake\tinformed\tdecisions.\tThe\tnumber\tof\tdata science\tjobs\thas\tincreased\tover\tthe\tlast\tfew\tdecades.\nA\tdata\tscientist\tis\texpected\tto\tdevelop\tthe\tnecessary\ttechnical\tand\tnon-technical skills.\t If\t you\t want\t to\t excel\t in\t this\t field,\t you\t need\t to\t develop\t these\t skills.\t The book\tsheds\tsome\tlight\ton\tthese\tskills,\twhich\twill\thelp\tyou\tidentify\tany\tpatterns in\tthe\tdata\tset.\tUsing\tthese\tskills,\tyou\tcan\tidentify\thidden\tpatterns\tand\tinsights in\tthe\tdata\tset.\tYou\tcan\talso\tunderstand\tthe\tdifferent\tchanges\tthey\tmay\tneed\tto make\tin\tthe\texisting\tproducts\tand\tservices\tto\timprove\tthe\tbusiness's\trevenue.\nWith\t the\t information\t in\t this\t book,\t you\t will\t learn\t everything\t there\t is\t to\t know about\t data\t science.\t You\t will\t learn\t more\t about\t the\t various\t subjects\t and frameworks\tused\tin\tdata\tscience.\tSo,\tlet's\tget\tstarted!",
+        "offset": "page11",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Chapter\tOne:\tIntroduction\tto\tData\tScience\nData\thas\tbecome\tthe\tnew\toil,\tand\tevery\tcompany,\tregardless\tof\tthe\tindustry,\tis looking\t for\t ways\t to\t manage\t and\t store\t large\t volumes\t of\t data.\t This\t was\t a challenge\t for\t most\t companies\t until\t 2010.\t Every\t company's\t objective\t was\t to define\ta\tframework\tor\tsolution\tthat\tallowed\tthem\tto\tstore\tlarge\tvolumes\tof\tdata. The\t introduction\t of\t Hadoop\t and\t other\t platforms\t has\t given\t organizations\t an easier\tway\tto\tstore\tlarge\tvolumes\tof\tdata\tbecause\tof\twhich\tthey\tnow\tfocus\ton methods\tand\tsolutions\tto\tprocess\tinformation.\tThis\tcan\tonly\tbe\tdone\tusing\tdata science.\tIt\tis\timportant\tto\tnote\tthat\tdata\tscience\tis\tthe\tfuture\tof\ttechnology.\tIt\tis important\tto\tknow\twhat\tdata\tscience\tit,\tespecially\tif\tyou\twant\tto\tadd\tsome\tvalue to\tyour\tbusiness.\nIntroduction\tto\tData\tScience\nData\tscience\tis\ta\tmix\tof\tnumerous\talgorithms,\ttools,\tprinciples,\tand\tlanguages\tto identify\t the\t hidden\t patterns\t within\t the\t variables\t in\t the\t data\t set.\t This\t may\t lead you\tto\twonder\thow\tthis\tis\tdifferent\tfrom\twhat\thas\tbeen\tdone\ton\tdata\tfor\tyears. The\tanswer\tis\tthat\tearlier\twe\tcould\tonly\tuse\ttools\tand\talgorithms\tto\texplain\tthe variables\tin\tthe\tdata\tset,\tbut\tusing\tdata\tscience,\tit\tbecomes\teasier\tto\tpredict\tthe outcomes.",
+        "offset": "page12",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "A\t data\t analyst\t uses\t the\t data\t only\t to\t explain\t what\t is\t happening\t in\t the\t present using\thistorical\tdata\tset.\tOn\tthe\tother\thand,\ta\tdata\tscientist\tonly\tlooks\tat\tthe\tdata to\tobtain\tany\tinsights\tfrom\tthe\tdata\tset.\tHe\talso\tuses\tsome\tadvanced\talgorithms to\t identify\t the\t probability\t of\t the\t occurrence\t of\t an\t event.\t He\t looks\t at\t the\t data from\tvarious\tangles\tand\taspects.\nData\t science\t is\t used\t to\t make\t informed\t decisions\t based\t on\t predictions\t made using\tthe\texisting\tdata\tset.\tYou\tcan\tapply\tnumerous\tanalytics\tto\tthe\tdata\tset\tto obtain\tthis\tinformation.\tWe\twill\tdiscuss\tthese\tin\tbrief\tin\tthe\tsubsequent\tsections.\nPredictive\tCasual\tAnalytics\nIf\t you\t want\t to\t develop\t a\t model\t predict\t the\t possibilities\t or\t outcomes\t of\t a futuristic\tevent,\tyou\tneed\tto\tuse\tpredictive\tcausal\tanalytics.\tLet\tus\tassume\tyou work\t for\t a\t credit\t company,\t and\t you\t loan\t people\t money\t based\t on\t their\t credit. You\tare\tgoing\tto\tbe\tconcerned\twith\tyour\tcustomers'\tability\tto\trepay\tthe\tamount you\t have\t loaned\t to\t them.\t You\t can\t develop\t models\t to\t perform\t a\t predictive analysis\ton\t the\tdata\tusing\tthe\tpayment\thistory.\tThis\tcan\thelp\tyou\tdetermine\tif the\tcustomer\twill\tpay\tyou\ton\ttime\tor\tnot.",
+        "offset": "page12",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Prescriptive\tAnalytics\nYou\t may\t need\t to\t use\t a\t model\t that\t can\t take\t the\t required\t decisions\t and\t modify the\t parameters\t based\t on\t the\t data\t set\t or\t question.\t To\t do\t this,\t you\t need\t to\t use prescriptive\t analytics.\t This\t form\t of\t analytics\t is\t more\t about\t providing\t the\t right information\t so\t that\t you\t can\t make\t an\t informed\t decision.\t You\t can\t also\t use\t this type\t of\t analytics\t to\t predict\t a\t range\t of\t associated\t outcomes\t and\t prescribed actions.\t An\t example\t of\t this\t type\t of\t analytics\t is\t a\t self-driving\t car.\t We\t have looked\t at\t this\t earlier\t as\t well.\t You\t can\t run\t numerous\t algorithms\t on\t the\t data collected\tfrom\tthe\tcars\tand\tuse\tthe\tresults\tto\tmake\tthe\tcar\tmore\tintelligent.\tThis makes\tit\teasier\tfor\tthe\tcar\tto\ttake\tthe\tright\tdecisions\tto\tturn,\tslow\tdown,\tspeed up\tor\tidentify\tthe\tdirection\tto\ttake.\nMachine\tLearning\nMake\tPredictions\nNumerous\t machine-learning\t algorithms\t allow\t you\t to\t make\t predictions\t using unstructured,\tsemi-structured\tand\tstructured\tdata\tsets.\tLet\tus\tassume\tyou\twork for\ta\tfinance\tcompany\tand\tyou\thave\tthe\ttransactional\tdata\tavailable.\tYou\tneed to\tdevelop\ta\tmodel\tto\tdetermine\tthe\ttrend\tof\tfuture\ttransactions.\tTo\tperform\tthis analysis,\t you\t need\t to\t use\t a\t supervised\t machine-learning\t algorithm.\t Such algorithms\tare\tused\tto\ttrain\tthe\tmachine\twith\tan\texisting\tdata\tset.\tYou\tcan\talso use\t supervised\t machine\t learning\t algorithms\t to\t develop\t and\t train\t a\t model\t to detect\tfuture\tfrauds\tbased\ton\thistorical\tinformation.",
+        "offset": "page13",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Pattern\tDiscovery\nNot\tevery\tdata\tset\thas\tvariables\tyou\tcan\tuse\tto\tmake\tthe\tnecessary\tpredictions. This\tis\tnot\ttrue.\tThere\tis\ta\thidden\tpattern\tin\tevery\tdata\tset,\tand\tyou\tneed\tto\tfind those\tpatterns,\tso\tyou\tmake\tthe\trequired\tpredictions.\tTo\tdo\tthis,\tyou\tneed\tto\tuse an\tunsupervised\tmodel\tsince\tyou\tdo\tnot\thave\tany\tpre-defined\tlabels\tin\tthe\tdata set\t using\t which\t you\t can\t group\t the\t variables.\t One\t of\t the\t most\t common algorithms\tused\tto\tidentify\tpatterns\tis\tclustering.\tLet\tus\tassume\tyou\twork\tfor\ta phone\tcompany,\tand\tyou\tare\ttasked\twith\tidentifying\twhere\tto\tset\tup\ttowers\tin\tan area\tto\testablish\ta\tnetwork.\tYou\tcan\tthen\tuse\tthe\tclustering\talgorithm\tto\tidentify where\t you\t can\t set\t up\t towers\t to\t ensure\t every\t user\t in\t the\t area\t receives\t the optimum\tsignal\tstrength.\nBased\ton\tthe\texamples\tabove,\tit\tis\timportant\tto\tunderstand\thow\tdata\tscience\tand data\tanalytics\tapproaches\tare\tdifferent.\tThe\tlatter\tincludes\tthe\tuse\tof\tpredictions",
+        "offset": "page13",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "and\t descriptive\t analytics\t only\t to\t an\t extent.\t On\t the\t other\t hand,\t data\t science\t is more\tabout\tthe\tuse\tof\tmachine\tlearning\tand\tpredictive\tcasual\tanalytics.\nNow\t you\t have\t an\t idea\t of\t what\t data\t science\t is,\t let\t us\t understand\t why organizations\tneed\tto\tuse\tit\tin\tthe\tfirst\tplace.\nWhy\tUse\tData\tScience?\nBefore\t organizations\t collected\t data\t from\t every\t device\t used,\t they\t worked\t with small\t volumes\t of\t data.\t It\t was\t easy\t to\t analyze\t and\t understand\t the\t data\t and relationships\t within\t the\t data\t set\t using\t some\t business\t intelligence\t tools.\t Most traditional\t business\t intelligence\t tools\t only\t worked\t on\t structured\t data\t sets,\t but most\t of\t the\t data\t collected\t today\t is\t either\t semi-structured\t or\t structured.\t It\t is important\t to\t understand\t that\t most\t data\t collected\t now\t are\t semi-structured\t or unstructured.\nSimple\t business\t intelligence\t tools\t cannot\t process\t this\t type\t of\t data,\t especially since\tlarge\tvolumes\tof\tdata\tare\tcollected\tfrom\tdifferent\tinstruments.\tIt\tis\tfor\tthis reason\t we\t need\t to\t develop\t advanced\t and\t complex\t analytical\t algorithms\t and tools\tto\tprocess,\tanalyze\tand\tdraw\tsome\tinsights\tfrom\tthe\tdata.",
+        "offset": "page14",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "It\tis\tnot\tonly\tfor\tthis\treason\twhy\tdata\tscience\thas\tgained\tpopularity.\tLet\tus\tlook at\thow\tdata\tscience\tis\tused\tin\tdifferent\tdomains.\nCustomer\tService\nHow\tgreat\twould\tit\tbe\tif\tyou\tcould\tknow\texactly\twhat\tyour\tcustomers\twant?\tDo you\tthink\tyou\tcan\tuse\texisting\tdata\tto\tlearn\tmore\tabout\tyour\tcustomers,\tsuch\tas purchase\thistory,\tbrowsing\thistory,\tincome,\tand\tage.\tYou\tmay\thave\thad\tthis\tdata with\tyou\tin\tthe\tpast,\tas\twell.\tSince\tyou\tuse\tdifferent\tmathematical\tand\tstatistical models,\t you\t can\t effectively\t work\t with\t large\t volumes\t of\t data\t and\t identify\t the right\t products\t to\t recommend\t to\t your\t customers.\t This\t is\t a\t great\t way\t to\t bring more\tbusiness\tto\tyour\tfirm.\nSelf-Driven\tCars\nHow\twould\tyou\tfeel\tif\tyour\tcar\tcould\tdrive\tyou\thome?\tNumerous\tcompanies\tare trying\tto\tdevelop\tand\timprove\tthe\tworkings\tof\ta\tself-driven\tcar.\tThe\tcars\tcollect live\t information\t from\t various\t sensors,\t such\t as\t lasers,\t radars,\t and\t cameras.\t to create\ta\tmap\tof\tthe\tsurrounding\tenvironment.\tThe\talgorithm\tin\tthe\tcar\tuses\tthis data\t to\t decide\t to\t speed\t up,\t slow\t down,\t park,\t stop,\t overtake,\t etc.\t These algorithms\tare\toften\tmachine\tlearning\talgorithms.",
+        "offset": "page14",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Predictions\nLet\t us\t now\t consider\t how\t you\t can\t use\t data\t science\t in\t predictive\t analytics. Consider\t weather\t forecasting.\t The\t algorithms\t used\t take\t data\t from\t aircraft, satellites,\tradars,\tships\tand\tother\tparts\tto\tcollect\tand\tanalyze\tdata.\tThis\thelps\tyou build\tthe\trequired\tmodels.\tYou\tcan\tuse\tthese\tmodels\tto\tpredict\tthe\toccurrence\tof any\t natural\t calamities.\t Using\t this\t information,\t you\t can\t take\t the\t necessary measures\tto\tsave\tlives.\nWho\tis\ta\tData\tScientist?\nIf\t you\t look\t for\t the\t words\t data\t scientist\t on\t the\t Internet,\t you\t may\t come\t across numerous\tdefinitions.\tA\tdata\tscientist\tuses\tdata\tscience\tto\tanswer\tsome\tbusiness questions\tand\tconcerns.\tThe\tterm\tdata\tscientist\twas\tcoined\twhen\tpeople\tlearned that\t a\t data\t scientist\t uses\t data,\t various\t mathematical\t or\t statistical\t functions\t and operations,\tand\tother\tscientific\tfields\tand\tapplications\tto\tmake\tsense\tof\tthe\tdata in\tthe\tdatabase.\nFunctions\tPerformed\tby\tData\tScientists\nA\tdata\tscientist\tis\tone\twho\tcracks\tvarious\tdata\tproblems\tusing\ttheir\texpertise\tin specific\tscientific\tdisciplines.\tHe\tworks\twith\tdifferent\tmathematical,\tstatistical, and\tcomputer\tscience\telements.\tHe\tdoes\tnot\tnecessarily\thave\tto\tbe\tan\texpert\tin these\tfields.\tThat\tsaid,\the\twould\tuse\tsome\ttechnologies\tand\tsolutions\tto\tdevelop the\t right\t solutions\t and\t reach\t conclusions\t crucial\t for\t the\t organization's development\t and\t growth.\t A\t data\t scientist\t finds\t a\t way\t to\t present\t the\t data\t in\t a useful\tform\twhen\tcompared\tto\tthe\tdata\tavailable\tin\tthe\tdata\tset.\tThey\twork\twith both\tstructured\tand\tunstructured\tdata.",
+        "offset": "page15",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Let\t us\t now\t look\t at\t what\t business\t intelligence\t is,\t and\t how\t it\t is\t different\t from data\tscience.\tYou\tmay\thave\theard\tabout\tbusiness\tintelligence,\tand\tmost\tpeople confuse\t data\t science\t with\t business\t intelligence.\t We\t will\t look\t at\t some differences\tbetween\tthe\ttwo,\tso\tyou\tunderstand\tbetter.\nDifferences\tBetween\tData\tScience\tand\tBusiness\tIntelligence\nBefore\twe\tlook\tat\tthe\tdifferences\tbetween\tdata\tscience\tand\tbusiness\tintelligence, let\tus\tunderstand\tthese\tterms\tbetter.\nUsing\tbusiness\tintelligence\t(BI),\tan\torganization\tcan\tfind\tinsight\tand\thindsight in\t the\t existing\t data\t set\t to\t describe\t various\t trends\t in\t the\t data\t set.\t Through\t BI, businesses\t can\t take\t data\t from\t both\t internal\t and\t external\t sources,\t prepare\t that",
+        "offset": "page15",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "data,\tand\trun\tqueries\ton\tthe\tdata\tset\tto\tobtain\tthe\trequired\tinformation.\tThey\tcan then\t create\t the\t required\t dashboards\t to\t answer\t different\t questions\t or\t identify solutions\t to\t various\t business\t problems.\t BI\t can\t also\t help\t businesses\t evaluate certain\tfuturistic\tevents.\nData\tscience,\ton\tthe\tother\thand,\tis\ta\tdifferent\tapproach\tof\tlooking\tat\tdata.\tYou can\t take\t a\t forward-looking\t approach\t and\t explain\t any\t information\t or\t insight\t in the\t data\t set.\t Using\t data\t science,\t you\t can\t analyze\t the\t current\t or\t past\t data\t that helps\tyou\tpredict\tthe\toutcomes.\tThis\tis\tone\tway\tmost\torganizations\tdo\ttheir\tbest to\t make\t informed\t decisions.\t They\t can\t answer\t various\t open-ended\t questions. The\t following\t are\t some\t features\t that\t differentiate\t data\t science\t from\t business intelligence:\nFeatures\nBusiness\tIntelligence (BI)\nData\tScience\nData\tSources\nStructured (Usually\tSQL,\toften\tData Warehouse)\nBoth\tStructured\tand Unstructured (logs,\tcloud\tdata,\tSQL,\tNoSQL, text)\nApproach",
+        "offset": "page16",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Statistics\tand Visualization\nStatistics,\tMachine\tLearning, Graph\tAnalysis,\tNeuro-\tlinguistic Programming\t(NLP)\nFocus\nPast\tand\tPresent\nPresent\tand\tFuture\nTools\nPentaho,\tMicrosoft BI,\tQlikView,\tR\nRapidMiner,\tBigML,\tWeka,\tR\nNow\tyou\thave\tan\tidea\tof\twhat\tdata\tscience\tis,\tlet\tus\tlook\tat\tthe\tlifecycle\tof\tthe data\t science.\t Most\t people\t rush\t into\t using\t the\t models\t they\t develop\t on\t the\t data sets\t without\t understanding\t the\t basics\t of\t data\t science.\t You\t need\t to\t understand these\tbasics\tand\tassess\tthe\tbusiness\trequirements\tbefore\tyou\trush\tinto\tusing\tthe model.\t Make\t sure\t to\t follow\t the\t phases\t of\t the\t data\t science\t lifecycle\t to\t ensure your\tresults\tare\taccurate.\nLifecycle\nThis\t section\t gives\t you\t a\t brief\t overview\t of\t the\t phases\t in\t the\t data\t science lifecycle.\nPhase\tOne:\tDiscovery",
+        "offset": "page16",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Before\tyou\twork\ton\tthe\tproject,\tyou\tneed\tto\tunderstand\tthe\tfollowing:\nBusiness\trequirements Specifications Required\tor\tapproved\tbudget Priorities\nIf\tyou\twant\tto\tpursue\ta\tcareer\tin\tdata\tscience,\tyou\tneed\tto\tpossess\tthe\tability\tto ask\t important\t questions.\t You\t need\t to\t assess\t if\t you\t have\t the\t right\t resources, people,\ttechnology,\tdata\tand\ttime\tto\tsupport\tthe\twork\tdone\ton\tthe\tproject.\tThis is\tthe\tphase\twhere\tyou\tframe\tthe\tproblem\tand\tidentify\tthe\tinitial\thypothesis\tyou want\tto\ttest.\nPhase\tTwo:\tData\tPreparation\nWhen\t you\t identify\t the\t required\t resources\t needed\t to\t work\t on\t the\t analysis,\t you need\t to\t develop\t or\t identify\t an\t analytical\t sandbox\t where\t you\t can\t perform\t the testing\tand\tanalysis\tof\tthe\tdata.\tYou\tneed\tto\tprocess,\texplore\tand\tcondition\tthe data\tbefore\tyou\tmodel\tit.\tYou\talso\tneed\tto\tperform\tthe\tfollowing\toperations\tto move\tthe\tdata\tinto\tthe\tsandbox\tenvironment:\nExtract Transform Load Transform\nMost\t data\t scientists\t use\t R\t or\t Python\t to\t clean\t transform\t and\t visualize\t the\t data used\t in\t the\t analysis.\t These\t programming\t languages\t help\t you\t to\t identify\t the outliers\t in\t the\t data.\t You\t can\t also\t use\t the\t information\t to\t develop\t or\t identify\t a relationship\tbetween\tvariables.\tOnce\tthe\tdata\tis\tcleaned\tand\tprepared,\tyou\tcan perform\tdifferent\ttypes\tof\tanalysis\ton\tthe\tdata.\tLet\tus\tlook\tat\thow\tyou\tcan\tdo this.",
+        "offset": "page17",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Phase\tThree:\tPlan\tthe\tModel\nDuring\tthis\tphase,\tyou\tneed\tto\tidentify\tthe\ttechniques\tand\tmethods\tto\thelp\tyou draw\t the\t relationship\t between\t the\t different\t variables\t in\t the\t data\t set.\t These relationships\t will\t help\t you\t determine\t the\t algorithms\t you\t can\t use\t in\t the\t next phase\tof\tthe\tlifecycle.\tTo\tdo\tthis,\tyou\tneed\tto\tapply\texploratory\tdata\tanalytics methods\tand\ttools\tusing\tvarious\tformulae\tand\tvisualization\tmethods.\tLet\tus\tlook at\tsome\ttools\tused\tfor\tthis\tbelow:",
+        "offset": "page17",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "R\t:\tThis\tprogramming\tlanguage\thas\tvarious\tmodeling\tcapabilities.\tIt is\talso\ta\tgood\tplatform\tto\tuse\tto\tdevelop\tthe\tright\tmodels\tif\tyou\tare\ta beginner. SQL\t:\tSQL\tprovides\ta\tset\tof\tmethods\tused\tto\tperform\tanalysis\twithin the\tdatabase\tusing\tdifferent\tpredictive\tmodels\tand\tmining\tfunctions. ACCESS\t or\t SAS\t :\t These\t tools\t can\t be\t used\t to\t access\t data\t from various\tstorage\tplatforms,\tlike\tHadoop,\tand\tuse\tthat\tdata\tto\tcreate\ta reusable\tand\trepeatable\tmodel.\nThe\tmarket\thas\tnumerous\ttools\tyou\tcan\tuse\tto\tdevelop\tmodeling\ttechniques,\tbut R\t is\t commonly\t used.\t At\t the\t end\t of\t this\t phase,\t you\t will\t have\t the\t required insights\tin\tyour\tdata\tthat\twill\thelp\tyou\tdetermine\tthe\talgorithm\tto\tuse.\tThe\tnext phase\tis\twhere\tyou\tapply\tthis\talgorithm\tand\tdevelop\tthe\tmodel.\nPhase\tFour:\tBuild\tthe\tModel\nNow\tthat\tyou\thave\tdecided\twhich\talgorithm\tto\tuse,\tyou\tneed\tto\tsplit\tthe\tdata\tset into\ttraining\tand\ttesting\tdata\tsets.\tIn\tthis\tphase,\tyou\tneed\tto\tconsider\tthe\texisting tools\t and\t determine\t if\t they\t are\t sufficient\t for\t the\t purpose\t of\t building\t a\t model. Make\t sure\t you\t identify\t a\t robust\t environment\t to\t run\t the\t models.\t You\t need\t to analyze\t different\t techniques,\t such\t as\t clustering,\t classification,\t and\t association, to\tdevelop\tthe\tmodel.\tYou\tcan\tuse\tdifferent\ttools\tto\tbuild\tthe\tmodel.",
+        "offset": "page18",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Phase\tFive:\tOperate\tthe\tModel\nIn\t this\t phase,\t you\t run\t the\t data\t through\t the\t model\t and\t deliver\t the\t reports\t and necessary\t technical\t documents.\t Additionally,\t you\t may\t also\t need\t to\t run\t the model\t in\t the\t production\t environment\t to\t test\t if\t it\t works\t the\t way\t it\t needs.\t This gives\t you\t an\t idea\t of\t how\t the\t model\t performs\t on\t real-time\t data.\t You\t can\t also determine\tany\tconstraints\tin\tthe\tmodel.\nPhase\tSix:\tCommunicate\tthe\tResults\nIt\t is\t important\t to\t evaluate\t if\t the\t model\t has\t given\t you\t the\t results\t you\t needed. You\tcan\tdo\tthis\tby\tanalyzing\tyour\thypotheses.\tThis\tis\tthe\tlast\tphase\tof\tthe\tdata science\t lifecycle\t and\t is\t where\t you\t identify\t the\t key\t findings\t and\t communicate the\tsame\tto\tthe\torganization.\tYou\tcan\tdetermine\tthe\tresults\tof\tthe\tmodel\tbased on\tthe\tcriteria\tyou\tidentified\tin\tthe\tfirst\tphase.",
+        "offset": "page18",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Chapter\tTwo:\tPros\tand\tCons\tof\tData\tScience\nData\tscience\tis\tan\tupcoming\tfield,\tand\tthere\tare\tmultiple\topportunities.\tHaving said\t that,\t this\t field\t has\t its\t share\t of\t pros\t and\t cons.\t This\t chapter\t looks\t at\t some pros\tand\tcons\tof\tdata\tscience,\tto\thelp\tyou\ttake\tthe\tnecessary\tcourse\tof\taction.\nPros\nThere\tare\tmany\tadvantages\tto\tdata\tscience,\tand\tthis\tsection\tlists\tthem.\nFastest\tGrowing\tField\nData\tscience\tis\tan\tupcoming\tfield\tand\tis\tquite\tin\tdemand.\tIf\tyou\twant\tto\tbecome a\tdata\tscientist,\tnow\tis\tthe\ttime\tto\tdo\tit!\nAbundance\tof\tRoles\nOnly\tsome\tpeople\thave\tthe\tskills\tnecessary\tto\tbecome\ta\tdata\tscientist.\tYou\tneed to\tlearn\tdifferent\tskills\tand\tconstantly\tlearn\tif\tyou\twant\tto\tsurvive\tin\tthe\tfield. This\t makes\t the\t field\t less\t saturated\t when\t compared\t to\t other\t machine\t learning and\tbig\tdata\tjobs.\tYou\thave\ta\tlot\tof\topportunities\tif\tyou\twant\tto\tswitch\tto\tthe field\tof\tdata\tscience.\tThere\tis\ta\tvery\tlow\tsupply\tof\tdata\tscientists.\nA\tVersatile\tField\nData\tscience\tcan\tbe\tapplied\tin\tnumerous\tfields,\tbut\tis\toften\tused\tin\thealthcare, consultancy\t services,\t e-commerce\t industries\t and\t banking.\t Data\t science\t is versatile,\tand\tyou\thave\tthe\tchance\tto\twork\tin\tdifferent\tfields.",
+        "offset": "page19",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Makes\tData\tEasier\tto\tUse\nEvery\t company\t needs\t skilled\t employees\t to\t collect,\t process,\t analyze\t and visualize\tthe\tdata\tthey\tcollect.\tThese\temployees\tare\tdata\tscientists\tand\tthey\tnot only\tanalyze\tthe\tdata\tbut\talso\timprove\tthe\tquality\tof\tthat\tdata.\tA\tdata\tscientist knows\twhat\tto\tdo\tto\timprove\tand\tenrich\tthe\tdata\tthat\thelps\tthe\tcompany\tmake informed\tdecisions.\nA\tPrestigious\tCareer\nA\tdata\tscientist\tallows\ta\tcompany\tto\tmake\tthe\tright\tdecisions.\tMany\tcompanies have\thired\tdata\tscientists\tto\tprovide\tthe\tright\tinformation\tthey\tcan\tuse\tto\tmake informed\t decisions.\t This\t gives\t a\t data\t scientist\t an\t important\t position\t in\t the organization.\tSince\tmost\tcompanies\tare\tlooking\tfor\tdata\tscientists,\tyou\tcan\tearn",
+        "offset": "page19",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "a\t lot\t of\t money.\t According\t to\t Glassdoor,\t you\t may\t earn\t close\t to\t $160,000\t per annum.\nRemove\tRedundancy\nData\t science\t is\t used\t in\t different\t industries,\t and\t most\t algorithms\t used\t in\t data science\thelp\tto\treduce\tthe\tnumber\tof\tredundant\ttasks\tperformed\tby\tpeople.\tMost companies\tcollect\thistorical\tdata,\tand\tthey\tcan\tuse\tthis\tdata\tto\ttrain\tmachines\tto perform\t redundant\t tasks,\t which\t helps\t to\t simplify\t some\t jobs\t performed\t by people.\nProducts\tBecome\tSmarter\nData\t science\t is\t a\t field\t that\t involves\t the\t use\t of\t machine\t learning.\t There\t are different\t types\t of\t algorithms\t used\t in\t machine\t learning,\t known\t as\t supervised, unsupervised\t and\t reinforcement\t learning,\t which\t look\t at\t data\t sets\t to\t determine instance,\t most\t e-commerce\t websites\t use customer's\t behavior.\t For\t recommendation\t systems\t to\t provide\t insights\t to\t the\t customers\t based\t on\t their purchase\t history.\t This\t has\t made\t it\t easier\t for\t computers\t to\t understand\t how humans\tbehave.",
+        "offset": "page20",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Save\tLives\nThe\t healthcare\t sector\t uses\t data\t science\t to\t improve\t diagnoses\t and\t predictions made\t about\t patients.\t Through\t the\t use\t of\t machine\t learning\t algorithms,\t the healthcare\tsector\thas\tfound\ta\tway\tto\tdetect\ttumors\tand\tcancer\tat\tan\tearly\tstage. There\t are\t many\t other\t benefits\t the\t healthcare\t industry\t gains\t from\t using\t data science.\nAid\tin\tPersonal\tGrowth\nData\tscience\tis\tnot\tonly\ta\tgreat\tcareer,\tbut\tit\talso\thelps\tyou\tgrow\tin\tyour\tcareer and\t personally.\t If\t you\t choose\t to\t become\t a\t data\t scientist,\t you\t will\t develop\t the right\t attitude\t and\t thought\t process\t to\t solve\t problems.\t Since\t the\t field\t of\t data science\t is\t a\t mixture\t of\t management\t and\t IT,\t you\t learn\t from\t both\t areas\t of business.\nCons\nData\tscience\tis\ta\thot\tcareer,\tand\tmany\tpeople\tchoose\tto\tbecome\ta\tdata\tscientist because\tit\tpays\twell.\tThat\tsaid,\tthere\tare\tsome\tdisadvantages\tto\tthe\tfield.\tIf\tyou want\t to\t better\t understand\t data\t science,\t you\t also\t need\t to\t look\t at\t the",
+        "offset": "page20",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "disadvantages\tof\tdata\tscience.\nData\tScience\tis\tan\tAmbiguous\tTerm\nThere\tis\tno\tdefinite\tdefinition\tor\tmeaning\tof\tdata\tscience.\tIt\thas\tbecome\ta\tterm people\tuse\toften\tto\ttalk\tabout\tanalysis,\tso\tit\tis\thard\tto\tknow\twhat\tdata\tscience actually\t is\t and\t what\t a\t data\t scientist\t can\t do.\t The\t role\t of\t a\t data\t scientist\t is dependent\ton\twhat\tthe\tcompany\tdoes.\nImpossible\tto\tMaster\tData\tScience\nAs\tmentioned\tearlier,\tdata\tscience\tis\ta\tmix\tof\tnumerous\tfields,\tsuch\tas\tcomputer science,\tmathematics\tand\tstatistics.\tIt\tis\timpossible\tto\tmaster\tthe\tfields\tused\tin data\tscience,\twhich\tmeans\tyou\tcannot\tbecome\tan\texpert\tin\tthose\tfields.\tWhile most\tonline\tcourses\thave\tbeen\tdoing\ttheir\tbest\tto\tfill\tthe\tgap\tthat\tpeople\tin\tthe data\t science\t industry\t are\t facing,\t it\t is\t impossible\t to\t do\t this.\t People\t with\t a background\t in\t statistics\t may\t not\t necessarily\t have\t the\t necessary\t information\t in computer\tscience.\tThis\tfield\tchanges\tfrequently,\tand\tyou\tneed\tto\tkeep\tlearning different\tareas\tof\tdata\tscience\tif\tyou\twant\tto\tstay\tabreast.",
+        "offset": "page21",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Requires\ta\tLot\tof\tDomain\tKnowledge\nFrom\twhat\tyou\thave\tread\tin\tthe\tprevious\tchapter,\tyou\tknow\tyou\tneed\ta\tlot\tof domain\t knowledge.\t If\t you\t have\t enough\t knowledge\t about\t computer\t science, statistics,\tand\tmathematics,\tyou\tmay\tnot\teasily\tsolve\ta\tdata\tscience\tproblem\tif you\tdo\tnot\thave\tbackground\tinformation.\tThe\tsame\tcan\tbe\tsaid\tfor\tthe\treverse, as\twell.\tLet\tus\tassume\tyou\twork\tfor\ta\thealth-care\tcompany\twhere\tyou\tneed\tto analyze\t genomic\t sequences.\t To\t do\t this,\t you\t need\t to\t have\t some\t information about\t molecular\t biology\t and\t genetics.\t This\t is\t the\t only\t way\t you\t can\t make calculated\tdecisions\tthat\thelp\tthe\tcompany.\tIf\tyou\tdo\tnot\thave\tthis\tbackground, it\twill\tbe\tdifficult\tfor\tyou\tto\twork\ton\tanalyzing\tgenomic\tsyndromes.\nUnexpected\tResults\nData\t scientists\t analyze\t the\t information\t in\t the\t data\t set\t and\t use\t the\t patterns\t and variables\t in\t the\t data\t set\t to\t make\t informed\t decisions.\t This\t helps\t you\t make informed\tdecisions.\tThere\tare\ttimes\twhen\tthe\tdata\tprovided\tis\tarbitrary\tand\tyou may\t not\t obtain\t expected\t results.\t The\t results\t may\t also\t vary\t due\t to\t the\t poor utilization\tof\tresources\tand\tweak\tmanagement\tof\tdata.",
+        "offset": "page21",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Lack\tof\tData\tPrivacy",
+        "offset": "page21",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Data\t is\t the\t new\t oil\t for\t numerous\t industries,\t and\t most\t companies\t hire\t data scientists\t to\t use\t the\t data\t they\t collect\t to\t make\t informed\t decisions.\t Having\t said that,\tthe\tdata\tused\tin\tthese\tprocesses\tmay\tlead\tto\ta\tprivacy\tbreach.\tThe\tpersonal data\tof\tmost\tclients\tis\tstored\tby\tparent\tcompanies,\tand\tsome\tcompanies\tdo\tnot have\tenough\tsecurity\tto\tprevent\tany\tdata\tleaks.\tMany\tcountries\tnow\thave\tissued regulations\tand\tguidelines\tto\tprevent\tsuch\tleaks\tand\tsecure\tthe\tdata.",
+        "offset": "page22",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Chapter\tThree:\tStatistics\tfor\tData\tScience\nThis\tchapter\tsheds\tsome\tlight\ton\tthe\tstatistical\tconcepts\tused\tin\tdata\tscience.\tIt is\t important\t to\t remember\t that\t data\t science\t is\t not\t a\t new\t concept,\t and\t most statisticians\tcan\twork\tas\tdata\tscientists.\tData\tscience\tuses\tmany\tconcepts\tfrom statistics,\tsince\tthis\tis\tthe\tbest\ttool\tto\thelp\tyou\tprocess\tand\tinterpret\tinformation in\t the\t data\t set.\t There\t is\t a\t lot\t of\t information\t you\t can\t gather\t from\t the\t data\t set using\tstatistical\ttools.\tIf\tyou\twant\tto\tmaster\tdata\tscience\tand\tbecome\tan\texpert in\tthe\tfield,\tyou\tneed\tto\tlearn\teverything\tyou\tcan\tabout\tstatistics.\tWhile\tthere\tare many\ttopics\tin\tstatistics\ta\tdata\tscientist\tshould\tknow\tabout,\tthe\tfollowing\tare\tthe most\timportant\taspects\tto\tconsider:\nDescriptive\tStatistics\nInferential\tStatistics\nDescriptive\tStatistics\nDescriptive\tstatistics\tis\tthe\tprocess\tof\texpressing\tor\tlooking\tat\tthe\tdata\tto\thelp you\tread\tit\teasily.\tThis\tmethod\thelps\tyou\tdeal\twith\tquantitative\tsummarization of\tthe\tdata\tthrough\tnumerical\trepresentation\tor\tgraphs.\tSome\ttopics\tyou\tneed\tto learn\tabout\tare\tlisted\tbelow:",
+        "offset": "page23",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Normal\tDistribution Central\tTendency Variability Kurtosis\nNormal\tDistribution\nA\t normal\t distribution,\t also\t known\t as\t a\t Gaussian\t distribution,\t is\t a\t continuous distribution\toften\tused\tin\tstatistics.\tAny\tdata\tset\tfollowing\ta\tnormal\tdistribution is\t spread\t across\t a\t graph,\t also\t a\t bell-shaped\t curve.\t In\t normal\t distributions,\t the data\t points\t in\t the\t set\t peak\t at\t the\t center\t of\t the\t bell-shaped\t curve,\t which represents\tthe\tcenter\tof\tthe\tdata\tset.\tWhen\tthe\tdata\tmoves\taway\tfrom\tthe\tmean, it\t will\t fall\t to\t the\t end\t of\t the\t curve.\t You\t need\t to\t ensure\t the\t data\t you\t look\t at\t is distributed\tnormally\tif\tyou\twant\tto\tmake\tinferences\tfrom\tthe\tdata\tset.\nCentral\tTendency\nMeasures\t of\t central\t tendency\t help\t you\t determine\t the\t center\t values\t of\t the\t data",
+        "offset": "page23",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "set.\t There\t are\t three\t measures\t commonly\t used\t \u2013\t mean,\t median\t and\t mode.\t The mean\tor\tthe\tarithmetic\tmean\tof\tany\tdistribution\tis\tfound\tat\tthe\tcenter\tof\tthe\tdata set.\tYou\tcan\tuse\tthe\tfollowing\tformula\tto\tcalculate\tthe\tmean\tor\taverage\tof\tthe data\tset:\t(sum\tof\tall\tpoints\tin\tthe\tdata\tset)\t/\t(number\tof\tdata\tpoints)\nThe\t median\t is\t another\t measure\t that\t is\t the\t mid\t value\t of\t the\t data\t set\t when\t the points\thave\tbeen\tsorted\tin\tan\tascending\torder.\tIf\tyou\thave\tan\todd\tset\tof\tvalues, you\tcan\teasily\tfind\tthe\tmid\tvalue,\tbut\tif\tyou\thave\tan\teven\tnumber\tof\tdata\tpoints, you\ttake\tthe\taverage\tof\tthe\ttwo\tdata\tpoints\tin\tthe\tmiddle\tof\tthe\tdata\tset.\tThe\tlast measure\tis\tthe\tmode,\tand\tthis\tvalue\tis\tthe\tdata\tpoint,\twhich\toccurs\tthe\tmaximum number\tof\ttimes\tin\tthe\tdata\tset.\nVariability\nVariability\tis\ta\tfactor\twhich\thelps\tyou\tdetermine\tthe\tdistance\tbetween\tthe\tdata points\tand\tthe\taverage\tor\tmean\tof\tthe\tdata\tpoints\tin\tthe\tdata\tset.\tThis\tvalue\talso shows\tthe\tdifference\tbetween\tthe\tdata\tpoints\tselected.\tYou\tcan\tview\tand\tassess the\tvariability\tbased\ton\tthe\tmeasures\tof\tcentral\tmeasure,\tsuch\tas\trange,\tvariation and\tstandard\tdeviation.\tThe\trange\tis\ta\tvalue,\twhich\tis\tthe\tdifference\tbetween\tthe smallest\tand\tlargest\tvalue\tin\tthe\tdata\tset.",
+        "offset": "page24",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Kurtosis\tand\tSkewness\nThe\tskewness\tof\tthe\tdata\tset\thelps\tyou\tdetermine\thow\tsymmetrical\tthe\tdata\tset is.\tIf\tthe\tdata\tset\tis\tdistributed\tuniformly,\tit\twill\ttake\tthe\tshape\tof\ta\tbell\tcurve.\tIf the\tcurve\tis\tshaped\tevenly,\tthe\tdata\tis\tnot\tskewed.\tIf\tthe\tcurve\tmoves\teither\tto the\t right\t or\t left\t side\t of\t the\t data\t points,\t it\t means\t the\t data\t is\t negatively\t or positively\t skewed,\t respectively.\t This\t means\t the\t data\t is\t either\t dominant\t on\t the left\tor\tright\tside\tof\tthe\tmeasures\tof\tcentral\ttendency.\tKurtosis\tis\ta\tmeasure\tthat helps\tyou\tdetermine\tthe\ttails\tof\tthe\tdistribution.\tWhen\tyou\tplot\tthe\tdata\tpoints on\ta\tgraph,\tyou\tcan\tdetermine\tif\tthe\tdata\tis\tlight\tor\theavy-tailed.\tYou\tcan\tmake this\tassumption\tbased\ton\tthe\tmiddle\tsection\tof\tthe\tdistribution.\nInferential\tStatistics\nDescriptive\tstatistics\tprovide\tinformation\tabout\tthe\tdata,\tbut\tinferential\tstatistics are\t about\t obtaining\t insights\t about\t the\t data\t set.\t Inferential\t statistics\t is\t about concluding\tabout\tthe\tlarge\tpopulation\tbased\ton\ta\tsmall\tdata\tset\tor\tsample.\tLet\tus assume\tyou\tneed\tto\tcount\tthe\tnumber\tof\tpeople\tin\tAfrica\twho\thave\treceived\tthe polio\tvaccine.\tYou\tcan\tperform\tthis\tanalysis\tin\ttwo\tdifferent\tways:",
+        "offset": "page24",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Ask\t every\t individual\t in\t Africa\t if\t they\t have\t been\t given\t the\t polio",
+        "offset": "page24",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "vaccine Take\t a\t sample\t of\t people\t from\t the\t continent,\t make\t sure\t it\t is\t from different\tparts\tof\tthe\tcontinent,\tand\textrapolate\tthe\tfindings\tacross\tthe entire\tcontinent\nThe\tfirst\tprocess\tis\tdifficult\tto\tcomplete,\tand\tit\tis\timpossible\tto\tdo\tit.\tYou\tcannot go\taround\tthe\tentire\tcountry\tand\task\tpeople\tto\ttell\tyou\tif\tthey\thave\treceived\tthe vaccine.\t The\t second\t method\t is\t the\t better\t way\t to\t do\t this\t since\t you\t can\t draw insights\tor\tconclusions\tfrom\tthe\tsample\tselected\tand\textrapolate\tthe\tfindings\tto the\tlarge\tpopulation.\tThe\tfollowing\tare\tsome\ttools\tused\tin\tinferential\tstatistics.\nCentral\tLimit\tTheorem\nAccording\t to\t the\t central\t limit\t theorem,\t \"the\t average\t of\t the\t sample\t is\t same\t as that\t of\t the\t entire\t population.\"\t This\t shows\t the\t properties\t and\t measures\t of\t the data's\t central\t tendency,\t such\t as\t standard\t deviation,\t are\t the\t same\t for\t both\t the sample\tand\tpopulation.\tThis\tmeans\tyou\tcan\tincrease\tthe\tnumber\tof\tdata\tpoints selected,\tresulting\tin\ta\tnormal\tcurve.",
+        "offset": "page25",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "You\t need\t to\t understand\t the\t concept\t of\t confidence\t intervals\t if\t you\t want\t to\t use the\tcentral\tlimit\ttheorem.\tThis\tgoes\tto\tshow\tthe\tapproximate\tvalue\tof\tthe\tmean of\tthe\tpopulation.\tThe\tprocess\tof\tcreating\tan\tinterval\tin\tthe\tpopulation\thas\tthings like\tthe\tsum\tof\tan\terror\tmargin.\tYou\tcan\tcalculate\tthis\terror\tby\t\"multiplying\tthe standard\terror\tof\tmean\twith\tthe\tz-score\tof\tthe\tpercentage\tof\tconfidence\tlevel.\"\nHypothesis\tTesting\nHypothesis\ttesting\tis\tthe\textent\tto\twhich\tyou\tcan\ttest\tany\tassumption\tyou\tmake about\tthe\tdata\tset.\tIn\tthis\tprocess\tof\ttesting,\tyou\tcan\tcollect\tthe\tresults\tof\tyour analysis\tof\tthe\thypothesis\ton\ta\tsmaller\tpopulation.\tThe\thypothesis\tyou\tneed\tto test\t is\t called\t the\t null\t hypothesis,\t and\t we\t need\t to\t check\t the\t validity\t of\t this hypothesis\tagainst\tthe\talternative\thypothesis.\tThe\tnull\thypothesis\tis\tthe\tcase\tyou need\tto\t test.\tConsider\tthe\tfollowing\texample\t\u2013\tyou\tare\tconducting\ta\tsurvey\tto determine\t who\t smokes\t and\t who\t does\t not,\t and\t how\t people\t who\t smoke\t have cancer.",
+        "offset": "page25",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "When\tyou\tconduct\tthis\tsurvey,\tyou\tbegin\twith\tthe\tassumption\tthat\tthe\tnumber of\tsubjects\twith\tcancer\twho\tsmoke\tis\tthe\tsame\tas\tthe\tnumber\tof\tsubjects\twith cancer\t do\t not\t smoke.\t This\t is\t your\t null\t hypothesis,\t and\t you\t need\t to\t test\t it\t to reject\t the\t hypothesis.\t The\t alternate\t hypothesis\t will\t be\t that\t the\t number\t of subjects\t with\t cancer\t who\t smoke\t is\t greater\t than\t the\t number\t of\t subjects\t with",
+        "offset": "page25",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "cancer\twho\tdo\tnot\tsmoke.\nBased\ton\tthe\tgiven\tdata\tand\tevidence,\tyou\tcan\ttest\tthe\thypotheses\tand\tanalyze the\tdata\tto\tdetermine\tif\tthe\tnull\thypothesis\tis\tcorrect\tor\tnot.\nANOVA\nANOVA\t is\t another\t statistical\t concept\t that\t is\t used\t to\t test\t hypotheses\t across different\tgroups\tof\tdata.\tThis\tconcept\thelps\tyou\tdetermine\tif\tthe\tgroups\tyou\tare checking\thave\tsimilar\taverages\tand\tvariances.\tANOVA\tallows\tyou\tto\tcarry\tout this\tform\tof\tanalysis\twith\tlimited\terror\trates.\tYou\tcan\tuse\tthe\tF-ratio\tto\tcalculate ANOVA.\t The\t F-ratio\t is\t used\t to\t calculate\t the\t ratio\t of\t the\t mean\t square\t error between\t groups\t to\t the\t mean\t square\t error\t in\t specific\t groups.\t The\t following\t are the\tmethods\tto\tcalculate\tANOVA:\n1.\t Write\t the\t hypotheses\t and\t understand\t the\t need\t for\t those.\t Every analysis\tshould\thave\ta\tnull\tand\talternative\thypothesis\n2.\t In\t case\t of\t null\t hypothesis,\t you\t need\t to\t assume\t the\t average\t of\t the groups\tis\tidentical\n3.\t The\talternative\thypothesis\twill\thave\ta\tdifferent\taverage",
+        "offset": "page26",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Chapter\tFour:\tSkills\tRequired\tfor\tData\tScience\nIf\tyou\twant\tto\twork\tin\tthe\tfield\tof\tdata\tscience,\tor\tbecome\ta\tdata\tscientist,\tyou need\tto\thave\tsome\tinformation\tabout\tdifferent\ttopics\tmentioned\tin\tthis\tchapter. This\tchapter\tlists\tsome\ttechnical\tand\tnon-technical\tskills\tyou\tshould\tdevelop\tif you\twant\tto\timprove\tin\tthis\tfield.\nTechnical\tSkills\nAs\t a\t data\t scientist,\t you\t need\t to\t have\t some\t technical\t skills\t that\t help\t you\t with statistical\t analysis.\t You\t need\t to\t learn\t how\t to\t leverage\t and\t work\t with\t different frameworks\tand\tsoftware\tto\tmine,\tcollect,\tprocess,\tcollate,\tanalyze,\tinterpret\tand visualize\t large\t volumes\t of\t data.\t You\t need\t to\t develop\t programming\t skills\t to perform\t such\t activities.\t An\t easy\t way\t to\t do\t this\t is\t to\t ensure\t you\t have\t the necessary\t academic\t background.\t Most\t data\t scientists\t have\t a\t Ph.D.\t or\t master's degree\tin\tengineering,\tstatistics,\tand\tcomputer\tscience.\tThis\tis\tthe\tonly\tway\tto determine\t if\t they\t have\t the\t foundation\t to\t help\t them\t connect\t with\t different technical\tpoints\tthat\tare\tthe\tfoundation\tof\tthe\tpractice.\tMany\tschools\toffer\tsuch programs\tto\thelp\tpeople\tpursue\tdata\tscience.",
+        "offset": "page27",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "If\tyou\tdo\tnot\twant\tto\tgo\tthrough\thardcore\tcourses,\tyou\tcan\tlook\tat\toptions,\tsuch as:\nBoot\tcamps Massive\tOpen\tOnline\tcourses\t(MOOC)\nThese\t programs\t help\t you\t develop\t a\t basic\t understanding\t of\t core\t data\t science subjects.\tThese\tcourses\talso\tprovide\tsome\tinformation\tthat\tis\toutside\tof\ttextbook learning.\tYou\twill\tbe\tgiven\treal-time\tscenarios\tand\tasked\tto\tdevelop\tmodels\tto assess\t and\t predict\t futuristic\t events.\t The\t following\t are\t some\t skills\t you\t need\t to develop.\nUnderstanding\tData\nData\t science\t is\t about\t working\t with\t and\t understanding\t different\t types\t of\t data. You\t need\t to\t understand\t and\t love\t working\t with\t data.\t The\t following\t are\t some questions\tyou\tcan\tanswer\tto\thelp\tyou\tunderstand\twhether\tyou\tlove\tdata\tor\tnot:\nDo\tyou\tknow\twhere\tyou\tneed\tto\tcollect\tdata\tfrom? Do\tyou\tunderstand\tand\tknow\twhat\tdata\tis? Have\tyou\tdetermined\twhat\tinformation\tyou\tshould\tlook\tat? How\tfrequently\tdo\tyou\twork\twith\tdata?",
+        "offset": "page27",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Have\tyou\tlearned\thow\tto\twork\twith\tstructured\tand\tunstructured\tdata?\nThe\t most\t important\t question\t you\t need\t to\t answer\t is\t whether\t you\t love\t working with\t data\t or\t not.\t If\t yes,\t you\t need\t to\t obtain\t certifications,\t so\t you\t develop\t the skills\tto\tbecome\ta\tdata\tscientist.\nAlgorithms\nAlgorithms\t are\t sets\t of\t instructions\t that\t you\t write.\t You\t can\t use\t algorithms\t to instruct\ta\tmachine\tto\tperform\tspecific\tfunctions\tand\ttasks.\tLet\tus\ttry\tto\twrite\tan algorithm\tusing\tthat\twe\twill\tinstruct\ta\tcomputer\tto\tadd\ttwo\tnumbers.\n1.\t Identify\ttwo\tvariables\tand\tdeclare\tit\tto\tthe\tmachine 2.\t Initialize\tthe\tvariables 3.\t Ask\tthe\tuser\tto\tassign\ta\tvalue\tto\teach\tof\tthese\tvariables 4.\t Declare\tanother\tvariable\tto\thold\tthe\tsum\tof\tthe\tfirst\ttwo\tvariables 5.\t Calculate\t the\t sum\t of\t the\t first\t two\t variables\t and\t assign\t that\t value\t to the\tthird\tvariable\nYou\t can\t also\t use\t algorithms\t when\t you\t solve\t puzzles\t on\t paper.\t As\t a\t data scientist,\t you\t need\t to\t understand\t what\t algorithms\t are\t and\t how\t a\t machine understands\tthem\tsince\tyou\twork\twith\talgorithms\tto\thelp\tyou\tanalyze\tdata.\tAs\ta data\t scientist,\t you\t also\t need\t to\t learn\t how\t to\t design\t different\t algorithms\t that perform\t the\t necessary\t functions\t to\t help\t you\t analyze\t data.\t Let\t us\t assume\t you need\tto\tkey\tin\t10\tnumbers\tinto\tthe\tsystem.\tYou\tmay\tenter\tany\tten\tnumbers\tand leave\tit\tto\tthe\tmachine\tto\tidentify\tthe\tset's\tthird\tlargest\tnumber.\tTo\tdo\tthis,\tyou should\t write\t an\t algorithm\t to\t help\t the\t machine\t identify\t the\t number.\t As\t a\t data scientist,\tyou\tneed\tto\twrite\tthe\tnecessary\tlogic\tand\tdevelop\tan\talgorithm\twhich helps\tyou\tfind\tthe\tthird\tlargest\tnumber.",
+        "offset": "page28",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Programming\nIt\tis\timportant\tto\tlearn\tdifferent\tlanguages,\tsuch\tas\tJava,\tC++,\tR,\tPython,\tPerl, SQL\tand\tother\tlanguages.\tThe\tlanguages\tused\tcommonly\tare\tR\tand\tPython.\tYou can\tcollect,\tclean,\tprocess,\torganize\tand\tanalyze\tthe\tinformation\tin\tthe\tdata\tset which\thelps\tyou\twork\twith\tunstructured\tdata.\nExamples\nExample\t1\nThis\ttakes\tcare\tof\tonly\tvariables\tand\tconstants\t\u2013\tProgram\tto\tbuild\tHello\tWorld",
+        "offset": "page28",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": ">\t#\tWe\tcan\tuse\tthe\tprint()\tfunction\n>\tprint(\"Hello\tWorld!\")\n[1]\t\"Hello\tWorld!\"\n>\t#\tQuotes\tcan\tbe\tsuppressed\tin\tthe\toutput\n>\tprint(\"Hello\tWorld!\",\tquote\t=\tFALSE)\n[1]\tHello\tWorld!\n>\t#\tIf\tthere\tis\tmore\tthan\t1\titem,\twe\tcan\tconcatenate\tusing\tpaste()\n>\tprint(paste(\"How\",\"are\",\"you?\"))\n[1]\t\"How\tare\tyou?\"\nIn\t the\t program\t above,\t we\t have\t used\t print(),\t a\t built-in\t function\t to\t print\t the required\tstring\tHello\tWorld!\tThe\tquotes\tthat\tyou\tsee\tare\tprinted\tby\tdefault.\tTo avoid\tthat,\twe\tcan\tadd\tan\targument\tcalled\tquote\t=\tFALSE.\tAlso,\tif\tthere\tis\tmore than\t a\t single\t item,\t you\t can\t use\t paste()\t or\t cat()\t functions\t to\t concatenate\t the strings\ttogether.\nExample\t2\nWe\tcan\tadd\tthe\telements\tof\tthe\tvector\tby\tthe\tfunction\tsum()\n>\tsum(2,7,5)\n[1]\t14\n>\tx\n[1]\t\t2\tNA\t\t3\t\t1\t\t4\n>\tsum(x)\t\t\t\t#\tif\tany\telement\tis\tNA\tor\tNaN,\tresult\tis\tNA\tor\tNaN\n[1]\tNA\n>\tsum(x,\tna.rm=TRUE)\t\t\t\t#\tthis\tway\twe\tcan\tignore\tNA\tand\tNaN\tvalues\n[1]\t10\n>\tmean(x,\tna.rm=TRUE)",
+        "offset": "page29",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "[1]\t2.5\n>\tprod(x,\tna.rm=TRUE)\n[1]\t24\nWhen\t a\t vector\t has\t NA\t (not\t applicable),\t or\t NaN\t (not\t a\t number),\t the\t functions that\t are\t used\t here\t such\t as\t sum(),\t mean(),\t prod(),\t etc\t make\t NA\t or\t NaN, respectively.\nExample\t3\nThis\texample\twill\tdeal\twith\tan\tinteractive\tscreen,\ti.e.\ttake\tinputs\tfrom\tthe\tuser.\nmy.name\t<-\treadline\t(prompt=\"Enter\tname:\t\")\nmy.age\t<-\treadline\t(prompt=\"Enter\tage:\t\")\n#\tconvert\tcharacter\tinto\tinteger\nmy.age\t<-\tas.integer(my.age)\nprint\t(paste\t(\"Hi,\",\tmy.name,\t\"next\tyear\tyou\twill\tbe\",\tmy.age+1,\t\"years\told.\"))\nOutput:\nEnter\tname:\tMary\nEnter\tage:\t17\n[1]\t\"Hi,\tMary\tnext\tyear\tyou\twill\tbe\t18\tyears\told.\"\nAs\tyou\tcan\tsee,\twe\thave\tused\tthe\tfunction\treadline()\tto\tget\tinput\tfrom\tthe\tuser.\nHere,\tyou\tcan\tsee\tthat\tyou\tcan\tdisplay\tan\tappropriate\tmessage\tfor\tthe\tuser\twith the\tprompt\targument.\nIn\tthe\tabove\texample,\tyou\tconvert\tthe\tinput\tage,\twhich\tis\ta\tcharacter\tvector\tinto integer\tby\tthe\tfunction\tas.integer().\nThis\tis\tnecessary\tfor\tdoing\tfurther\tcalculations\nExample\t4",
+        "offset": "page30",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "In\tthis\texample,\twe\twill\tfind\tif\ta\tyear\tis\tleap\tyear\tor\tnot\tby\ttaking\tinputs\tfrom the\tuser.\n#\tProgram\tto\tcheck\tif\tthe\tinput\tyear\tis\ta\tleap\tyear\tor\tnot\nyear\t=\tas.integer(readline(prompt=\"Enter\ta\tyear:\t\"))\nif((year\t%%\t4)\t==\t0)\t{\nif((year\t%%\t100)\t==\t0)\t{\nif((year\t%%\t400)\t==\t0)\t{\nprint\t(paste\t(year,\"is\ta\tleap\tyear\"))\n}\telse\t{\nPrint\t(paste\t(year,\"is\tnot\ta\tleap\tyear\"))\n}\n}\telse\t{\nPrint\t(paste\t(year,\"is\ta\tleap\tyear\"))\n}\n}\telse\t{\nPrint\t(paste\t(year,\"is\tnot\ta\tleap\tyear\"))\n}\nOutput\t1:\nEnter\ta\tyear:\t1900\n[1]\t\"1900\tis\tnot\ta\tleap\tyear\"\nOutput\t2:\nEnter\ta\tyear:\t2000\n[1]\t\"2000\tis\ta\tleap\tyear\"\nHere\twe\thave\tused\tthe\tlogic\tthat\ta\tleap\tyear\tis\texactly\tdivisible\tby\t4\texcept\tfor the\tyears\tending\twith\t00.\tThe\tcentury\tyear\tis\ta\tleap\tyear\tonly\tif\tit\tis\tperfectly",
+        "offset": "page31",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "divisible\tby\t400.\nNested\tif\telse\tis\tused\tto\timplement\tthe\tlogic\tin\tthe\tabove\tprogram.\nExample\t5\nIn\tthis\texample,\twe\twill\tfind\tthe\tHCF\tof\ttwo\tnumbers\n#\tProgram\tto\tfind\tthe\tH.C.F\tof\ttwo\tinput\tnumber\n#\tdefine\ta\tfunction\nhcf\t<-\tfunction\t(x,\ty)\t{\n#\tchoose\tthe\tsmaller\tnumber\nif(x\t>\ty)\t{\nsmaller\t=\ty\n}\telse\t{\nsmaller\t=\tx\n}\nfor(i\tin\t1:smaller)\t{\nif((x\t%%\ti\t==\t0)\t&&\t(y\t%%\ti\t==\t0))\t{\nhcf\t=\ti\n}\n}\nreturn(hcf)\n}\n#\ttake\tinput\tfrom\tthe\tuser\nnum1\t=\tas.integer\t(readline(prompt\t=\t\"Enter\tfirst\tnumber:\t\"))\nnum2\t=\tas.integer\t(readline(prompt\t=\t\"Enter\tsecond\tnumber:\t\"))",
+        "offset": "page32",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "print\t(paste\t(\"The\tH.C.F.\tof\",\tnum1,\"and\",\tnum2,\"is\",\thcf(num1,\tnum2)))\nOutput:\nEnter\tfirst\tnumber:\t72\nEnter\tsecond\tnumber:\t120\n[1]\t\"The\tH.C.F.\tof\t72\tand\t120\tis\t24\"\nThis\tprogram\tasks\tthe\tuser\tto\tinput\ttwo\tintegers\tand\tthe\tpass\tthem\tto\ta\tfunction which\tgive\tthe\toutput\tas\tthe\tH.C.F.\nThe\tfunction\tfirst\tdetermines\tthe\tsmaller\tof\tthe\ttwo\tnumbers\tgiven\tas\tan\tinput since\tthe\tH.C.F\tcan\tonly\tbe\tless\tthan\tor\tequal\tto\tthe\tsmallest\tnumber\tamong\tthe two.\nWe\tthen\tuse\ta\t'for'\tloop\tto\tgo\tfrom\t1\tto\tthat\tsmaller\tnumber.\nIn\teach\tloop\twe\tcheck\tif\tour\tnumber\tperfectly\tdivides\tboth\tthe\tinput\tnumbers.\nIf\tyes,\tthen\twe\tstore\tthe\tnumber\tas\tH.C.F.\tAt\tthe\tcompletion\tof\tthe\tloop\twe\twill end\tup\twith\tthe\tlargest\tnumber\tthat\tperfectly\tdivides\tboth\tthe\tnumbers.\nExample\t6\nIn\tthis\texample,\twe\twill\tshow\tyou\thow\tto\tdevelop\ta\tcalculator\tof\tyour\town\n#\tProgram\tmakes\ta\tsimple\tcalculator\tthat\tcan\tadd,\tsubtract,\tmultiply\tand\tdivide using\tfunctions\nadd\t<-\tfunction(x,\ty)\t{\nreturn(x\t+\ty)\n}\nsubtract\t<-\tfunction(x,\ty)\t{\nreturn(x\t-\ty)",
+        "offset": "page33",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "}\nmultiply\t<-\tfunction(x,\ty)\t{",
+        "offset": "page33",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "return(x\t*\ty)\n}\ndivide\t<-\tfunction(x,\ty)\t{\nreturn(x\t/\ty)\n}\n#\ttake\tinput\tfrom\tthe\tuser\nprint\t(\"Select\toperation.\")\nprint\t(\"1.Add\")\nprint\t(\"2.Subtract\")\nprint\t(\"3.Multiply\")\nprint\t(\"4.Divide\")\nchoice\t=\tas.integer\t(readline\t(prompt=\"Enter\tchoice[1/2/3/4]:\t\"))\nnum1\t=\tas.integer\t(readline\t(prompt=\"Enter\tfirst\tnumber:\t\"))\nnum2\t=\tas.integer\t(readline\t(prompt=\"Enter\tsecond\tnumber:\t\"))\noperator\t<-\tswitch(choice,\"+\",\"-\",\"*\",\"/\")\nresult\t <-\t multiply(num1,\tnum2),\tdivide(num1,\tnum2))\nswitch\n(choice,\t add(num1,\t num2),\nsubtract(num1,\t num2),\nprint\t(paste\t(num1,\toperator,\tnum2,\t\"=\",\tresult))\nOutput:\n[1]\t\"Select\toperation.\"\n[1]\t\"1.Add\"\n[1]\t\"2.Subtract\"\n[1]\t\"3.Multiply\"\n[1]\t\"4.Divide\"",
+        "offset": "page34",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Enter\tchoice[1/2/3/4]:\t4\nEnter\tfirst\tnumber:\t20\nEnter\tsecond\tnumber:\t4\n[1]\t\"20\t/\t4\t=\t5\"\nIn\t this\t code,\t we\t will\t first\t ask\t the\t user\t what\t operation\t he\t wants\t to\t carry\t out. Then,\tthe\tuser\tis\tasked\tto\ttype\tin\ttwo\tnumbers,\tand\twe\tuse\t'switch'\tbranching\tis used\tto\tcarry\tout\ta\tparticular\tfunction.\nThe\tfunctions\tsuch\tas\tadd(),\tsubtract(),\tmultiply()\tand\tdivide()\tareal\tuser-defined functions.\nAnalytical\tTools\nEvery\t data\t scientist\t needs\t to\t learn\t how\t to\t use\t different\t analytical\t tools\t and understand\tthe\tuse\tof\tSoftware\tas\ta\tService\t(SaaS).\tThis\tunderstanding\twill\thelp you\t obtain\t some\t information\t from\t the\t data\t you\t have\t cleaned\t and\t processed using\t different\t programming\t languages\t and\t tools,\t such\t as\t Hadoop,\t R,\t SAS, Spark,\tHive\tand\tPig.\tDifferent\tplatforms\tallow\tyou\tto\timprove\tyour\tskills,\tand you\tcan\tobtain\tcertifications\tthat\twill\thelp\tyou\tmove\tahead\tin\tyour\tcareer.\nUsing\tUnstructured\tData\nData\t scientists\t need\t to\t collect,\t process,\t store,\t manage,\t clean,\t understand\t and analyze\t the\t data\t collected\t from\t various\t sources.\t Most\t of\t these\t data\t are\t not structured,\tand\tthey\tcan\tbe\tcollected\tin\tdifferent\tforms,\tsuch\tas\timages,\tvideos, text,\t emails\t and\t other\t forms.\t For\t instance,\t if\t you\t work\t with\t a\t credit\t company, you\tneed\tto\tlearn\thow\tto\tuse\thistorical\tdata\tand\tpatterns\tto\tassist\tthe\tcompany\tin identifying\tthe\tcustomers\tthey\tcan\ttrust.\tYou\talso\tneed\tto\tlearn\thow\tto\tcollect, process\tand\tanalyze\tthe\tdata.",
+        "offset": "page35",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Non-Technical\tSkills\nThe\tfollowing\tare\tsome\tnon-technical\tskills\tyou\tneed\tto\tdevelop\tif\tyou\twant\tto be\ta\tdata\tscientist.\tThese\tare\tsome\tpersonal\tskills\ta\tuser\tneeds\tto\tdevelop,\tand these\tare\tvery\tdifferent\tfrom\tqualifications\tand\tcertifications.\nStrong\tBusiness\tAcumen\nAs\t a\t data\t scientist,\t you\t need\t to\t have\t strong\t business\t acumen.\t You\t need\t to understand\t various\t elements\t important\t to\t the\t business\t model.\t Otherwise,\t you",
+        "offset": "page35",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "cannot\tuse\tthe\tnecessary\ttools\tand\tskills\tto\tanalyze\tthe\tdata\tset.\tIt\tis\tonly\twhen you\tlearn\tand\tdevelop\tthese\tskills\tthat\tyou\tcan\tidentify\tthe\tvarious\tproblems\tand solutions\tto\tdevelop\tif\tyou\twant\tto\thelp\tthe\tbusiness\tmake\tinformed\tdecisions\tso that\t it\t can\t sustain\t and\t grow.\t It\t becomes\t extremely\t hard\t for\t you\t to\t help\t an organization\texplore\tvarious\topportunities\tif\tyou\tdo\tnot\tknow\thow\tto\tcode.\nCommunication\tSkills\nData\tscientists\tcan\tunderstand\tdata\tbetter\tthan\tanybody\telse\tin\tthe\torganization. If\tyou\twant\tto\tsucceed\tas\ta\tdata\tscientist,\tyou\tneed\tto\tlearn\tto\tcommunicate\tyour decisions\tand\tanalysis\tto\tthe\tstakeholders.\tThis\tis\tthe\tonly\tway\tyou\tcan\tmake\tit easier\tfor\tthe\torganization\tto\tmake\tinformed\tdecisions.\tIt\tis\timportant\tto\tlearn\tto communicate\tyour\tfindings\tto\tpeople\tin\tthe\torganization,\tespecially\tif\tthey\tare non-technical.\t You\t need\t to\t develop\t the\t necessary\t communication\t skills\t to communicate\tyour\tfindings.\nIntuition\nThis\tis\tan\timportant\tnon-technical\tskill\tyou\tneed\tto\tdevelop\tas\ta\tdata\tscientist.\tIt is\ttrue\tyou\tmay\talready\thave\tan\tinsight\tabout\tthe\tdata\twhen\tyou\tlook\tat\tit,\tbut you\tmay\tnot\thave\tthe\tability\tto\tperceive\tany\thidden\tpatterns\tin\tthe\tdata\tset.\tYou need\tto\tknow\twhere\tto\tlook\tand\twhat\tto\tlook\tat,\tso\tyou\tadd\tmore\tvalue\tto\tthe analysis.",
+        "offset": "page36",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "These\t are\t the\t skills\t that\t make\t you\t efficient\t in\t your\t work.\t Do\t not\t worry\t about cramming\ttoo\tmuch\tinformation\tin\ta\tshort\ttime.\tYou\tlearn\tand\timprove\tas\tyou gain\texperience.",
+        "offset": "page36",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Chapter\tFive:\tTools\tRequired\tfor\tData\tScience\nWe\thave\tlooked\tat\tdifferent\taspects\tof\tdata\tscience\tand\tknow\twhy\tyou\tneed\tto use\tdata\tscience.\tLet\tus\tnow\tlook\tat\tthe\tdifferent\ttools\tyou\tneed\tto\twork\twith\tto become\t a\t data\t scientist.\t The\t following\t are\t only\t some\t tools\t you\t need\t to\t use\t if you\twant\tto\twork\tin\tdata\tscience.\nR\tProgramming\tLanguage\nWe\t have\t referred\t to\t R\t earlier\t in\t the\t book.\t This\t is\t a\t programming\t language widely\t used\t by\t data\t scientists,\t and\t many\t organizations\t use\t this\t language\t to perform\tdata\tanalysis.\tOrganizations\tuse\tR\twidely\tsince\tit\tis\tan\tobject-oriented programming\t language,\t and\t it\t is\t used\t for\t the\t analysis\t of\t reporting,\t visual graphic\trepresentations\tand\tstatistics.\nPython\tProgramming\tLanguage\nPython,\t like\t R,\t is\t another\t programming\t language\t that\t has\t features\t similar\t to other\tobject-oriented\tprogramming\tlanguages.\tIt\tis\tused\twidely\tin\tdata\tscience and\tto\tdevelop\tmodels.\tPython\tcan\tbe\tused\ton\tdifferent\toperating\tsystems,\tand you\tcan\tdevelop\tnumerous\tapplications\tusing\tthis\tlanguage.\tThis\tprogramming language\tis\tused\tto\tdevelop\tmachine\tlearning\tmodels\tand\tapplications\tthat\tuse artificial\tintelligence.",
+        "offset": "page37",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Hadoop\nAs\t mentioned\t earlier,\t Hadoop\t came\t into\t picture\t when\t it\t became\t difficult\t for companies\t to\t store\t large\t volumes\t of\t data.\t This\t is\t an\t open-source\t application which\t allows\t you\t to\t store\t and\t process\t big\t data.\t You\t can\t use\t a\t distributed computing\tframework\tto\tanalyze\tthe\tdata.\tIt\tis\tbest\tto\tuse\tthis\tapplication\tif\tyou want\tto\tstore\tdata\twithout\thaving\tto\tprocess\tit.\tYou\tcan\tstore\tas\tmuch\tdata\tas needed\tbefore\tyou\tdecide\twhich\tvariable\tyou\tneed\tto\tuse.\nStructured\tQuery\tLanguage\t(SQL)\nSQL\tor\tStructured\tQuery\tLanguage\tis\tused\tfor\tdata\tstorage.\tYou\tcan\tcreate\tnew tables\t and\t databases\t in\t SQL,\t and\t the\t only\t thing\t you\t need\t to\t do\t is\t update\t the records\tin\tthe\tdatabase.\tYou\tcan\tretrieve,\tmodify\tand\tdelete\tthe\trecords\tin\tSQL databases\tand\ttables.\tYou\tcan\tuse\tthis\tlanguage\tto\tmanage\tthe\tdata\tstored\tin\ta database.\nSAS",
+        "offset": "page37",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "SAS\t or\t Software\t as\t Service\t is\t an\t important\t tool\t to\t understand\t if\t you\t wish\t to work\tas\ta\tdata\tscientist.\tThis\ttool\tis\tdesigned\tto\tperform\tvarious\tstatistical\tand mathematical\t operations.\t Large\t organizations\t use\t SAS\t to\t identify\t or\t draw hidden\tpatterns\twithin\tthe\tdata\tset.\tSAS\tuses\tSAS\tcoding\tlanguage\tthat\tis\toften used\tby\tstatisticians\tto\tdevelop\tmodels.\nThe\t language\t was\t developed\t by\t statisticians\t and\t professionals\t and\t is\t based\t on Reliable\t Commercial\t Software\t (RCS).\t This\t programming\t language\t has\t many statistical\t tools\t and\t libraries\t that\t data\t scientists\t can\t use\t to\t perform\t modeling. They\tcan\talso\tuse\tthis\tlanguage\tto\tkeep\tthe\trecords\tin\torder.\tSAS\tis\tnot\tan\topen- source\tprogramming\tlanguage.\tThis\tlanguage\tis\tcostly\tand\tcan\tonly\tbe\tused\tby large\torganizations.\tThere\tare\tsome\tpackages\tand\tlibraries\tin\tSAS\tthat\tcannot\tbe accessed\t by\t organizations\t in\t the\t base\t pack,\t and\t you\t need\t to\t spend\t money\t to update\tthe\tlanguage.\nApache\tSpark\nApache\t Spark\t is\t a\t popular\t analytics\t tool\t used\t by\t data\t scientists,\t and\t it\t is designed\tfor\tstream\tprocessing\tand\tbatch\tprocessing.\tThere\tare\tnumerous\tAPIs developed\tby\tdata\tscientists\tacross\tthe\tglobe\tto\tdevelop\ta\tfrequent\tpath\tfor\tdata to\t flow\t through\t for\t any\t machine\t learning\t algorithm.\t This\t application\t is\t a\t win when\t compared\t to\t Hadoop\t and\t other\t data\t processing\t and\t storing\t applications since\t it\t works\t faster.\t It\t comes\t with\t numerous\t APIs\t for\t machine\t learning\t and deep\tlearning\twhich\tenables\tdata\tscientists\tto\tobtain\thidden\tinsights\tin\tthe\tdata set.\tThe\tapplication\tcan\tstream\tlarge\tvolumes\tof\tdata\tand\tis\tmore\tefficient\twhen compared\t to\t other\t big\t data\t platforms.\t This\t tool\t can\t work\t with\t real-time\t data, and\tallows\tyou\tto\tcode\tin\tJava,\tR\tand\tPython.\tYou\tcan\tuse\tthis\tapplication\twhen you\t work\t with\t clusters\t of\t data.\t This\t tool\t is\t more\t efficient\t when\t compared\t to platforms,\tsuch\tas\tHadoop\tand\tMapReduce.",
+        "offset": "page38",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "D3.js\nThis\tis\ta\tJavascript\tlibrary,\tand\tyou\tcan\tuse\tthis\tto\tdevelop\tvisualization\ton\tthe Internet.\t There\t are\t numerous\t APIs\t of\t this\t library,\t and\t you\t can\t use\t various functions\t to\t make\t visualizations\t more\t dynamic.\t You\t can\t also\t analyze\t the\t data set\tcollected\ton\tthe\tInternet.\tOne\tof\tthe\tadvantages\tof\tusing\tthis\ttool\tis\tit\tallows you\t to\t use\t animated\t transitions\t to\t improve\t data\t visualizations.\t When\t you\t use this\ttool,\tyou\tcan\tcreate\tdynamic\tdocuments\tand\tuse\toptions\tto\tchange\tthe\tdata used\tin\tthe\tvisualization.\nYou\t can\t also\t use\t this\t tool\t along\t with\t CSS\t to\t create\t transitory\t and\t eminent",
+        "offset": "page38",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "visualizations\tthat\twould\tshow\tyou\tthe\trequired\tgraphs\ton\tthe\tInternet.\tThis\tis an\t important\t tool\t to\t use\t in\t data\t science,\t and\t you\t can\t work\t with\t different\t IoT devices.\t The\t tool\t allows\t you\t to\t work\t with\t client-side\t interventions\t for\t data visualization\tand\tprocessing.",
+        "offset": "page39",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Chapter\tSix:\tApplication\tof\tData\tScience\nNow\t that\t we\t know\t the\t importance\t of\t data\t science\t and\t the\t prerequisites\t and skills\tneeded\tfor\tdata\tscience,\tit\tis\timportant\tto\tknow\thow\tdata\tscience\tcan\tbe applied\tin\tthe\treal\tworld.\nRisk\tand\tFraud\tDetection\nData\tscience\twas\tfirst\tused\tin\tthe\tfinancial\tand\tbanking\tsector.\tMany\tfinancial institutions\twere\tsick\tof\tbad\tdebts\tand\ttheir\tlosses\tat\tthe\tend\tof\teach\tyear.\tSince they\t had\t collected\t large\t volumes\t of\t data\t when\t the\t initial\t paperwork\t is\t carried out,\tthey\thad\ta\twealth\tof\tinformation\tthey\tcould\tuse\tto\tdecide\twho\tthey\tcould give\tthe\tcredit\tto.\tThey\thired\ta\tdata\tscientist\tto\tprevent\tfuture\tlosses\tcaused\tby bad\tdebts.\tFinancial\tinstitutions\tnow\thave\tlearned\tto\tcollect,\tprocess,\tdivide\tthe data\t and\t assess\t it.\t They\t divide\t the\t data\t based\t on\t customer\t profiling.\t It\t also helped\t in\t the\t sales\t of\t banking\t products\t as\t they\t could\t do\t targeted\t marketing based\ton\thow\tmuch\ta\tcustomer\tearned\tevery\tyear.\nHealthcare\nMany\thealthcare\tcompanies\tuse\tmedical\timage\tanalysis,\tcontent-based\tmedical image\tindexing,\twavelet\tanalysis\tand\tmachine\tlearning\tmodels\tto\tdetect\ttumors, organ\t failure\t and\t other\t procedures\t and\t frameworks.\t These\t processes\t make\t it easier\tto\tanalyze\tand\tfind\tthe\toptimal\tparameters\tor\tpoints\tto\timprove\tdiagnoses.",
+        "offset": "page40",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Genetics\tand\tGenomics\nYou\t can\t use\t data\t science\t to\t personalize\t treatment\t for\t patients,\t improving\t the treatment\t administered\t to\t patients\t for\t various\t illnesses\t based\t on\t research\t in genomics\tand\tgenetics.\tThis\tprocess\taims\tto\tdetermine\twhat\tthe\tconsequences\tof DNA\t are\t on\t our\t health\t and\t determine\t if\t there\t are\t any\t connections\t between genes\tand\tdiseases.\nDrug\tDevelopment\nIt\t takes\t 12\t years\t to\t develop\t a\t drug\t and\t a\t few\t months\t before\t it\t is\t tested\t and becomes\tan\tofficial\tdrug.\tThe\tprocess\tof\tidentifying\tthe\tdrug\tand\tassessing\tif\tit will\t work\t on\t people\t is\t complicated\t and\t involves\t the\t use\t of\t many\t disciplines. Billions\tof\ttests\toften\trestrict\tthe\tgreatest\tideas.\tYou\tcan\tuse\tmachine\tlearning and\t data\t science\t to\t simplify\t the\t process\t and\t reduce\t the\t time\t taken\t to\t initially screen\t the\t drug\t compounds\t used\t to\t develop\t the\t drug.\t Algorithms\t and\t data science\t can\t also\t predict\t how\t the\t body\t will\t react\t to\t certain\t compounds\t in\t the",
+        "offset": "page40",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "drug\tusing\tvarious\tstatistical\tand\tmathematical\tsimulations\tand\tmodels.\tThis\tis faster\tto\twhen\tcompared\tto\ttraditional\tlab\texperiments.\tThe\tmodels\tcan\tpredict future\toutcomes\twith\tbetter\taccuracy,\tthereby\tsimplifying\tthe\tprocess.\nInternet\tSearch\nWhen\t you\t think\t of\t data\t science,\t the\t first\t thing\t that\t comes\t to\t your\t mind\t is\t the search\t algorithm\t used\t on\t the\t Internet.\t Every\t search\t engine\t uses\t various\t data signs\t to\t provide\t the\t user\t with\t the\t best\t results\t of\t any\t query\t you\t key\t into\t the search\ttab.\tGoogle\twould\tnot\tbe\tthe\tsearch\tengine\tit\tis\ttoday\tif\tthe\tdevelopers did\tnot\tuse\tdata\tscience\talgorithms\tto\timprove\tsearch\tresults.\nWebsite\tRecommendations\nMost\twebsites,\tsuch\tas\tNetflix,\tAmazon,\tIMDB\tand\tTwitter,\tuse\thistorical\tdata to\t send\t suggestions\t to\t the\t users\t or\t customers\t to\t improve\t their\t experience.\t For example,\tif\tyou\twant\tto\tmake\ta\tpurchase\tof\tearrings\tor\tclothes\tonline,\tyou\tmay look\t at\t one\t website.\t Google\t will\t use\t that\t historical\t search\t to\t send\t you\t more suggestions.\t Instagram\t uses\t a\t similar\t profile\t as\t well.\t The\t recommendations made\t by\t these\t platforms\t are\t based\t on\t previous\t searches\t you\t may\t have performed.",
+        "offset": "page41",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Every\t marketing\t company\t makes\t use\t of\t data\t science\t algorithms\t to\t send suggestions\tto\tcustomers.\tEvery\tadvertisement\tyou\tsee\tat\tthe\tairport\tor\ttheatre on\t a\t digital\t billboard\t or\t screen\t on\t the\t website\t uses\t data\t science\t algorithms. Digital\tadvertisements\thave\tbeen\tdoing\tas\twell\tas\tthey\thave\tsince\tthey\tcan\tget\ta higher\tclick-through\trate\twhen\tcompared\tto\ttraditional\tadvertisements.\tYou\tcan use\tdata\tscience\talgorithms\tto\tuse\thistorical\tdata\tbased\ton\tthe\tpast\tbehavior.\nAdvanced\tImage\tRecognition\nYou\tmay\thave\tuploaded\ta\tpicture\ton\tInstagram,\tFacebook\tor\tother\tsocial\tmedia platforms.\tThese\tplatforms\tmay\tsend\tyou\ta\tsuggestion\tto\ttag\tyour\tfriends\tin\tthe picture\t based\t on\t your\t previous\t pictures.\t This\t feature\t uses\t the\t face\t recognition algorithm\t to\t suggest\t whom\t you\t can\t tag.\t Google\t also\t allows\t you\t to\t search\t for some\timages\tby\tuploading\tspecific\timages.\tIt\tprovides\trelated\tsearch\tresults\tby using\timage\trecognition.\nVirtual\tAssistance\nMany\torganizations\thave\tdeveloped\ta\tmobile\tapplication\tthat\thelps\tpatients\tvisit doctors\tvirtually\tto\tdetermine\twhat\tis\twrong\twith\tthem.\tThese\tapplications\tare",
+        "offset": "page41",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "powered\twith\tartificial\tintelligence\tand\thave\ta\tchatbot\tthat\tallows\tthem\tto\tspeak to\t healthcare\t professionals\t to\t understand\t their\t symptoms.\t There\t are\t many applications\tyou\tcan\tuse\tto\thelp\tremind\tyou\tto\ttake\tmedication\ton\ttime.\tAnother example\t is\t the\t use\t of\t chatbots\t on\t different\t websites.\t You\t can\t speak\t to\t the chatbot\tand\task\tthem\tany\tquestion\tyou\tmay\thave.\nSpeech\tRecognition\nSiri,\t Cortana,\t Google\t voice\t and\t other\t voice\t assistant\t products\t use\t speech recognition\t to\t improve\t your\t experience\t with\t different\t gadgets.\t Your\t life\t may stop\tif\tyou\tare\tnot\tin\ta\tposition\tto\ttype.\tThese\ttools\tconvert\tthe\twords\tyou\tsay\tto text,\tbut\tit\tis\timportant\tto\tnote\tthat\tthis\tmethod\tof\tconversion\tdoes\tnot\tperform accurately.\nPlanning\tRoutes\tfor\tAirplanes\nAirline\tcompanies\thave\tbegun\tto\tuse\tdata\tscience\tto\tidentify\tdifferent\troutes\tto optimize\t the\t airline\t routes.\t To\t reduce\t the\t heavy\t losses,\t airline\t companies\t bear due\tto\t an\tincrease\t in\t fuel\t prices\t and\theavy\t discounts\tto\t customers\tdue\t to\t high competition,\tcompanies\tcan\tuse\tdata\tscience\tfor\tthe\tfollowing:",
+        "offset": "page42",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Predict\tdelays\tin\tflights Decide\tthe\ttype\tof\taircraft\tto\tuse\tor\tbuy Determine\twhich\tflight\tyou\tshould\tsuggest\tto\ta\tcustomer\twithout\tany halt\tor\tstop Developing\tcustomer\tloyalty\tprograms\nGaming\nMost\t developers\t have\t started\t using\t machine-learning\t algorithms\t in\t games. These\t algorithms\t learn\t from\t how\t the\t user\t plays\t the\t game\t and\t uses\t that information\tto\thelp\tthe\tplayer\tupgrade\tor\tmove\tto\thigher\tlevels.\tEven\tin\tmotion gaming,\tthe\tcomputer\tuses\tprevious\tor\thistorical\tdata\tand\tanalyzes\tit\tto\tprovide the\t best\t experience.\t EA\t Sports,\t Sony,\t Zynga\t and\t Nintendo\t have\t taken\t the experience\t of\t gaming\t to\t a\t whole\t new\t level\t by\t using\t various\t concepts\t of\t data science\tin\ttheir\tcode.\nAugmented\tReality\nThis\tis\tan\tinteresting\tand\texciting\tapplication\tof\tdata\tscience,\tand\tit\tis\tsomething many\tcompanies\tare\ttrying\tto\tincorporate\tin\ttheir\tproducts.\tIf\tyou\tdo\tnot\tknow what\tI\tam\ttalking\tabout,\tthink\tabout\tvirtual\treality\theadsets\tand\tglasses.\tThese",
+        "offset": "page42",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "products\t contain\t computing\t algorithms,\t logic\t and\t knowledge\t to\t improve\t your viewing\texperience.\nData\t science\t and\t virtual\t reality\t have\t always\t had\t a\t strong\t relationship.\t Virtual reality\tproducts\tallow\tyou\tto\texperience\tthings\tyou\tcould\tnot\thave\tin\tthe\tpast. For\t example,\t in\t the\t show'\t Bones,'\t Angela\t Montenegro,\t an\t employee\t of\t the Jeffersonian\t institution,\t sets\t up\t a\t virtual\t reality\t monitor\t that\t allows\t a\t child\t to take\t a\t trip\t in\t the\t Louvre.\t There\t are\t similar\t activities\t in\t Disney\t Land,\t United States,\twhere\tyou\tcan\ttake\ta\tparasailing\ttrip\twithout\tactually\tbeing\tin\tair.\nYou\t may\t relate\t to\t the\t use\t of\t data\t science\t in\t virtual\t reality\t when\t it\t is\t easier\t to price\tthe\tvalue.",
+        "offset": "page43",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Chapter\tSeven:\t\tAlgorithms\tand\tStatistics\nDo\t you\t need\t to\t become\t a\t Ph.D.\t in\t mathematics\t or\t statistics\t to\t become\t a\t data scientist?\t No,\t you\t do\t not.\t The\t extent\t to\t which\t you\t need\t to\t know\t depends\t on what\trole\tyou\twant\tto\ttake\tup\tin\tthe\torganization.\tThis\tchapter\tgives\tyou\tan\tidea of\tall\tthe\tconcepts\tyou\tneed\tto\tknow\tif\tyou\twant\tto\tbecome\ta\tdata\tscientist.\tAs\ta data\t scientist,\t you\t first\t need\t to\t understand\t the\t basic\t concepts\t of\t probability theory\t and\t statistics.\t If\t you\t want\t to\t master\t different\t statistics\t and\t mathematics algorithms,\tyou\tneed\tto\tpractice\tthem\tregularly.\tYou\tneed\tto\tfollow\ta\ttop-down approach\tif\tyou\twant\tto\tlearn\thow\tto\tcode.\tYou\tneed\tto\tlearn\thow\tto\tuse\ta\tdata stack,\t familiarize\t yourself\t with\t real-world\t projects\t and\t use\t libraries\t and documentation.\t When\t you\t notice\t your\t lack\t of\t theoretical\t background,\t you\t can see\tthe\tbigger\tpicture.\tIt\tis\timportant\tto\tlearn\thow\tthese\talgorithms\twork.\tStart",
+        "offset": "page44",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "off\twith\tthe\tmathematical\taspects\tbefore\tyou\tmove\tonto\tthose\tareas,\twhich\tare more\tcomplex.\tThis\tchapter\thas\tthe\tlist\tof\tstatistical\tand\tmathematical\tconcepts you\tneed\tto\tlearn.\nNa\u00efve\tBayes\nA\tNa\u00efve\tBayes\tclassifier\tis\tan\talgorithm\twhich\tuses\tthe\tprinciples\tof\tprobability. One\tof\tthe\tmost\timportant\tprinciples\tit\tuses\tis\tthat\tthe\tvalue\tof\tone\tfeature\tin\tthe data\tset\tis\tindependent\tfrom\tthe\tvalue\tof\tother\tfeatures\tin\tthe\tdata\tset.\tAccording to\tthis\ttheorem,\tyou\tcan\tpredict\tthe\tprobability\tthat\tan\tevent\twill\toccur\tbased\ton the\tconditions\tof\tthe\toccurrence\tof\tthat\tevent.\tIt\tis\timportant\tto\tlearn\thow\tthese classifiers\t work,\t and\t to\t do\t this,\t you\t need\t to\t study\t the\t basics\t and\t principles\t of conditional\t probability\t and\t probability.\t One\t of\t the\t easiest\t ways\t to\t understand this\t theorem\t is\t to\t study\t the\t concepts\t of\t probability.\t You\t can\t then\t check\t on Bayes'\ttheorem\tand\thow\tto\tcode\tthis\ttheorem.\nLinear\tRegression\nLinear\t regression\t is\t a\t basic\t form\t of\t regression,\t and\t it\t allows\t you\t to\t determine the\t connection\t between\t two\t variables\t in\t the\t data\t set.\t One\t of\t the\t variables\t is termed\tas\tthe\tpredictor\tvariable\tand\tthe\tother\tis\tknown\tas\tthe\tresponse\tvariable. These\tvariables\tare\toften\tcontinuous\tin\tnature.\tA\tsimple\tlinear\tregression\tmodel uses\tvarious\tdata\tpoint\tsets\tand\tthen\textrapolates\tthe\ttrend\tof\tthe\tvalues\tand\thow they\twill\tprogress\tin\tthe\tfuture.\tLinear\tregression\tis\ta\tcommon\talgorithm\tused\tin parametric\t machine\t learning,\t and\t in\t this\t form\t of\t learning,\t you\t can\t train\t the machine\t to\t develop\t a\t mathematical\t function\t using\t existing\t data\t sets.\t You\t can use\t this\t function\t to\t make\t predictions\t or\t forecasts\t about\t future\t events.\t These",
+        "offset": "page44",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "functions\tare\ttermed\tas\tmodels\tin\tmachine\tlearning\tterminology.\tThe\tbest\tway to\t learn\t more\t about\t regression\t is\t to\t develop\t an\t understanding\t of\t elementary statistics.\tIf\tyou\twant\tto\tlearn\tmore\tabout\tregression\tand\tthe\tvarious\tconcepts, you\tneed\tto\ttake\tan\tadvanced\tcourse\tof\tstatistics.\nLogistic\tRegression\nLogistic\tregression\tis\ta\tprocess\tsued\tin\tdifferent\tcases\twhere\tyou\thave\ta\tbinary dependent\t variable.\t This\t form\t of\t regression\t focuses\t on\t the\t estimation\t of probability\t of\t the\t occurrence\t of\t an\t event.\t Logistic\t regression\t is\t also\t an algorithm\t used\t in\t parametric\t machine\t learning.\t Like\t linear\t regression,\t this algorithm\talso\tresults\tin\ta\tmathematical\tfunction.\tThe\tdifference\tbetween\tthese forms\tof\tregression\tis\tthat\tlogistic\tregression\tleads\tto\tdeveloping\ta\tmathematical function\t that\t estimates\t the\t values\t based\t on\t their\t logarithms\t or\t other\t statistical functions.\t Another\t difference\t between\t linear\t and\t logistic\t regression\t is\t that\t the former\tuses\treal\tnumbers\tand\tgives\tthose\tas\tthe\toutput.\tThe\tlatter\tuses\ta\tmodel which\t provides\t the\t logistic\t function.\t A\t logistics\t function\t produced\t is\t also termed\tas\ta\tsigmoid\tfunction\tthat\ttakes\tcare\tof\tthe\tvalues\tto\tgive\tyou\tan\toutput",
+        "offset": "page45",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "between\t0\tand\t1.\tLet\tus\tunderstand\twhy\ta\tsigmoid\tfunction\treturns\ta\tprobability value.\t It\t is\t because\t of\t the\t algebraic\t concepts\t used\t in\t the\t algorithms\t that\t a negative\texponent\tis\ttaken.\nNeural\tNetworks\nA\t neural\t network\t is\t a\t form\t of\t machine\t learning\t algorithm.\t These\t forms\t of networks\t are\t based\t on\t the\t structure\t of\t the\t neurons\t in\t the\t brain.\t The\t neural network\t uses\t a\t series\t of\t activation\t points\t or\t weights\t to\t help\t you\t make\t the necessary\t predictions.\t The\t neurons\t take\t the\t input,\t apply\t the\t transformation function\t and\t give\t you\t an\t output\t that\t helps\t you\t make\t the\t necessary\t decisions. When\tit\tcomes\tto\tcapturing\tany\tnonlinear\trelationships\twithin\tthe\tdata\tset,\tit\tis best\tto\tuse\ta\tneural\tnetwork\tbest\tsince\tit\thelps\tin\ttasks,\tsuch\tas\timage\tand\taudio processing.\tThe\tfundamental\tconcept\tof\tneural\tnetwork\tis\tto\ttransform\tthe\tinput and\t processing\t it\t to\t generate\t the\t output.\t If\t you\t want\t to\t understand\t the\t math better\tin\ta\tneural\tnetwork,\tyou\tneed\tto\ttake\tup\tcourses\tto\thelp\tyou\tlearn\tmore about\tlinear\talgebra\tand\tgeometry.\tThis\tis\ta\tbetter\tway\tto\tstart\tpreparing.\tIf\tyou",
+        "offset": "page45",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "want\tto\tdelve\tdeeper,\tyou\tneed\tto\tlearn\tmore\tabout\tgraph\ttheory,\tmatrix\ttheory and\treal\tanalysis.\nK-Means\tClustering\nThe\t k-means\t clustering\t algorithm\t is\t a\t type\t of\t unsupervised\t machine\t learning",
+        "offset": "page45",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "algorithm.\t You\t can\t use\t this\t algorithm\t to\t categorize\t any\t unlabeled\t data.\t This type\t of\t data\t does\t not\t have\t any\t defined\t categories\t or\t groups,\t but\t it\t works\t to identify\tor\tdefine\tany\thidden\tcategories\tin\tthe\tdata\tset.\tThe\tnumber\tof\tvariables identified\t by\t the\t algorithm\t are\t 'k'\t in\t number.\t The\t algorithm\t iterates\t over\t the various\t data\t points\t in\t the\t data\t set,\t so\t every\t point\t is\t assigned\t to\t one\t of\t many groups.\t This\t algorithm\t depends\t on\t the\t idea\t that\t the\t distance\t between\t the\t data points\t and\t the\t center\t of\t the\t cluster\t is\t the\t same\t across\t all\t data\t points.\t You\t can use\t any\t function\t that\t shows\t the\t distance\t between\t the\t elements\t in\t the\t data\t set. Suppose\t you\t want\t to\t work\t with\t this\t algorithm.\t In\t that\t case,\t you\t need\t to understand\t the\t basics\t of\t algebra,\t including\t addition\t and\t subtraction\t to\t identify the\t distance\t between\t the\t data\t points\t easily.\t If\t you\t want\t to\t delve\t deeper,\t you",
+        "offset": "page46",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "need\tto\tlearn\tabout\tEuclidean\tand\tnon-Euclidean\tgeometry.\nDecision\tTree\nDecision\t trees\t are\t an\t easy\t way\t to\t determine\t the\t outcome\t of\t any\t decision\t you take\tusing\ta\tflowchart.\tThe\tflowchart\tis\tin\tthe\tform\tof\ta\ttree\tstructure\tthat\tuses\ta branching\tmethod.\tEvery\tnode\tin\tthe\tdecision\ttree\tis\tbased\ton\ta\tspecific\tvariable and\t every\t branch\t is\t an\t image\t of\t the\t outcome.\t A\t decision\t tree\t is\t based\t on information\ttheory,\tsince\tthis\tis\thow\tthey\tare\tconstructed.\tAn\timportant\tconcept of\t a\t decision\t tree\t is\t known\t as\t entropy.\t Entropy\t is\t a\t measure\t of\t uncertainty\t in any\t variable.\t When\t you\t use\t entropy,\t you\t can\t construct\t a\t decision\t tree\t easily. When\tthere\tis\thigher\tentropy,\tthere\tis\tmore\tuncertainty\tin\tthe\tdata.\tthis\tmeans you\tneed\tto\tsplit\tthe\ttree\tin\ta\tway\tto\tdecrease\tany\tuncertainty.\nInformation\tgain\thelps\tyou\tdetermine\thow\tmuch\tinformation\tyou\tcan\tgain\tfrom someone.\t When\t it\t comes\t to\t a\t decision\t tree,\t you\t can\t calculate\t the\t information gain\t on\t every\t column\t based\t on\t previous\t columns\t based\t on\t the\t information present\tin\tthe\tcolumns\tin\tthe\tdata\tset.",
+        "offset": "page46",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Here\t is\t a\t small\t tip\t \u2013\t you\t need\t to\t learn\t basic\t algebra\t and\t probability\t to\t know what\t decision\t trees\t are\t and\t how\t they\t work.\t If\t you\t want\t to\t learn\t more\t about decision\ttrees,\tyou\tneed\tto\tlearn\tabout\tlogarithms\tand\tprobability.\nSome\tFinal\tThoughts\nMathematics\tand\tstatistics\tare\tdifficult\tsubjects,\tand\tthey\tcan\tfeel\tdaunting\tand dry\t at\t times.\t You\t will,\t however,\t feel\t equipped\t when\t you\t compare\t your\t skills against\tthe\tskills\tof\tyour\tpeers.\tIt\tis\talso\timportant\tto\tlearn\thow\tyou\tcan\tapply these\tconcepts\ton\tvarious\tdata\tscience\tproblems.",
+        "offset": "page46",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "The\t topics\t highlighted\t in\t this\t book\t will\t need\t to\t be\t read\t well\t and\t understood. This\t is\t the\t only\t way\t you\t can\t develop\t and\t build\t algorithms.\t You\t can\t rely\t on different\tmachine\tlearning\tlibraries\tand\ttools\tto\tcomplete\tthis\twork\tfor\tyou.\tIt\tis useful\t for\t a\t data\t scientist\t to\t understand\t statistics\t and\t math,\t which\t helps\t you determine\t what\t is\t happening\t in\t the\t tools\t or\t algorithms.\t This\t allows\t you\t to choose\tthe\talgorithm\tthat\tworks\tbest\tfor\tyour\tdata\tset\tand\tallow\tyou\tto\tmake\tthe necessary\tpredictions.\nDive\t deep\t and\t work\t hard\t to\t develop\t the\t skills\t necessary\t to\t become\t a\t data scientist.\nApplying\tMath\tto\tData\tScience\tModels\nIf\t you\t want\t to\t work\t as\t a\t data\t scientist,\t you\t need\t to\t have\t some\t mathematical skills.\tThis\tis\tthe\tonly\tway\tyou\tcan\tunderstand\tdata\tand\tthe\tsignificance\tof\tthe patterns\t in\t the\t data\t set.\t These\t are\t important\t data\t science\t skills\t since\t you\t use them\t to\t build\t and\t develop\t models\t and\t perform\t predictive\t analysis\t and hypothesis\ttesting.\tData\tscientists\tuse\tmath\tto\tdevelop\tdecision\tmodels\tand\tthey can\t use\t different\t mathematical\t algorithms\t to\t predict\t the\t future.\t This\t book explains\tsome\tconcepts\tyou\tneed\tto\tlearn\tand\tthe\tskills\tyou\tneed\tto\tdevelop\tif you\twant\tto\tbecome\ta\tdata\tscientist.",
+        "offset": "page47",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Deriving\tInsights\tfrom\tStatistical\tMethods\nIf\t you\t are\t a\t data\t scientist,\t you\t need\t to\t understand\t the\t basics\t of\t statistics.\t You should\t understand\t the\t significance\t of\t data,\t develop\t hypotheses\t and\t validate them\t by\t simulating\t certain\t scenarios.\t This\t makes\t it\t easier\t for\t you\t to\t predict futuristic\tevents.\tIt\tis\tvery\tdifficult\tto\tdevelop\tadvanced\tstatistical\tskills,\tbut\tif you\t are\t keen\t about\t pursuing\t a\t career\t in\t data\t science,\t you\t need\t to\t understand some\tbasics\tof\tlogistic\tregression,\tlinear\tregression,\ttime\tseries\tanalysis,\tBayes classification,\tetc.\nSome\tEssentials\tfor\tData\tScience\nUnderstanding\t programming\t languages\t and\t coding\t in\t various\t languages, especially\tR\tand\tPython,\tare\timportant\tfor\tdata\tscience.\tYou\tneed\tto\tlearn\thow to\t write\t code\t to\t instruct\t the\t machine\t on\t how\t it\t should\t process,\t manipulate, analyze\tand\tvisualize\tthe\tdata.\tIt\tis\timportant\tto\tunderstand\thow\tto\twrite\tcode\tin R\tand\tPython.\tThere\tare\tdifferent\tlibraries\tand\tfunctions\tin\tthese\tlanguages\tthat allow\tyou\tto\tmanipulate,\tanalyze\tand\tvisualize\tthe\tanalysis\tof\tthe\tdata\tset.",
+        "offset": "page47",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "You\tcan\talso\tuse\tSQL\tto\trun\tqueries\ton\tthe\tdata\tset\tthat\tallows\tyou\tto\textract",
+        "offset": "page47",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "and\t modify\t data\t in\t the\t database.\t People\t also\t use\t JavaScript\t library\t to\t develop interactive,\t dynamic\t and\t custom\t visualizations\t on\t the\t Internet.\t To\t do\t this,\t you need\tto\tlearn\tto\twrite\tcode\tin\tR\tor\tpython.\tIt\tis\timportant\tto\tlearn\tto\tcode\tif\tyou want\tto\tbecome\ta\tdata\tscientist,\tand\tthese\tare\teasy\tlanguages\tto\tlearn.",
+        "offset": "page48",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Chapter\tEight:\tData\tScience\tin\ta\tSector\nMost\tstatisticians\thave\tbeen\tstating\tthat\tdata\tscience\tis\texactly\twhat\tthey\thave been\t doing\t for\t the\t last\t few\t decades.\t While\t this\t may\t be\t true\t to\t an\t extent,\t you cannot\tagree\twith\tthem.\tData\tscience\tis\tcompletely\tdifferent\tand\tseparate\tfrom traditional\t statistical\t and\t mathematical\t approaches.\t Data\t science\t is\t different from\t statistics\t in\t many\t ways.\t Data\t scientists\t use\t programming\t languages\t to improve\t the\t efficiency\t of\t their\t analysis.\t If\t you\t are\t a\t statistician,\t you\t need\t to know\tthe\tsubject\tin\tits\tentirety.\tAs\ta\tdata\tscientist,\tyou\tneed\tonly\tto\tunderstand the\tbasics\tof\tmathematics\tand\tstatistics.\nStatisticians\t have\t very\t limited\t expertise\t about\t anything\t apart\t from\t statistics. They\t need\t to\t reach\t out\t to\t subject\t matter\t experts\t if\t they\t want\t any\t help\t or information\tabout\tother\tsubjects.\tThey\talso\tneed\tsome\thelp\tfrom\texperts\tto\thelp them\t determine\t and\t understand\t their\t findings.\t This\t is\t the\t only\t way\t they\t can learn\thow\tthey\tcan\tmove\tforward.",
+        "offset": "page49",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "On\t the\t other\t hand,\t a\t data\t scientist\t has\t enough\t information\t about\t different subjects\t that\t helps\t him\t understand\t and\t analyze\t the\t findings\t with\t ease.\t A\t data scientist\t generates\t deep\t insights\t and\t uses\t his\t subject\t matter\t expertise\t to understand\twhat\tthe\tdata\tis\ttrying\tto\ttell\thim.\nThe\tfollowing\tare\tsome\tways\tto\tuse\tdata\tscience\tto\timprove\tthe\tperformance\tof the\tbusiness\tin\tspecific\tsectors.\nSome\t architectural\t firms\t have\t begun\t to\t use\t machine\t learning algorithms\tto\toptimize\tthe\tconsumption\tof\tenergy\tin\tmodern\tdesigns Marketing\t firms\t and\t businesses\t use\t logistic\t regression\t and\t other statistical\t algorithms\t to\t predict\t how\t customers\t may\t behave\t in\t the future The\t healthcare\t industry\t uses\t data\t science\t to\t determine\t illnesses\t and personalize\ttreatment\tplants.\tThis\tallows\tdoctors\tto\tpredict\tand\tcheck for\tany\tfuture\thealth\tproblems A\t data\t journalist\t takes\t information\t from\t the\t website\t to\t identify\t any patterns\tand\tconnections\twithin\tthe\tdata\tset Law\t enforcement\t agencies\t and\t organizations\t use\t data\t science\t to prevent\tand\tpredict\tany\tcriminal\tactivities",
+        "offset": "page49",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Communicate\tthe\tInsights\tCaptured\tThrough\tData\nIf\tyou\twant\tto\tbecome\ta\tgood\tdata\tscientist,\tyou\tneed\tto\thave\tsharp\twritten\tand",
+        "offset": "page49",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "oral\t communication\t skills.\t As\t a\t data\t scientist,\t you\t need\t to\t communicate\t the information\t you\t have\t inferred\t from\t the\t data.\t If\t you\t cannot\t do\t this,\t all\t the information\tin\tthe\tdata\tset\tmeans\tnothing\tto\tyou\tor\tthe\tbusiness.\tA\tdata\tscientist must\tfind\ta\tway\tto\texplain\tthe\tinsights\tgathered\tfrom\tthe\tdata\tset\tso\tthat\the\tcan develop\t meaningful\t and\t clear\t visualizations.\t It\t is\t important\t to\t remember\t that people\t are\t visual,\t so\t they\t learn\t better\t when\t they\t can\t visualize\t anything.\t As\t a data\tscientist,\tyou\tneed\tto\tbe\tpragmatic\tand\tcreative\tabout\tthe\tdata\tcollected\tand find\tthe\tright\tway\tto\tcommunicate\tthem\tclearly.\nLeverage\tCloud-Based\tSolutions\nIf\tyou\tare\tnot\tused\tto\tworking\twith\tlarge\tvolumes\tof\tdata,\tyou\tcan\tuse\tcloud- based\t solutions\t to\t learn\t more\t about\t the\t patterns\t in\t the\t data\t set.\t Most organizations\tand\tdata\tanalysts\thave\tunderstood\tthe\tuse\tof\tdata\tanalytics\tand\tbig data\tand\ttheir\timportance.\tIt\tis\ta\tnew\tdomain\tfor\tsome\tpeople\tand\torganizations, but\t they\t are\t working\t as\t hard\t as\t possible\t to\t prepare\t for\t the\t flood\t of\t big\t data. many\tcloud\t applications,\t both\t private\t and\t new,\tare\t dedicated\t to\t improving\tthe way\tcompanies\thandle\ttheir\tbig\tdata.",
+        "offset": "page50",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "You\tcan\talso\tuse\tcloud\tservices,\tsuch\tas\tTableau,\tto\tclean\tand\tprocess\tdata\tsets. Most\tcloud-based\tapplications\tare\topen-source\tand\tcode-free.\tYou\tcan\tuse\tthese solutions\t to\t model\t and\t visualize\t data\t using\t various\t statistical\t tools\t and techniques.\tYou\tneed\tbasic\tknowledge\tof\tmathematics\tand\tstatistics\tbefore\tyou apply\tany\tdata\tscience\ttechniques\ton\tthe\tdata\tset.\tIf\tyou\tdo\tnot\thave\tknowledge about\t programming,\t you\t can\t use\t applications\t that\t do\t not\t require\t you\t to\t write any\tscripts\tor\tcode.\nRegardless\tof\twhether\tyou\tuse\tcloud-based\tsolutions\tto\tperform\tdata\tanalysis\tor not,\tyou\tneed\tto\ttrain\tyour\temployees\tand\tgather\tmore\tinformation\tabout\twhat data\tscience\tis.\tYou\talso\tneed\tto\tlearn\tabout\tthe\talgorithms\tdiscussed\tearlier.\tIt is\t important\t for\t you\t to\t learn\t more\t about\t how\t to\t process\t data,\t design\t a\t model, build\tthe\tmodel\tand\tanalyze\tit\tif\tyou\twant\tto\tobtain\tinsights\tabout\tthe\tdata.\tYou cannot\t expect\t any\t cloud-based\t platform\t to\t make\t it\t easier\t for\t anybody\t to\t work with\t the\t data\t set\t if\t they\t do\t not\t have\t basic\t knowledge\t of\t mathematics\t and statistics.",
+        "offset": "page50",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Chapter\tNine:\tData\tCleaning\tUsing\tR\nData\t is\t the\t new\t fuel\t for\t all\t organizations,\t and\t they\t collect\t data\t from\t every source\t possible.\t This\t means\t they\t work\t with\t unstructured,\t semi-structured\t and structured\tdata.\tIt\tis\tfor\tthis\treason\twe\tneed\tto\tclean\tand\tprocess\tthe\tdata,\tso\tyou transform\t raw\t data\t into\t structured\t data\t that\t is\t easier\t to\t analyze.\t Cleaning\t and processing\tof\tdata\tinfluences\tthe\tanalysis\tyou\tperform.\tMost\tdata\tscientists\tuse R\tto\tperform\tan\tanalysis\ton\tdata,\tand\tthis\tlanguage\toffers\ta\tcomprehensive\tand effective\tmethod\tto\tanalyze\tdata.\tLet\tus\tlook\tat\tthe\tprocess\tof\tcleaning\tthe\tdata.\nStep\tOne:\tExploratory\tAnalysis\tof\tData\nWhen\tit\tcomes\tto\tprocessing\tinformation\tin\tthe\tdata\tset,\tyou\tneed\tto\texplore\tthe data.\tYou\tcan\timport\tthe\tdata\tinto\tR\tand\tuse\tdifferent\toperations\tto\texplore\tthe data\t set.\t Before\t we\t perform\t the\t analysis,\t it\t is\t important\t for\t you\t to\t understand how\tto\timport\tthe\tdata\tinto\tR.\nsetwd(\"C:/Users/USER/Desktop/House\tPricing\t\")",
+        "offset": "page51",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "dir()\ndata<-read.csv(\u201cRegression-Analysis-House\tPricing.csv\u201c,na.strings\t=\t\u201c\u201d)\nView(data)\nWhen\tyou\tenter\tthe\tdata\tinto\tR,\tyou\tneed\tto\tcheck\tthe\tclass\tof\tthe\tframe\tin\tyour",
+        "offset": "page51",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "data.\nclass(data)\nWhen\tyou\tdo\tthis,\tyou\twill\tobtain\tthe\toutput\tshown\tbelow.\tIn\tthis\toutput,\tyou can\tsee\tthat\tthe\tdataset\tis\tstored\tin\tR\tin\tthe\tform\tof\ta\tdata\tframe.\n[1]\t\u201cdata.frame\u201d\nWe\t need\t to\t perform\t the\t next\t step\t to\t check\t the\t number\t of\t columns\t or\t rows present\tin\tthe\tdata\tframe.\tThe\tfollowing\tis\tthe\tcode\tto\tuse.\ndim(data)\nThe\toutput\tis:\t[1]\t932\t10\nFrom\tthe\tabove\toutput,\twe\tsee\tthat\tthe\tdata\tset\thas\t10\tcolumns\tand\t923\trows. You\tcan\tuse\tthe\tfollowing\tfunction\tto\tview\tthe\tcolumns\tand\trows'\tdetails\tin\tthe data\tset.\nsummary(data)\nThis\tleaves\tyou\twith\tthe\tfollowing\toutput:\nStep\tTwo:\tVisual\tExploratory\tAnalysis\nAfter\tyou\timport\tthe\tdata\tinto\tR,\tyou\tcan\tuse\tvisual\tanalysis\tto\tlearn\tmore\tabout the\t hidden\t parameters.\t You\t can\t use\t the\t following\t plots\t to\t look\t at\t the\t data visually:\nHistogram -\t\t\t\t\t\t\t\t\t\t\tBox\tPlot",
+        "offset": "page52",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Histogram\nA\thistogram\tis\ta\tvisualization\ttool\tused\tto\tlook\tat\tthe\tdata\tset\ton\tthe\tbasis\ton\tits numerals.\t Using\t a\t histogram,\t it\t becomes\t easy\t to\t determine\t if\t the\t data\t is distributed\t using\t a\t unimodal\t and\t bi-modal\t distribution.\t Most\t data\t sets\t are normally\tdistributed,\tso\tif\tyour\tdata\tis\tnot\tdistributed\tnormally,\tyou\tcan\tconvert the\tdata\tinto\ta\tnormal\tdistribution.\tA\thistogram\tcan\talso\thelp\tyou\tdetermine\tif there\t are\t any\t outliers\t in\t the\t data\t set\t or\t the\t column\t under\t study.\t Use\t the\t code given\tbelow\tto\tplot\tthe\tdata\tas\ta\thistogram.\ninstall.packages(\u201cplyr\u201d)\nlibrary(plyr)\nhist(data$Dist_Taxi)\nBox\tPlot\nA\tbox\tplot\tis\textremely\tuseful\tsince\tit\tshows\tyou\thow\tskewed\tthe\tdata\tis.\tA\tbox plot\tshows\tyou\tthe\tmedian\tand\tquartiles\tin\tthe\tdata\tset.\tYou\tcan\talso\tuse\tthis\tto spot\tany\toutliers\tin\tthe\tdata\tset.\tUse\tthe\tcode\tbelow\tif\tyou\twant\tto\tvisualize\tthe data\tin\tthe\tform\tof\ta\tbox\tplot:\nboxplot(data$Dist_Taxi)",
+        "offset": "page53",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Step\tThree:\tCorrect\tErrors\nIn\tthis\tstep,\tyou\tshould\tidentify\tthe\terrors\tin\tthe\tdata\tset,\tand\tdetermine\tmethods and\tmodels\tyou\tcan\tuse\tto\tcorrect\tthe\terrors\tin\tthe\tcode.\tYou\tcan\talso\tchange names\tof\tthe\tdata\tframes\tto\tdifferentiate\tbetween\tthe\taccurate\tframes\tused.\tThe syntax\tto\tchange\tthe\tname\tof\ta\tdata\tframe\tis:\ndata$carpet_area<-data$Carpet\nUsing\t the\t above\t syntax,\t you\t can\t rename\t the\t column\t 'Carpet'\t to\t carpet_area. There\t may\t be\t times\t when\t the\t data\t set\t imported\t in\t the\t language\t are\t stored\t as numeric\t values.\t In\t these\t cases,\t you\t need\t to\t change\t the\t column\t type\t using\t the following\tcode\tbelow:\ndata$Dist_Taxi<-as.character(data$Dist_Taxi)\nclass(data$Dist_Taxi)\n\"character\"\nYou\t can\t perform\t numerous\t array\t conversion\t operations\t in\t R.\t Some\t of\t these operations\tare\tlisted\tbelow:\nas.character()\nas.numeric()\nas.integer()\nas.logical()\nas.factor()",
+        "offset": "page54",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Since\t most\t data\t collected\t by\t organizations\t is\t unstructured\t or\t semi-structured, you\tneed\tto\tfind\tways\tto\ttransform\tdata\tas\tneeded.\tString\tmanipulation\tcomes\tin handy\t since\t most\t elements\t are\t text\t based.\t You\t can\t change\t the\t text\t from lowercase\tto\tuppercase\tand\tvice\tversa\tin\ta\tspecific\tcolumn.\tTo\tdo\tthis,\tyou\tcan perform\tthe\toperation\tbelow:\n#Making\tall\tuppercase\ndata$Parking<-toupper(data$Parking)\n#Making\tall\tLowercase\ndata$Parking<-toupper(data$Parking)\nYou\tcan\talso\tremove\tany\twhitespaces\tor\tadditional\tspaces\twithin\tthe\tdata\tusing the\tsyntax\tbelow.\tYou\tcan\tdo\tthis\tto\tspecific\tcells\tor\tcolumns,\tas\twell.\n#Installing\tand\tloading\tthe\trequired\tpackages\ninstall.packages(\"stringr\")\nlibrary(stringr)\n#Trimming\tall\twhitespaces\ndata$Dist_Taxi<-str_trim(data$Dist_Taxi)\nIf\tyou\twant\tto\treplace\ta\tspecific\tletter\tor\tword\tin\ta\tspecific\tcolumn,\tuse\tthe\tcode below:\n#Replacing\t\"Not\tProvided\"\twith\t\"Not\tAvailable\"\ndata$Parking<-str_replace(data$Parking,\u201dNot\tProvided\u201d,\u201dNot\tAvailable\u201d)\nIf\tyou\twant\tto\treplace\tany\toutliers\tin\tthe\tdata\tset\tusing\tsome\tsummary\tstatistics, like\tthe\tmedian\tor\tmean,\tyou\tcan\tuse\tthe\tcode\tbelow:",
+        "offset": "page55",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "#Replacing\tthe\toutliers\tof\ta\tparticular\tcolumn\twith\tmedian\nvec1<-boxplot.stats(data$Dist_Taxi)$out;\ndata$Dist_Taxi[data$Dist_Taxi\t%in%\tvec1]<-median(data$Dist_Taxi)\nThe\t next\t steps\t will\t help\t you\t determine\t how\t you\t can\t identify\t and\t remove\t any missing\tvalues\tin\tthe\tdata\tset:",
+        "offset": "page55",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "#Checking\tfor\tmissing\tvalues\tin\tthe\tentire\tdataframe\nany(is.na(data))\n#Checking\tfor\tthe\ttotal\tnumber\tof\tmissing\tvalues\tin\tthe\tentire\tdataframe\nsum(is.na(data))\n#Checking\tfor\tthe\ttotal\tnumber\tof\tmissing\tvalues\tin\ta\tparticular\tcolumn\nsum(is.na(data$Dist_Taxi))\n#Eliminating\tmissing\tvalues\tcompletely\tfrom\tthe\tentire\tdataframe\nna.omit(data)\n#Eliminating\tmissing\tvalues\tcompletely\tfrom\ta\tparticular\tcolumn\nna.omit(data$Dist_Taxi)\n#Replacing\tthe\tNA's\tin\tthe\tentire\tdataframe\twith\t'0\u2019s\ndata[is.na(data)]<-\t0\n#Replacing\tthe\tNA's\tin\ta\tparticular\tcolumn\twith\t'0\u2019s\ndata$Dist_Taxi[is.na(data$Dist_Taxi)]<-0\n#Replacing\t the\t NA\u2019s\t in\t a\t particular\t column\t with\t a\t summary\t statistics\t like median\ndata$Dist_Taxi[is.na(data$Dist_Taxi)]<-median(data$Dist_Taxi)\nUse\tthe\ttools\tbelow\tif\tyou\twant\tto\tcombine\ttwo\tor\tmore\tcolumns\tin\tthe\tdata\tset:\n#Installing\tand\tloading\tthe\trequired\tpackage\ninstall.packages(\u201ctidyr\u201d)\nlibrary(tidyr)\ndata1<-unite(data\t city_category_with_parking,City_Category,Parking)\n=\ndata,col\nView(data1)",
+        "offset": "page56",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "The\tfunction\t\u2018unite\u2019\tuses\tthe\tfollowing\targuments:\n=",
+        "offset": "page56",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Data\tframe New\tcolumn\tname First\tcolumn Second\tcolumn\nThe\t last\t two\t variables\t in\t the\t code\t are\t the\t names\t of\t the\t columns\t you\t want\t to combine.\nYou\tcan\talso\tseparate\tcolumns\tif\tneeded:\ndata2<-separate(data\t data1,city_category_with_parking,c(\u201cCity_Category\u201d,\u201dParking\u201d),\tsep\t=\t\u201c-\u201c)\nView(data2)\nThe\tseparate\tfunction\thas\tfour\targuments:\nData\tframe Columns\tto\tseparate Name\tof\tthe\tnew\tcolumn Indicator\tused\tto\tseparate\tthe\tdata\tin\tthe\tcolumn\nWhen\tyou\tfollow\tthe\tsteps\tgiven\tabove,\tyou\twill\tend\tup\twith\ta\tclean\tdata\tset.\n=",
+        "offset": "page57",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Chapter\tTen:\tDevelop\ta\tPredictive\tModel\tUsing\tR\nIf\tyou\twant\tto\tunderstand\twhat\tpredictive\tmodeling\tis\tand\tthe\tstrategic\tareas,\tlet us\t break\t the\t process\t down\t into\t the\t essential\t components.\t You\t can\t divide\t the process\t into\t four\t parts.\t Every\t component\t needs\t a\t certain\t amount\t of\t time\t to execute\tthe\tprocess.\tLet\tus\tlook\tat\teach\tstep\tand\tconsider\tthe\ttime\tit\twill\ttake:\n1.\t Performing\tdescriptive\tanalysis\ton\tthe\tdata\t\u2013\tthis\ttakes\t50%\ttime 2.\t The\tnext\tstep\tis\tto\ttreat\tthe\tdata\tand\tidentify\tany\toutliers\tand\tmissing values\t\u2013\t40%\ttime\n3.\t Data\tmodeling\t\u2013\t4%\ttime 4.\t The\testimation\tof\tperformance\t\u2013\t6%\ttime\nThese\t are\t only\t assumed\t times\t since\t the\t time\t taken\t by\t each\t programmer\t will vary\t depending\t on\t how\t well\t you\t know\t the\t concepts\t and\t language.\t Using\t the above\tdata,\tyou\tcan\tcut\tthe\ttime\tdown.\tNow,\tlet\tus\tput\tthe\tsteps\tdiscussed\tabove into\taction.\tThe\tcode\tused\tbelow\tis\tnot\tthe\tentire\tcode,\tbut\tit\tgives\tyou\tan\tidea of\twhat\ttype\tof\tcode\tto\twrite.\tThis\tis\ta\tskeleton\tof\tthe\tentire\talgorithm\tin\tR.",
+        "offset": "page58",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "The\tfirst\tthing\tto\tdo\tis\tto\tsplit\tthe\tentire\tdata\tset\tinto\ttraining\tand\ttesting\tdata\tset. Once\tyou\tdo\tthis,\tyou\tneed\tto\timport\tthe\ttraining\tdata\tset\tinto\tR.\tUse\tthe\tcode below\tto\tdo\tthis:\nsetwd(\"C:\\\\Users\\\\Tavish\\\\Desktop\\\\Kagg\\\\AV\")\ncomplete\t<-\tread.csv(\"complete_data.csv\",\tstringsAsFactors\t=\tTRUE)\nThe\tnext\tstep\tis\tto\tread\tthe\tnames\tof\tthe\tcolumns\tand\tthe\tsummary\tin\tthe\tdata set.\ncolnames(complete\t)\n[1]\t\"ID\"\t\"Gender\"\t\"City\"\t\t\"Monthly_Income\"\t\"Disbursed\"\t\"train\"\nWhen\tyou\textract\tthe\tsummary,\tyou\tshould\tlook\tfor\tthe\tfollowing\tdata:\nVariables Numeric\tvariables Factor\tvariables\tor\tpredictors Target\tvariables\nIf\tyou\tnotice\tany\tvalues\tmissing\tin\tthe\tdata\tset,\tyou\tneed\tto\tcreate\tflags.\tUse\tthe example\tbelow:",
+        "offset": "page58",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "missing_val_var\t<-\tfunction(data,variable,new_var_name)\t{\ndata$new_var_name\t<-\tifelse(is.na(variable),1,0))\nreturn(data$new_var_name)}\nNow,\timpute\tthe\tvalues\tin\tthe\tdata\tset:\nnumeric_impute\t<-\tfunction(data,variable)\t{\nmean1\t<-\tmean(data$variable)\ndata$variable\t<-\tifelse(is.na(data$variable),mean1,data$variable)\nreturn(new_var_name)\n}\nYou\t can\t also\t input\t other\t categorical\t variables\t in\t the\t data\t set\t to\t ensure\t every missing\tvalue\tin\tthe\tcode\tsays\t'Null.'\tThe\tnext\tthing\tto\tdo\tis\tto\tpass\tany\timputed variables\tin\tthe\tprocess.\ncreate_model\t<-\tfunction(trainData,target)\t{\nset.seed(120)\nmyglm\t<-\tglm(target\t~\t.\t,\tdata=trainData,\tfamily\t=\t\"binomial\")\nreturn(myglm)\t}\nThe\tfinal\tstep\tis\tto\tmake\tthe\tnecessary\tpredictions.\nscore\t<-\tpredict(myglm,\tnewdata\t=\ttestData,\ttype\t=\t\"response\")\nscore_train\t<-\tpredict(myglm,\tnewdata\t=\tcomplete,\ttype\t=\t\"response\")\nOnce\tyou\tdevelop\tthis\tmodel,\tyou\tcan\ttest\tthe\tmodel\tusing\tthe\ttesting\tdata\tset.\nauc(complete$Disbursed,score_train)",
+        "offset": "page59",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Chapter\t Eleven:\t Create\t Data\t Visualization\t Communicate\tthe\tInsight\nOnce\t you\t complete\t your\t analysis\t of\t the\t data,\t you\t need\t to\t use\t visualization techniques\t to\t explain\t to\t the\t stakeholders\t what\t you\t found\t in\t the\t data\t set. Visualization\t patterns\t show\t people\t the\t insights\t and\t patterns\t in\t the\t data\t set, which\tcannot\tbe\tabsorbed\tor\tshown\tin\tany\tother\tway.\tIt\tis\timportant\tto\tnote\tthat data\t is\t just\t bits\t and\t pieces\t of\t information,\t but\t you\t need\t to\t visualize\t it\t if\t you want\tto\tmake\tsense\tof\tthe\tinformation\tavailable.\nIn\t this\t chapter,\t we\t look\t at\t what\t data\t visualization\t is\t in\t a\t broad\t aspect.\t For instance,\t some\t people\t may\t look\t at\t loading\t data\t into\t excel\t or\t any\t other visualization\tplatform\tas\ta\tform\tof\tdata\tvisualization.\tYou\tcan\tthen\tconvert\tthe data\t imported\t into\t the\t tool\t into\t a\t picture\t of\t the\t screen.\t Having\t said\t that,\t you cannot\t learn\t everything\t about\t the\t data\t set\t using\t a\t table\t because\t tables\t do\t not help\tyou\tidentify\tany\tpatterns,\thidden\tor\tspecific,\tin\tthe\tdata\tset\timmediately.\tA common\texample\tof\tthis\tis\tthe\tgeographical\tpattern\tthat\tis\tstudied\ton\ta\tmap\tonly after\tyou\tvisualize\tit.",
+        "offset": "page60",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Bear\tin\tmind\tthat\tevery\tdata\tvisualization\ttool\tor\tsoftware\tallows\tyou\tto\tidentify a\thidden\tstory\tor\tpattern\tin\tthe\tdata\tset.\tWhen\tyou\ttry\tto\tvisualize\tthe\tdata\tusing different\t tools,\t you\t learn\t about\t new\t patterns\t in\t the\t data\t set.\t You\t may\t have identified\tsome\tpatterns\tand\trelationships\tin\tthe\tdata\tset\twhen\tyou\thad\tinitially downloaded\tit.\tThere\tmay\tbe\tother\tinferences\tthat\tyou\tmay\tnot\thave\tidentified. Some\tinsights\tmay\tbe\tdue\tto\tan\terror\tin\tthe\tdata\tset,\twhile\tothers\tmay\tresult\tin the\tdevelopment\tof\tnew\tinsights.\tYou\tcan\tonly\tidentify\tthese\tpatterns\twhen\tyou visualize\tthe\tdata.\nYou\tcan\tobtain\ta\tnew\tdirection\tand\tperspective\tof\tthe\tdata\tpoints\tand\tvariables in\t the\t data\t set\t through\t data\t visualization.\t You\t can\t visualize\t data\t in\t numerous ways.\tIf\tyou\thave\tvery\tsmall\tdata\tpoints\tin\tthe\tdata\tset,\tyou\tcan\teasily\tidentify the\tpatterns\tusing\ta\ttable.\tA\ttable\thas\tthe\tlabels,\tand\tthe\tvalues\tin\tthe\tdata\tset organized\t in\t a\t structured\t manner.\t You\t can\t improve\t the\t analysis\t and understanding\tof\tthe\tdata\tset\tby\tfiltering\tand\tsorting\tthe\tdata.\tTables,\thowever, have\tlimitations.\tYou\tcan\tuse\ttables\tto\tidentify\tand\tunderstand\tthe\tdata\tset,\tand it\u2019s\t easy\t to\t use\t tables\t to\t compare\t and\t understand\t the\t difference\t in\t the\t data points.\tIf\tyou\twant\tto\tcompare\tmulti-dimensional\tdata\tsets,\tdo\tnot\tuse\ttables.",
+        "offset": "page60",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "You\tcan\talso\tuse\tcharts\tto\tmap\tthe\tvarious\tdata\tpoints\tand\tvariables\tin\tthe\tdata set.\tThese\tcharts\tallow\tyou\tto\tplot\tthe\tdata\tpoints\tin\tgeometric\tshapes.\tYou\tcan\nto",
+        "offset": "page60",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "also\tuse\tscatterplots\tand\tother\tgraphs\tto\tplot\tthe\tdata.\tScatterplots\tcan\tbe\tused\tto map\ttwo-dimensional\tdata\tsets.\tYou\tcan\talso\tuse\tcolors\tand\tthermal\timaging\tto learn\tmore\tabout\tthe\tdata\tpoints\tin\tthe\tset.\nMost\tdata\tcollected\tby\torganizations\tare\trelated\tto\tpeople.\tFor\texample,\nBusinesses\t may\t collect\t information\t about\t customers\t to\t understand and\tanalyze\ttheir\tpurchase\thistory\tand\tpreferences They\tmay\talso\tcollect\thistorical\tdata\tto\tdetermine\ta\tcustomer's\tcredit history Businesses\t can\t collect\t information\t about\t financial\t transactions\t to determine\twhen\ta\tcustomer\tmay\tspend\tmore\tor\tless\tmoney Governments\t and\t other\t legislative\t bodies\t may\t collect\t information about\t the\t crimes\t in\t certain\t areas\t and\t determine\t which\t region\t may have\t more\t crimes\t when\t compared\t to\t others.\t They\t may\t also\t collect information\t to\t determine\t how\t some\t areas\t in\t the\t city\t or\t country\t are doing\twhen\tcompared\tto\tothers.\nOne\tof\tthe\tmost\tcommon\tforms\tof\tvisualization\tis\tgraphs.\tA\tgraph\tallows\tyou\tto identify\tthe\tinterconnections\tin\tthe\tdata\tsets.\tYou\tcan\tcalculate\teach\tdata\tpoint's position\t by\t using\t graph\t layout\t algorithms,\t and\t these\t algorithms\t make\t it\t easier for\tyou\tto\tidentify\tthe\tstructure\tin\tthe\tdata\tset\teasily.\tYou\tneed\tto\tfind\ta\tway\tto model\tthe\tnetwork,\tand\tthis\tis\tan\timportant\taspect\tto\tconsider\twhen\tit\tcomes\tto data\tvisualization.\tBear\tin\tmind\tthat\tevery\tdata\tset\twill\thave\tsome\tobvious\tand hidden\trelationships.",
+        "offset": "page61",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Once\tyou\tvisualize\tthe\tdata\tusing\tdifferent\tvisualization\ttechniques,\tyou\tneed\tto understand\t and\t find\t any\t information\t from\t the\t data\t set.\t When\t you\t use visualization\ttechniques,\tconsider\tthe\tfollowing\tquestions:\nWhat\tcan\tyou\tsee\tin\tthe\timage? Are\tthere\tsome\tpatterns\tyou\thave\tmissed? Is\tthis\tvisualization\texactly\twhat\tyou\texpected? What\twould\thappen\tto\tthe\tdata\tset\tif\tyou\tincluded\tmore\tdata\tpoints?\nYou\tmay\tend\tup\twith\tvisualizations\tthat\tdo\tnot\treveal\tthe\tinformation\tyou\tare looking\t for.\t All\t you\t should\t do\t is\t try\t a\t new\t visualization.\t This\t way,\t you\t learn something\tnew\tabout\tthe\tdata.",
+        "offset": "page61",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Chapter\t Twelve:\t Document\t Your\t Insights\t from\t the Data\nIn\tmost\tsituations,\tyou\twork\twith\tnew\tdata.\tYou\tmay\tdevelop\tsome\texpectations or\tassumptions\tabout\tthe\tdata\tset\tbefore\tyou\tlook\tat\tthe\tdata.\tIt\tis\tbest\tto\tmake\ta note\tof\tthese\tassumptions\tbased\ton\twhat\tyou\tthink\tabout\tthe\tdata\tset.\tThis\twill help\t you\t determine\t if\t you\t are\t biased\t towards\t specific\t trends\t in\t the\t data\t set.\t It also\t reduces\t the\t probability\t of\t misinterpreting\t the\t data\t set's\t variables\t or\t data points\tbecause\tof\tthe\toriginal\tbias.\tThis\tis\tan\timportant\ttip\tto\tkeep\tin\tmind\twhen it\tcomes\tto\tanalyzing\tdata.\nIt\tis\tfor\tthis\treason\tdocumentation\tis\textremely\timportant\tin\tthe\tprocess\tof\tdata analysis.\t This\t is\t the\t step\t most\t people\t often\t skip.\t In\t the\t process\t of documentation,\tyou\tneed\tto\tplot\tthe\tdata\tpoints\tand\tunderstand\tthem\tbetter.\tYou may\thave\tcreated\tnumerous\tcharts\tas\tpart\tof\tthe\tvisualization,\tbut\tthese\tcan\tbe confusing\t to\t understand.\t It\t is\t for\t this\t reason\t you\t need\t to\t take\t some\t time\t to document\tthe\tfollowing\tinformation:",
+        "offset": "page62",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Why\twas\tthis\tchart\tcreated? Has\tthe\tdata\tbeen\tupdated\tto\tfit\tit\tinto\tthe\tchart? What\tinformation\tcan\tI\tgather\tfrom\tthe\tchart?\nThe\tinformation\tyou\tdocument\twill\thelp\tthe\tstakeholders\tunderstand\twhat\tyou are\ttrying\tto\tconvey\tthrough\tthe\tvisualization.\nLet\tus\tnow\tlook\tat\twhich\ttool\tyou\tcan\tuse\tto\tvisualize\tthe\tdata\tin\tyour\tanalysis. When\tyou\tlook\tat\tthe\ttools\tseparately,\tyou\tidentify\twhat\teach\ttool\tis\tgood\tat.\tIt makes\tsense\tfor\tyou\tto\tconsider\ttools\tthat\tallow\tyou\tto\ttake\tdata\twrangling\tand visualization\tinto\taccount.\tYou\tcan\tchoose\tto\tuse\tdifferent\ttools\tif\tyou\twant\tto perform\tthe\tprocesses\tseparately.\tWhen\tyou\tseparate\ttasks,\tyou\tneed\tto\timport and\texport\tlarge\tvolumes\tor\tchunks\tof\tdata.\tThe\tfollowing\tare\tsome\ttools:\nNon-programming\tvisualization\ttools\tlike\tTableau Visualization\tlibraries,\tfor\texample,\td3.js,\tFlare Spreadsheets\tlike\tExcel\tor\tGoogle\tDocs. A\tprogramming\tframework\tlike\tR,\tPython,\tor\tPandas Data\tWrangling\tsoftware\tlike\tGoogle\trefine\tor\tDatawrangler",
+        "offset": "page62",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Conclusion\nData\t science\t is\t a\t new\t field\t of\t science\t that\t is\t used\t by\t organizations\t to\t analyze and\t interpret\t large\t volumes\t of\t data.\t This\t analysis\t helps\t businesses\t make informed\tdecisions\tabout\tthe\tbusiness.\tIf\tyou\tare\tnew\tto\tdata\tscience,\tthis\tbook has\tall\tthe\tinformation\tyou\tneed\tabout\tdata\tscience.\nThe\t book\t introduces\t the\t concept\t of\t data\t science\t and\t the\t various\t processes needed\t to\t perform\t data\t analysis.\t You\t will\t learn\t about\t the\t various\t skills,\t both technical\tand\tnon-technical,\tyou\tneed\tto\tdevelop\tto\tbecome\ta\tdata\tscientist.\tThe book\talso\tsheds\tsome\tlight\ton\twhat\tdifferent\talgorithms\tyou\tcan\tuse\tto\tbecome\ta data\tscientist.\nThis\tbook\thas\tsome\tinformation\tabout\tthe\tdifferent\tapplications\tof\tdata\tscience. You\tcan\tlearn\tto\timplement\tdifferent\tdata\tscience\ttools\tand\ttechniques\tyou\tlearn in\tthis\tbook\tin\tdifferent\tareas\tof\tyour\tlife.\tIt\tis\timportant\tto\tnote\tthat\tthe\tskills mentioned\t in\t the\t book\t are\t essential\t to\t develop\t if\t you\t want\t to\t become\t a\t data scientist.\t What\t is\t most\t important\t to\t understand\t is\t that\t data\t science\t is\t a\t new field;\tyou\tneed\tto\tdevelop\tthe\tskills\tif\tyou\twant\tto\tidentify\tany\thidden\tpatterns in\tthe\tdata\tset.",
+        "offset": "page63",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Bear\t in\t mind\t that\t you\t cannot\t learn\t everything\t at\t the\t same\t time.\t You\t need\t to give\t yourself\t some\t time\t to\t understand\t the\t basics.\t Once\t you\t do\t this,\t you\t can work\ton\timproving\tthose\tskills\tto\thelp\tyou\tbecome\tan\tindispensable\tpart\tof\tan organization.\tYou\tcan\thelp\tbusinesses\tmake\tinformed\tdecisions.\nThank\t you\t for\t purchasing\t the\t book.\t I\t hope\t you\t got\t the\t information\t you\t are looking\tfor.",
+        "offset": "page63",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "References\nAhuja,\tR.\t(n.d.).\tIntroduction\tto\tData\tScience.\tCoursera\twebsite: https://www.coursera.org/specializations/introduction-data-science\nCastrounis,\tA.\t(n.d.).\tWhat\tIs\tData\tScience,\tand\tWhat\tDoes\ta\tData\tScientist\tDo?\tInnoArchiTech\twebsite: https://www.innoarchitech.com/blog/what-is-data-science-does-data-scientist-do\nData\tScience\tTutorial\tfor\tBeginners:\tWhat\tis,\tBasics\t&\tProcess.\t(n.d.).\twww.guru99.com\nHoltz,\tD.\t(2019,\tMarch\t27).\tWhat\tis\tData\tScience?\t8\tSkills\tThat\tWill\tGet\tYou\tHired\tin\tData\t|\tUdacity. Udacity\twebsite:\thttps://blog.udacity.com/2014/11/data-science-job-skills.html\nMartin,\tR.\t(2019,\tJune\t10).\tLinear\tRegression\tfor\tPredictive\tModeling\tin\tR\t\u2013.Dataquest\twebsite: https://www.dataquest.io/blog/statistical-learning-for-predictive-modeling-r/\nPerfect\tway\tto\tbuild\ta\tPredictive\tModel\tin\tless\tthan\t10\tminutes.\t(2019,\tJune\t11).\tAnalytics\tVidhya\twebsite: https://www.analyticsvidhya.com/blog/2015/09/perfect-build-predictive-model-10-minutes/\nPros\tand\tCons\tof\tData\tScience\t-\tWhy\tChoose\tData\tScience\tfor\tYour\tCareer\t-\tDataFlair.\t(2019,\tMarch\t27). DataFlair\twebsite:\thttps://data-flair.training/blogs/pros-and-cons-of-data-science/",
+        "offset": "page64",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    },
+    {
+        "filetype": "application/pdf",
+        "text": "Sharma,\tH.\t(2017,\tJanuary\t5).\tWhat\tIs\tData\tScience?\tA\tBeginner's\tGuide\tTo\tData\tScience.\tEdureka website:\thttps://www.edureka.co/blog/what-is-data-science/\nSharma,\tM.\t(2018,\tMay\t2).\tDATA\tCLEANING\tUSING\tR.\tData\tAnalytics\tEdge\twebsite: http://dataanalyticsedge.com/2018/05/02/data-cleaning-using-r",
+        "offset": "page64",
+        "ref": "/home/ameer/Kaleidoo/server/uploads/fa4d1dd28c8a6f3a3fea55c83e3c9577.pdf",
+        "lang": "en"
+    }
+]

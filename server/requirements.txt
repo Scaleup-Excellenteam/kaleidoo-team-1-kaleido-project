@@ -17,3 +17,5 @@ python-docx
 python-pptx
 pytesseract
 flask
+openai
+sentence-transformers

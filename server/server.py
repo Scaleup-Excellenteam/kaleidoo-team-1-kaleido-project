@@ -14,6 +14,36 @@ UPLOAD_FOLDER = 'uploads'
 COMBINED_FILE = 'combined_data.json'
 CLEAN = './Data/Data_Dumper'
 
+
+
+
+# Supported formats
+SUPPORTED_FORMATS = [
+    'mp4', 'aac', 'bmp', 'csv', 'doc', 'docx', 'epub', 'flac', 'gif', 'html', 
+    'jpeg', 'jpg', 'm4a', 'md', 'msg', 'mp3', 'odt', 'ogg', 'pdf', 'png', 
+    'rst', 'rtf', 'svg', 'tex', 'tiff', 'txt', 'wav', 'wma', 'xlsx', 'xml', 'webp'
+]
+
+# Function to get file extension and convert to lowercase
+def get_file_extension(filename):
+    return os.path.splitext(filename)[-1].lower().lstrip('.')
+
+# Function to check if a file extension is supported
+def is_supported_format(extension):
+    return extension in SUPPORTED_FORMATS
+
+# Function to recursively list files and write supported formats to db.txt
+def list_files_with_absolute_paths(start_dir):
+    with open("db.txt", "w") as db_file:
+        for root, _, files in os.walk(start_dir):
+            for file in files:
+                extension = get_file_extension(file)
+                if is_supported_format(extension):
+                    abs_path = os.path.abspath(os.path.join(root, file))
+                    db_file.write(abs_path + "\n")
+
+
+
 if not os.path.exists(UPLOAD_FOLDER):
     os.makedirs(UPLOAD_FOLDER)
 
@@ -67,7 +97,7 @@ def delete_combined_file():
 def transcribe_files():
     with semaphore:
         try:
-            subprocess.run(['./init.sh', UPLOAD_FOLDER], check=True)
+            list_files_with_absolute_paths(UPLOAD_FOLDER)
 
             with open('db.txt', 'r') as db_file:
                 file_paths = [line.strip() for line in db_file.readlines()]
