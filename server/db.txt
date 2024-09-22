@@ -1,15 +1,2 @@
-/home/ameer/Kaleidoo/server/uploads/03-Sampling.pdf
-/home/ameer/Kaleidoo/server/uploads/06-Line_Fitting_-_RANSAC_-_HOUGH.pdf
-/home/ameer/Kaleidoo/server/uploads/07-Segmentation_part1-KMeans-Mean_shift-Watershed-Graph-Based-SLIC.pdf
-/home/ameer/Kaleidoo/server/uploads/10-points-to-regions.pdf
-/home/ameer/Kaleidoo/server/uploads/04-Color.pdf
-/home/ameer/Kaleidoo/server/uploads/15-SingleViewMetrology.pdf
-/home/ameer/Kaleidoo/server/uploads/02-Filtering.pdf
-/home/ameer/Kaleidoo/server/uploads/05-Edge_Detection.pdf
-/home/ameer/Kaleidoo/server/uploads/01-Introduction.pdf
-/home/ameer/Kaleidoo/server/uploads/13-PinholeCamera.pdf
-/home/ameer/Kaleidoo/server/uploads/08-Segmentation_part2-Normalized-cuts-Markov-random_fields.pdf
-/home/ameer/Kaleidoo/server/uploads/09-feature-detectors-HarrisHassian.pdf
-/home/ameer/Kaleidoo/server/uploads/12-alignment-panorama.pdf
-/home/ameer/Kaleidoo/server/uploads/11-descriptors-SIFT-SURF-GLOH.pdf
-/home/ameer/Kaleidoo/server/uploads/14-CameraCalibration.pdf
+/home/ameer/Kaleidoo/server/uploads/agnew_nabobs.wav
+/home/ameer/Kaleidoo/server/uploads/videoplayback.mp4

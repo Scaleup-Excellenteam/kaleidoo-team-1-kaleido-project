@@ -1,2 +1,0 @@
-Error during transcription: Unable to get page count.
-I/O Error: Couldn't open file '02-Filtering.pdf': No such file or directory.
